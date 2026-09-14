@@ -31,7 +31,7 @@ python3 scripts/validate.py --dir work/deck --strict-warnings --json
 
 每个输入必须是单页 `<slide>`。整份 `<presentation>` 快照先按实际页面 ID 提取待编辑页面，参见更新流程。目录模式检查该目录下全部 `*.xml`，不递归。把 schema、基线和其他 XML 放在独立目录；可重复使用 `--input` 明确选择文件。资源或主题有特殊位置时，使用 `--assets-dir` / `--tokens`。
 
-报告的 summary 提供 files/errors/warnings；results 每项包含 file 和 issues，issue 含 level/code/message/element/stage。JSON 模式标准输出只有 JSON。错误始终使退出码非零；默认 warning 不阻断，但 status 为 needs_review；加 strict-warnings 后警告也阻断。
+报告的 summary 提供 files/errors/warnings；results 每项包含 file 和 issues，issue 含 level/code/message/element/stage。JSON 模式标准输出只有 JSON。错误始终使退出码非零；默认 warning 不阻断，schema 已执行时 status 为 needs_review，schema 未执行时仍为 incomplete；加 strict-warnings 后警告也阻断。
 
 `schema.status=not_run` 表示只做了本地排版和主题检查，不代表完整静态验收。`render_verified` 与 `content_verified` 始终为 false，因为脚本无法证明已看过飞书截图或核实过数据。外部流程必须保留这些状态，不能只看退出码就宣布完成。
 
@@ -43,7 +43,17 @@ python3 scripts/validate.py --dir work/deck --strict-warnings --json
 2. 内容：没有未完成字段、Internal Template、版式标签和示例邮箱/数据；年份、页码、结论、图表与表格逐页核对。
 3. 渲染：看真实飞书截图，确认字体、换行、图表、图片和空文本框。SVG 仅作为近似辅助预览。
 4. 回读：核对线上页数、顺序、标题、图片和本次必要修改，保存新的回读 XML 与版本信息供下次比较。
-5. 视觉：按主题中的精修标准查看每个目标页面，复查字重、信息主次、内容分组、留白与整稿节奏，记录具体问题及处理结果。
+5. 视觉：按 [theme.md](theme.md) 的默认规则或用户指定的视觉方向查看每个目标页面，记录具体问题及处理结果；技术结果与设计判断分别记录。
+
+## 视觉复核：整页、细节与原稿
+
+“0 error / 0 warning”只说明自动检查结果，不证明设计已经完成。视觉复核依照任务指定风格进行；未指定时采用纯色、无光晕和投影的扁平版式，不能靠叠加装饰补足层次。
+
+- **缩小看整页，再并排看同类页**：第一眼的重点明确，主图和正文的面积与信息量相称；没有空卡撑版面、大片无作用的留白或整页等权重灰块。标题、页脚和同级内容的尺度保持一致。
+- **原尺寸看细节**：检查同列边界、文字基线、组内间距、图标笔画与实际视觉重量；放大图表读数，确认绘图区足够大、单位靠近数字、原生标签没有截断或重叠。删除容器后仍须检查标题与解释是否靠近。
+- **对照原稿与材料**：事实、来源、备注和限定不丢失；记录实际改善，例如“说明移近组名”“统一轮廓图标”“扩大绘图区”。仅换色或加粗不能替代这项判断。真实图片不额外包仿 macOS 标题栏、控制圆点或模拟界面框，除非用户要求该场景。
+
+发现问题后只重看受影响页面及必要的同类页面；整稿任务最终查看全部目标页。未执行真实飞书渲染时，将记录标为本地近似预览复核，不据此宣布线上渲染通过。
 
 ## 图表近似预览的范围
 
@@ -60,7 +70,7 @@ python3 scripts/validate.py --dir work/deck --strict-warnings --json
 | font_hierarchy_too_many | 字号种类超过主题建议。核对是否确有标题、数字、卡片正文、标签和页脚等角色；合并没有意义的近似字号。 |
 | chart_smoothing_approximation（预览器） | SVG 用直线连接代替飞书平滑曲线。数值与数据点仍保留；曲线细节以飞书截图为准。 |
 
-这些说明帮助重复复核，不自动豁免所有同类警告。更换文字和数据后仍重新检查；报告保留 needs_review，真实截图未查看时不能把预览检查升级成渲染验收。
+这些说明帮助复核，不自动豁免所有同类警告。更换文字和数据后仍重新检查；保留实际的 incomplete / needs_review 等状态，真实截图未查看时不能把预览检查升级成渲染验收。
 
 ## 验证本库
 
@@ -71,4 +81,4 @@ python3 scripts/validate.py --dir templates --json
 python3 scripts/xml2svg.py --dir templates --output-dir work/preview
 ```
 
-CI 运行离线回归与模板检查；外部 schema 和线上渲染是独立验证阶段，不把 CI 通过等同为线上验收。保留静态估算警告，避免为追求零警告而随意改坏正常版式。
+CI 运行离线回归与模板检查；外部 schema、线上渲染和视觉复核是独立阶段。保留静态估算警告，不为消除警告而改变正确的数据、降低可读性或打乱已有版式。
