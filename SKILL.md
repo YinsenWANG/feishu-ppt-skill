@@ -61,6 +61,7 @@ python3 scripts/xml2svg.py --dir work/deck --output-dir work/preview --assets-di
 - **warning**：逐项复核并记录判断。文本尺寸与自动缩放是静态估算，不能用“0 error”代替实际查看。自动化需要警告阻断时加 `--strict-warnings`。
 - **内容检查**：逐页核对正文、数字来源、图表分类与数值、表格行列、联系方式、未替换示例；字段稿不能冒充完成稿。
 - **渲染检查**：SVG 是近似预览。可用飞书 `+screenshot --content` 预览本地 XML；创建/更新后回读并看真实截图，确认没有缺图、溢出、空白或内部标注。
+- **视觉设计**：另按 [主题与版式](references/theme.md) 检查主次、分组、对齐和留白；“没有渲染错误”不能代替布局质量判断。
 
 ## 创建、更新与交付
 

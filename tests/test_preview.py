@@ -147,8 +147,8 @@ class PreviewTests(unittest.TestCase):
         self.assertEqual(tree.find(f'.//{SVG}g[@data-preview-line="true"]/{SVG}line').get("stroke-width"), "0")
         self.assertFalse([e for e in tree.iter() if e.get("data-preview-arrow")])
 
-    def test_diagram_templates_keep_native_connectors_under_nodes(self):
-        for page in (28, 30):
+    def test_cycle_template_keeps_native_connectors_under_nodes(self):
+        for page in (28,):
             with self.subTest(page=page):
                 source = ROOT / "templates" / f"slide{page}.xml"
                 data = preview.find(ET.parse(source).getroot(), "data")
@@ -161,27 +161,22 @@ class PreviewTests(unittest.TestCase):
                 centers = [(float(e.get("topLeftX"))+float(e.get("width"))/2,
                             float(e.get("topLeftY"))+float(e.get("height"))/2) for e in nodes]
                 endpoints = [tuple(float(e.get(k)) for k in preview.LINE_ENDPOINTS) for e in lines]
-                if page == 30:
-                    hub = centers[0]
-                    self.assertEqual({coords[2:] for coords in endpoints}, {hub})
-                    self.assertEqual({coords[:2] for coords in endpoints}, set(centers[1:]))
-                else:
-                    outer = centers[1:]
-                    edges = []
-                    for coords in endpoints:
-                        pair = []
-                        for point in (coords[:2], coords[2:]):
-                            closest = min(range(len(outer)), key=lambda i: math.dist(point, outer[i]))
-                            pair.append(closest)
-                            cx, cy = outer[closest]
-                            self.assertGreater(((point[0]-cx)/55)**2+((point[1]-cy)/36)**2, 1)
-                        edges.append(tuple(pair))
-                    self.assertEqual(set(edges), {(0, 1), (1, 2), (2, 3), (3, 0)})
+                outer = centers[1:]
+                edges = []
+                for coords in endpoints:
+                    pair = []
+                    for point in (coords[:2], coords[2:]):
+                        closest = min(range(len(outer)), key=lambda i: math.dist(point, outer[i]))
+                        pair.append(closest)
+                        cx, cy = outer[closest]
+                        self.assertGreater(((point[0]-cx)/55)**2+((point[1]-cy)/36)**2, 1)
+                    edges.append(tuple(pair))
+                self.assertEqual(set(edges), {(0, 1), (1, 2), (2, 3), (3, 0)})
                 issues = []
                 tree = ET.fromstring(preview.xml_to_svg(source, diagnostics=issues))
                 self.assertEqual(issues, [])
                 self.assertEqual(len(tree.findall(f'{SVG}g[@data-preview-line="true"]')), 4)
-                self.assertEqual(len(tree.findall(f'.//{SVG}polygon[@data-preview-arrow="end"]')), 4 if page == 28 else 0)
+                self.assertEqual(len(tree.findall(f'.//{SVG}polygon[@data-preview-arrow="end"]')), 4)
 
     def test_all_five_library_charts_have_real_marks(self):
         chart_types, marks = [], []
