@@ -88,6 +88,45 @@ class PreviewTests(unittest.TestCase):
         lines = tree.findall(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text')
         self.assertEqual(["".join(line.itertext()) for line in lines], ["表格内容尾","第二行"])
 
+    def test_native_column_span_keeps_four_columns_at_their_actual_positions(self):
+        labels = ['模式', '单模型对话', '多模型对话', 'Agent 工作']
+        cells = ''.join(f'<td><content fontSize="18" textAlign="center"><p>{text}</p></content></td>' for text in labels)
+        rows = f'<tr height="50">{cells}</tr>' * 5
+        for span in ('3', '3.0', '3e0'):
+            first_span = ' span="1"' if span == '3' else ''
+            body = ('<table topLeftX="40" topLeftY="188" width="880" height="250"><colgroup>'
+                    f'<col{first_span} width="160"/><col span="{span}" width="240"/></colgroup>{rows}</table>')
+            for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+                with self.subTest(span=span, namespace=namespace):
+                    tree, issues = self.render(body, namespace)
+                    self.assertEqual(issues, [])
+                    rects = tree.findall(f"{SVG}rect[@y='188']")
+                    self.assertEqual([(float(e.get('x')), float(e.get('width'))) for e in rects],
+                                     [(40, 160), (200, 240), (440, 240), (680, 240)])
+                    lines = tree.findall(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text')
+                    self.assertEqual([''.join(e.itertext()) for e in lines], labels * 5)
+                    self.assertEqual([float(e.get('x')) for e in lines], [120, 320, 560, 800] * 5)
+
+    def test_invalid_column_span_does_not_draw_a_misaligned_table(self):
+        for span in ('0', '-1', '1.5', 'NaN', 'INF', 'nope', '3_0', ''):
+            body = ('<table topLeftX="40" topLeftY="188" width="880" height="50"><colgroup>'
+                    f'<col width="160"/><col span="{span}" width="240"/></colgroup>'
+                    '<tr height="50">' + '<td><content fontSize="18"><p>文字</p></content></td>' * 4 + '</tr></table>')
+            for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+                with self.subTest(span=span, namespace=namespace):
+                    tree, issues = self.render(body, namespace)
+                    self.assertEqual([(i['severity'], i['code']) for i in issues], [('error', 'invalid_table_column_span')])
+                    self.assertFalse(tree.findall(f'.//{SVG}g[@data-preview-text="true"]'))
+                    self.assertIn('Invalid table column span', ''.join(tree.itertext()))
+
+    def test_huge_column_span_reports_resource_limit_without_expansion(self):
+        for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+            tree, issues = self.render('<table width="880"><colgroup><col width="1" span="1e12"/></colgroup>'
+                                      '<tr height="50"><td><content fontSize="18"><p>Cell</p></content></td></tr></table>', namespace)
+            self.assertEqual([(i['severity'], i['code']) for i in issues], [('error', 'table_column_limit_exceeded')])
+            self.assertIn('tool resource limit, not an SML schema restriction', issues[0]['message'])
+            self.assertFalse(tree.findall(f'.//{SVG}g[@data-preview-text="true"]'))
+
     def test_content_padding_changes_wrap_area_and_alignment(self):
         for align, expected_x in (('left',25), ('center',55), ('right',85)):
             with self.subTest(align=align):

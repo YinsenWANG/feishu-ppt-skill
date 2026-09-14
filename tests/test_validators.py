@@ -275,6 +275,49 @@ class ValidatorsTests(unittest.TestCase):
         mismatched = body.replace('<tr height="20">', '<tr height="30">')
         self.assertIn('table_dimension_mismatch', self.codes(slide(mismatched)))
 
+    def test_native_column_span_expands_four_column_table(self):
+        # Feishu readback compresses page 25's four columns into two col nodes.
+        cells = ''.join(f'<td><content fontSize="18" textAlign="center"><p>{text}</p></content></td>'
+                        for text in ('模式', '单模型对话', '多模型对话', 'Agent 工作'))
+        rows = f'<tr height="50">{cells}</tr>' * 5
+        for span in ('3', '3.0', '3e0'):
+            first_span = ' span="1"' if span == '3' else ''
+            body = ('<table topLeftX="40" topLeftY="188" width="880" height="250"><colgroup>'
+                    f'<col{first_span} width="160"/><col span="{span}" width="240"/></colgroup>{rows}</table>')
+            canonical = slide(body)
+            forms = (canonical, ET.tostring(ET.fromstring(canonical), encoding='unicode'), slide(body, namespace=''))
+            for source in forms:
+                with self.subTest(span=span, source=source[:65]):
+                    self.assertEqual(self.review(source), [])
+                    mismatch = source.replace('width="880"', 'width="900"')
+                    errors = [i for i in self.review(mismatch) if i['level'] == 'error']
+                    self.assertEqual([i['code'] for i in errors], ['table_dimension_mismatch'])
+                    self.assertIn('sum 880', errors[0]['message'])
+
+    def test_invalid_column_span_reports_definition_without_cell_cascade(self):
+        for span in ('0', '-1', '1.5', 'NaN', 'INF', 'nope', '3_0', ''):
+            body = ('<table topLeftX="40" topLeftY="188" width="880" height="50"><colgroup>'
+                    f'<col width="160"/><col span="{span}" width="240"/></colgroup>'
+                    '<tr height="50">' + '<td><content fontSize="18"><p>文字</p></content></td>' * 4 + '</tr></table>')
+            for namespace in (NS, ''):
+                with self.subTest(span=span, namespace=namespace):
+                    issues = self.review(slide(body, namespace))
+                    self.assertEqual([(i['level'], i['code']) for i in issues], [('error', 'invalid_table_column_span')])
+                    self.assertTrue(issues[0]['element'].endswith('/colgroup[1]/col[2]'))
+
+    def test_column_expansion_has_a_distinct_local_resource_limit(self):
+        from sml import MAX_EXPANDED_TABLE_COLUMNS, expanded_table_columns
+        limit = MAX_EXPANDED_TABLE_COLUMNS
+        table = ET.fromstring(f'<table><colgroup><col span="{limit}" width="1"/></colgroup></table>')
+        self.assertEqual(len(expanded_table_columns(table)), limit)
+        # Test both a huge single declaration and several declarations whose sum
+        # exceeds the limit; neither should be expanded or cascade into cells.
+        for columns in ('<col span="1e12" width="1"/>', f'<col width="1"/><col span="{limit}" width="1"/>'):
+            body = f'<table topLeftX="40" topLeftY="40" width="880" height="50"><colgroup>{columns}</colgroup><tr height="50"><td/></tr></table>'
+            issues = self.review(slide(body))
+            self.assertEqual([i['code'] for i in issues], ['table_column_limit_exceeded'])
+            self.assertIn('tool resource limit, not an SML schema restriction', issues[0]['message'])
+
     def test_bundled_templates_have_no_structural_resource_or_theme_errors(self):
         failures = []
         for path in sorted((ROOT / 'templates').glob('*.xml')):

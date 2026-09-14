@@ -14,11 +14,13 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 try:
-    from .sml import (ROOT, TokenError, child, children, descendants, element_paths,
+    from .sml import (ROOT, TokenError, TableColumnSpanError, child, children, descendants, element_paths,
+                      expanded_table_columns,
                       load_tokens, local_name, make_issue, normalize_color,
                       number, paragraph_runs, read_slide, result, run_cli)
 except ImportError:
-    from sml import (ROOT, TokenError, child, children, descendants, element_paths,
+    from sml import (ROOT, TokenError, TableColumnSpanError, child, children, descendants, element_paths,
+                     expanded_table_columns,
                      load_tokens, local_name, make_issue, normalize_color,
                      number, paragraph_runs, read_slide, result, run_cli)
 
@@ -228,8 +230,11 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
             continue
         _, _, table_width, table_height = boxes[table]
         rows = children(table, "tr")
-        columns_parent = child(table, "colgroup")
-        columns = children(columns_parent, "col") if columns_parent is not None else []
+        try:
+            columns = expanded_table_columns(table)
+        except TableColumnSpanError as exc:
+            issue("error", exc.code, str(exc), exc.column)
+            continue
         dimensions_valid = True
         for dimension, elements, attr, expected in (("height", rows, "height", table_height), ("width", columns, "width", table_width)):
             values = [parse_float(element.get(attr), None) for element in elements]

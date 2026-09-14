@@ -20,6 +20,18 @@ import unicodedata
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+try:
+    from .sml import TableColumnSpanError, expanded_table_columns
+except ImportError:
+    # Also retain direct-file API loading from arbitrary working directories.
+    # Resolve the sibling explicitly instead of modifying the caller's sys.path.
+    import importlib.util
+    _sml_spec = importlib.util.spec_from_file_location("_preview_sml", Path(__file__).with_name("sml.py"))
+    _sml = importlib.util.module_from_spec(_sml_spec)
+    _sml_spec.loader.exec_module(_sml)
+    TableColumnSpanError = _sml.TableColumnSpanError
+    expanded_table_columns = _sml.expanded_table_columns
+
 W, H = 960, 540
 SKILL_ROOT = Path(__file__).resolve().parent.parent
 FONT = "'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif"
@@ -39,7 +51,7 @@ SUPPORTED = {
     "content": TEXT_ATTRS | PADDING_ATTRS, "p": TEXT_ATTRS, "span": TEXT_ATTRS, "br": set(),
     "fill": set(), "fillColor": {"color"}, "border": {"color", "width"},
     "img": GEOMETRY | {"src"}, "table": GEOMETRY, "colgroup": set(),
-    "col": {"width"}, "tr": {"height"}, "td": set(), "chart": GEOMETRY,
+    "col": {"width", "span"}, "tr": {"height"}, "td": set(), "chart": GEOMETRY,
     "chartPlotArea": set(), "chartPlot": {"type"}, "chartExtra": set(),
     "chartSmooth": set(), "chartAxes": set(), "chartAxis": {"type", "position", "min", "max"},
     "chartBars": {"color", "width", "gap"},
@@ -392,7 +404,13 @@ class Renderer:
 
     def table(self, elem):
         x,y,w,_ = geometry(elem)
-        widths = [parse_float(col.get("width"),100) for col in children(find(elem,"colgroup"),"col")]
+        try:
+            columns = expanded_table_columns(elem)
+        except TableColumnSpanError as exc:
+            self.issue(exc.code, str(exc), exc.column, "error")
+            message = "Table column limit exceeded" if exc.code == "table_column_limit_exceeded" else "Invalid table column span"
+            return self.placeholder(elem, message)
+        widths = [parse_float(col.get("width"),100) for col in columns]
         parts = []
         for row in children(elem,"tr"):
             height = parse_float(row.get("height"),40)

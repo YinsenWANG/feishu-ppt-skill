@@ -36,7 +36,10 @@ PID、SID、REV 来自实际成功响应或回读，不由模板编号推导。�
 - **working**：从该基线复制后，在本地完成本次编辑的 XML。
 - **remote**：写入前新回读的线上 XML。不要用模板源文件充当 baseline。
 
+先将 `SKILL_ROOT` 设为本 skill 的实际安装目录，替换下方占位路径；三个 XML 路径仍相对于当前工作目录。
+
 ```bash
+SKILL_ROOT="/实际安装目录/feishu-ppt-skill"
 lark-cli slides +xml-get --presentation "$PID" --output ./remote.xml --as user
 python3 "$SKILL_ROOT/scripts/compare_slides.py" --baseline baseline.xml --working working.xml --remote remote.xml --output compare-report.json
 ```

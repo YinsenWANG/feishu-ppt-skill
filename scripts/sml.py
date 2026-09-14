@@ -59,6 +59,48 @@ def number(value):
     return result
 
 
+MAX_EXPANDED_TABLE_COLUMNS = 4096  # Local tool resource budget, not an SML limit.
+
+
+class TableColumnSpanError(ValueError):
+    """A column definition cannot describe a finite whole number of columns."""
+
+    def __init__(self, column, message=None, code="invalid_table_column_span"):
+        self.column = column
+        self.code = code
+        super().__init__(message or f"Column span must be a finite positive whole number: {column.get('span')!r}")
+
+
+def expanded_table_columns(table):
+    """Expand col span, retaining each logical column's original definition.
+
+    SML declares span as PositiveSize (xs:double), so integral numeric forms
+    such as 3.0 and 3e0 are valid counts. Fractional columns have no geometry.
+    Width defaults/validation stay with the caller. Expansion is capped at the
+    local resource budget above, independently of SML schema validity.
+    """
+    group = child(table, "colgroup")
+    columns = []
+    for column in children(group, "col") if group is not None else []:
+        try:
+            raw = column.get("span", "1").strip()
+            if not re.fullmatch(r"[+-]?(?:[0-9]+(?:\.[0-9]*)?|\.[0-9]+)(?:[eE][+-]?[0-9]+)?", raw):
+                raise ValueError("Not an SML numeric value")
+            span = number(raw)
+            if span <= 0 or not span.is_integer():
+                raise ValueError("Not a positive whole number")
+        except ValueError as exc:
+            raise TableColumnSpanError(column) from exc
+        if span > MAX_EXPANDED_TABLE_COLUMNS - len(columns):
+            raise TableColumnSpanError(
+                column,
+                f"Table exceeds the local expansion limit of {MAX_EXPANDED_TABLE_COLUMNS} columns; "
+                "this is a tool resource limit, not an SML schema restriction.",
+                "table_column_limit_exceeded")
+        columns.extend([column] * int(span))
+    return columns
+
+
 def color_tuple(value: str):
     """Parse RGB/RGBA/hex into an RGBA tuple; reject malformed/out-of-range values."""
     if not isinstance(value, str):
