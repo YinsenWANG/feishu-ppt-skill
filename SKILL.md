@@ -19,6 +19,7 @@ metadata:
 - **编辑现有飞书稿件**：先读 [references/cli-workflow.md](references/cli-workflow.md) 的更新流程，保留线上页面和元素 ID；不要拿模板覆盖整页。
 - **只检查/预览 XML**：直接运行统一校验或预览，不需要飞书登录。
 - **调整主题或特殊版式**：读 [references/theme.md](references/theme.md)。图表、表格等 SML 结构以当前 CLI 提供的官方 schema 为准。
+- **视觉精修**：先按 [references/theme.md](references/theme.md) 制定字体、空间、图形和验收规则。整稿任务用不同类型的样板验证后逐页展开，记录每页具体改动与实际截图复核结果。
 
 脚本和资源路径相对于本 skill 的实际安装目录。以下命令从该目录运行；在别处运行时给脚本绝对路径，并明确工作文件和资源目录。
 

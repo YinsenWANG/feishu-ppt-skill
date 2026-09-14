@@ -1,1 +1,109 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="160" height="18"><content fontSize="12" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="730" topLeftY="28" width="190" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>正文 · 左右分栏</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="300" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="50" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>11</p></content></shape><shape type="text" topLeftX="40" topLeftY="98" width="350" height="66"><content fontSize="30" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>把信息组织成</p><p>行动路径</p></content></shape><shape type="text" topLeftX="40" topLeftY="190" width="330" height="84"><content fontSize="14" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>• 先给结论</p><p>• 再给依据</p><p>• 最后落到行动</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="430" topLeftY="90" width="470" height="342"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="12" topLeftX="458" topLeftY="118" width="414" height="72"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="4" topLeftX="474" topLeftY="136" width="8" height="36"><fill><fillColor color="rgba(88, 158, 247, 1)"/></fill><border color="rgba(88, 158, 247, 1)" width="1"/></shape><shape type="text" topLeftX="500" topLeftY="131" width="160" height="24"><content fontSize="14" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>01  输入</p></content></shape><shape type="text" topLeftX="500" topLeftY="157" width="250" height="20"><content fontSize="12" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>事实与背景</p></content></shape><shape type="round-rect" presetHandlers="12" topLeftX="458" topLeftY="212" width="414" height="72"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="4" topLeftX="474" topLeftY="230" width="8" height="36"><fill><fillColor color="rgba(166, 107, 234, 1)"/></fill><border color="rgba(166, 107, 234, 1)" width="1"/></shape><shape type="text" topLeftX="500" topLeftY="225" width="160" height="24"><content fontSize="14" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>02  判断</p></content></shape><shape type="text" topLeftX="500" topLeftY="251" width="250" height="20"><content fontSize="12" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>洞察与选择</p></content></shape><shape type="round-rect" presetHandlers="12" topLeftX="458" topLeftY="306" width="414" height="72"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="4" topLeftX="474" topLeftY="324" width="8" height="36"><fill><fillColor color="rgba(34, 199, 106, 1)"/></fill><border color="rgba(34, 199, 106, 1)" width="1"/></shape><shape type="text" topLeftX="500" topLeftY="319" width="160" height="24"><content fontSize="14" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>03  行动</p></content></shape><shape type="text" topLeftX="500" topLeftY="345" width="250" height="20"><content fontSize="12" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>下一步与责任</p></content></shape><shape type="rect" topLeftX="40" topLeftY="300" width="4" height="14" presetHandlers="0"><fill><fillColor color="rgba(255, 90, 95, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="296" width="300" height="22"><content fontFamily="思源黑体" fontSize="13" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>先给结论</p></content></shape><shape type="text" topLeftX="56" topLeftY="318" width="310" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>听众先听到最重要的判断</p></content></shape><shape type="rect" topLeftX="40" topLeftY="352" width="4" height="14" presetHandlers="0"><fill><fillColor color="rgba(43, 201, 209, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="348" width="300" height="22"><content fontFamily="思源黑体" fontSize="13" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>再给依据</p></content></shape><shape type="text" topLeftX="56" topLeftY="370" width="310" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>数据与事实支撑判断</p></content></shape><shape type="rect" topLeftX="40" topLeftY="404" width="4" height="14" presetHandlers="0"><fill><fillColor color="rgba(166, 107, 234, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="400" width="300" height="22"><content fontFamily="思源黑体" fontSize="13" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>最后落到行动</p></content></shape><shape type="text" topLeftX="56" topLeftY="422" width="310" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>明确下一步与负责人</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255,255,255,1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>正文 · 左右分栏</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="600" height="18">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="18">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>11</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="320" height="100">
+      <content fontSize="30" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>把信息组织成</p>
+        <p>行动路径</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="220" width="320" height="118">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>• 先给结论</p>
+        <p>• 再给依据</p>
+        <p>• 最后落到行动</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="400" topLeftY="182" width="260" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>01  输入</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="664" topLeftY="182" width="256" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>事实与背景</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="400" topLeftY="216" width="120" height="54">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>先给结论</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="536" topLeftY="212" width="384" height="60">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>听众先听到最重要的判断</p>
+      </content>
+    </shape>
+    <line type="straight-connector1" startX="400" startY="276" endX="920" endY="276">
+      <border color="rgba(226,226,224,1)" width="1" />
+    </line>
+    <shape type="text" topLeftX="400" topLeftY="284" width="260" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>02  判断</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="664" topLeftY="284" width="256" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>洞察与选择</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="400" topLeftY="318" width="120" height="54">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>再给依据</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="536" topLeftY="314" width="384" height="60">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>数据与事实支撑判断</p>
+      </content>
+    </shape>
+    <line type="straight-connector1" startX="400" startY="378" endX="920" endY="378">
+      <border color="rgba(226,226,224,1)" width="1" />
+    </line>
+    <shape type="text" topLeftX="400" topLeftY="386" width="260" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>03  行动</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="664" topLeftY="386" width="256" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>下一步与责任</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="400" topLeftY="420" width="120" height="54">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>最后落到行动</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="536" topLeftY="416" width="384" height="60">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>明确下一步与负责人</p>
+      </content>
+    </shape>
+  </data>
+</slide>

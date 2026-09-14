@@ -15,19 +15,19 @@
 <g data-preview-text="true">
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">09</tspan></text>
 </g>
-<rect x="40" y="78" width="164" height="8" rx="4" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
-<rect x="220" y="78" width="164" height="8" rx="4" fill="#FF5A5F" stroke="#FF5A5F" stroke-width="1"/>
-<rect x="400" y="78" width="164" height="8" rx="4" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
-<rect x="580" y="78" width="164" height="8" rx="4" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
-<rect x="760" y="78" width="164" height="8" rx="4" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
+<rect x="40" y="122" width="164" height="4" rx="2" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
+<rect x="220" y="122" width="164" height="4" rx="2" fill="#FF5A5F" stroke="#FF5A5F" stroke-width="1"/>
+<rect x="400" y="122" width="164" height="4" rx="2" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
+<rect x="580" y="122" width="164" height="4" rx="2" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
+<rect x="760" y="122" width="164" height="4" rx="2" fill="#E2E2E0" stroke="#E2E2E0" stroke-width="1"/>
 <g data-preview-text="true">
-<text x="80" y="179.6" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">02 / 05</tspan></text>
+<text x="40" y="202.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">02 / 05</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="80" y="246.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="38" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">洞察与机会</tspan></text>
+<text x="40" y="261.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">洞察与机会</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="80" y="299.6" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">把分散的信息，收束成一个值得行动的判断。</tspan></text>
+<text x="40" y="316.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">把分散的信息，收束成一个值得行动的判断。</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

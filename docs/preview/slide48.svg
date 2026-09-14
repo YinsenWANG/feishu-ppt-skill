@@ -7,94 +7,52 @@
 <text x="78" y="39.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">Cherry Studio</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">社交 · 评价墙</tspan></text>
+<text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">信息 · 六项清单</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">真实声音，汇成产品口碑</tspan></text>
+<text x="40" y="113.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">一页说明六类关键信息</tspan></text>
 </g>
-<rect x="55" y="145" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
+<rect x="40" y="180" width="272" height="124" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="73" y="187.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">“配置清晰，上手很快。”</tspan></text>
-</g>
-<ellipse cx="89" cy="243" rx="16" ry="16" fill="#F5F5F4" stroke="#FF5A5F" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="89" y="245.75" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">安</tspan></text>
+<text x="62" y="271.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">说明当前版本与基本条件。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="117" y="236.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">安然</tspan></text>
+<text x="62" y="217.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">基本信息</tspan></text>
+</g>
+<rect x="344" y="180" width="272" height="124" rx="10" fill="#F5F5F3"/>
+<g data-preview-text="true">
+<text x="366" y="271.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">明确系统和外部服务。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="117" y="255.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">产品经理</tspan></text>
+<text x="366" y="217.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">运行环境</tspan></text>
 </g>
-<rect x="345" y="145" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
+<rect x="648" y="180" width="272" height="124" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="363" y="187.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">“终于不用来回切工具。”</tspan></text>
-</g>
-<ellipse cx="379" cy="243" rx="16" ry="16" fill="#F5F5F4" stroke="#F45D9B" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="379" y="245.75" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#F45D9B" font-weight="bold" font-style="normal" text-decoration="none">齐</tspan></text>
+<text x="670" y="271.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">用清楚的步骤说明过程。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="407" y="236.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">齐岳</tspan></text>
+<text x="670" y="217.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">操作步骤</tspan></text>
+</g>
+<rect x="40" y="326" width="272" height="124" rx="10" fill="#F5F5F3"/>
+<g data-preview-text="true">
+<text x="62" y="417.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">说明希望得到什么结果。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="407" y="255.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">开发者</tspan></text>
+<text x="62" y="363.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">预期结果</tspan></text>
 </g>
-<rect x="635" y="145" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
+<rect x="344" y="326" width="272" height="124" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="653" y="187.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">“知识库非常顺手。”</tspan></text>
-</g>
-<ellipse cx="669" cy="243" rx="16" ry="16" fill="#F5F5F4" stroke="#2BC9D1" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="669" y="245.75" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#2BC9D1" font-weight="bold" font-style="normal" text-decoration="none">林</tspan></text>
+<text x="366" y="417.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">描述实际观察到的现象。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="697" y="236.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">林初</tspan></text>
+<text x="366" y="363.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">实际结果</tspan></text>
+</g>
+<rect x="648" y="326" width="272" height="124" rx="10" fill="#F5F5F3"/>
+<g data-preview-text="true">
+<text x="670" y="417.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">提供脱敏记录或截图。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="697" y="255.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">研究员</tspan></text>
-</g>
-<rect x="55" y="305" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="73" y="347.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">“团队共享节省很多时间。”</tspan></text>
-</g>
-<ellipse cx="89" cy="403" rx="16" ry="16" fill="#F5F5F4" stroke="#A66BEA" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="89" y="405.75" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#A66BEA" font-weight="bold" font-style="normal" text-decoration="none">周</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="117" y="396.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">周简</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="117" y="415.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">运营</tspan></text>
-</g>
-<rect x="345" y="305" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="363" y="347.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">“模型选择足够自由。”</tspan></text>
-</g>
-<ellipse cx="379" cy="403" rx="16" ry="16" fill="#F5F5F4" stroke="#589EF7" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="379" y="405.75" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#589EF7" font-weight="bold" font-style="normal" text-decoration="none">苏</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="407" y="396.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">苏鸣</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="407" y="415.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">设计师</tspan></text>
-</g>
-<rect x="635" y="305" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="653" y="347.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">“开源社区响应很快。”</tspan></text>
-</g>
-<ellipse cx="669" cy="403" rx="16" ry="16" fill="#F5F5F4" stroke="#22C76A" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="669" y="405.75" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#22C76A" font-weight="bold" font-style="normal" text-decoration="none">顾</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="697" y="396.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">顾言</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="697" y="415.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">创作者</tspan></text>
+<text x="670" y="363.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">支持材料</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="519.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>

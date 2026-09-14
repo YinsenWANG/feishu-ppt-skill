@@ -10,34 +10,34 @@
 <text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">架构 · 输入输出</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">输入有标准，处理有方法，输出有结果</tspan></text>
+<text x="40" y="113.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">输入有标准，处理有方法，输出有结果</tspan></text>
 </g>
-<rect x="295" y="284" width="65" height="2" rx="0" fill="#FF5A5F"/>
-<rect x="600" y="284" width="65" height="2" rx="0" fill="#FF5A5F"/>
-<rect x="55" y="190" width="240" height="190" rx="16" fill="#FFFFFF" stroke="#589EF7" stroke-width="1"/>
+<rect x="312" y="326" width="32" height="2" rx="0" fill="#D6D6D2"/>
+<rect x="616" y="326" width="32" height="2" rx="0" fill="#D6D6D2"/>
+<rect x="40" y="198" width="272" height="260" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="175" y="230.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">输入</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="175" y="298.625" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">需求文档</tspan></text>
-<text x="175" y="313.575" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">业务数据</tspan></text>
-<text x="175" y="328.525" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">约束条件</tspan></text>
-</g>
-<rect x="360" y="175" width="240" height="220" rx="16" fill="#FFFFFF" stroke="#A66BEA" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="480" y="215.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">处理</tspan></text>
+<text x="64" y="248.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">输入</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="480" y="313.575" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">解析 → 推理 → 编排</tspan></text>
+<text x="64" y="342.875" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">需求文档</tspan></text>
+<text x="64" y="360.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">业务数据</tspan></text>
+<text x="64" y="377.375" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">约束条件</tspan></text>
 </g>
-<rect x="665" y="190" width="240" height="190" rx="16" fill="#FFFFFF" stroke="#22C76A" stroke-width="1"/>
+<rect x="344" y="198" width="272" height="260" rx="10" fill="#FDEBED"/>
 <g data-preview-text="true">
-<text x="785" y="230.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">输出</tspan></text>
+<text x="368" y="248.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">处理</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="785" y="298.625" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">可执行方案</tspan></text>
-<text x="785" y="313.575" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">结构化内容</tspan></text>
-<text x="785" y="328.525" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">复盘记录</tspan></text>
+<text x="368" y="360.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">解析 → 推理 → 编排</tspan></text>
+</g>
+<rect x="648" y="198" width="272" height="260" rx="10" fill="#F5F5F3"/>
+<g data-preview-text="true">
+<text x="672" y="248.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">输出</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="672" y="342.875" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">可执行方案</tspan></text>
+<text x="672" y="360.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">结构化内容</tspan></text>
+<text x="672" y="377.375" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">复盘记录</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="519.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>

@@ -7,79 +7,76 @@
 <text x="78" y="39.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">Cherry Studio</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="920" y="38.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">生态 · 分类目录</tspan></text>
+<text x="920" y="38.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">生态 · 分组目录</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="113.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">按用途梳理接入能力</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="152.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">用清晰的类别组织名称，呈现每组的作用。</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="40" y="202.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">云端服务</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="232" y="204.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">服务 A</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="408" y="204.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">服务 B</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="584" y="204.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">服务 C</tspan></text>
+<text x="40" y="152.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">按名称数量分组，用大小与距离建立阅读顺序。</tspan></text>
 </g>
 <g data-preview-line="true" opacity="1">
-<line x1="40" y1="226" x2="920" y2="226" fill="none" stroke="#E2E2E0" stroke-width="1"/>
-</g>
-<g data-preview-text="true">
-<text x="40" y="260.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">本地运行</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="232" y="262.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">本地工具 A</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="408" y="262.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">本地工具 B</tspan></text>
+<line x1="544" y1="180" x2="544" y2="268" fill="none" stroke="#E2E2E0" stroke-width="1"/>
 </g>
 <g data-preview-line="true" opacity="1">
-<line x1="40" y1="284" x2="920" y2="284" fill="none" stroke="#E2E2E0" stroke-width="1"/>
-</g>
-<g data-preview-text="true">
-<text x="40" y="318.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">工具协议</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="232" y="320.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">协议 A</tspan></text>
+<line x1="232" y1="328" x2="232" y2="438" fill="none" stroke="#E2E2E0" stroke-width="1"/>
 </g>
 <g data-preview-line="true" opacity="1">
-<line x1="40" y1="342" x2="920" y2="342" fill="none" stroke="#E2E2E0" stroke-width="1"/>
+<line x1="520" y1="328" x2="520" y2="438" fill="none" stroke="#E2E2E0" stroke-width="1"/>
 </g>
 <g data-preview-text="true">
-<text x="40" y="376.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">存储连接</tspan></text>
+<text x="40" y="200.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">云端服务</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="232" y="378.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">存储 A</tspan></text>
+<text x="40" y="243.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">服务 A</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="408" y="378.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">存储 B</tspan></text>
-</g>
-<g data-preview-line="true" opacity="1">
-<line x1="40" y1="400" x2="920" y2="400" fill="none" stroke="#E2E2E0" stroke-width="1"/>
+<text x="182" y="243.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">服务 B</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="434.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">知识工具</tspan></text>
+<text x="356" y="243.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">服务 C</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="232" y="436.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">笔记 A</tspan></text>
+<text x="592" y="200.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">本地运行</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="408" y="436.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">笔记 B</tspan></text>
+<text x="592" y="243.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">本地工具 A</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="584" y="436.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">笔记 C</tspan></text>
+<text x="754" y="243.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">本地工具 B</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="760" y="436.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">笔记 D</tspan></text>
+<text x="40" y="344.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">工具协议</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="486.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">类别与名称均为示例，请替换为有来源的内容。</tspan></text>
+<text x="40" y="388.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">协议 A</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="264" y="344.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">存储连接</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="264" y="388.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">存储 A</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="410" y="388.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">存储 B</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="552" y="344.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">知识工具</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="552" y="388.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">笔记 A</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="742" y="388.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">笔记 B</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="552" y="428.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">笔记 C</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="742" y="428.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">笔记 D</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="492.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">类别与名称均为示例，请替换为有来源的内容。</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="520.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>

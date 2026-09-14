@@ -10,65 +10,64 @@
 <text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">路线图 · 阶段规划</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">三阶段推进，从验证走向规模化</tspan></text>
-</g>
-<rect x="120" y="259" width="720" height="2" rx="0" fill="#D6D6D2"/>
-<rect x="55" y="160" width="270" height="260" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="75" y="191.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">Phase 1</tspan></text>
+<text x="40" y="521.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="75" y="226.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">验证</tspan></text>
+<text x="920" y="521.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">39</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="300" y="223.025" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">0–30 天</tspan></text>
-</g>
-<ellipse cx="190" cy="259" rx="11" ry="11" fill="#FF5A5F" stroke="#FF5A5F" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="79" y="315.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 明确场景</tspan></text>
+<text x="40" y="112.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">三阶段推进，从验证走向规模化</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="79" y="355.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 完成试点</tspan></text>
-</g>
-<rect x="355" y="160" width="270" height="260" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="375" y="191.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#589EF7" font-weight="bold" font-style="normal" text-decoration="none">Phase 2</tspan></text>
+<text x="40" y="191.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">Phase 1</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="375" y="226.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">扩展</tspan></text>
+<text x="40" y="254" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="28" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">验证</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="600" y="223.025" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">31–90 天</tspan></text>
-</g>
-<ellipse cx="490" cy="259" rx="11" ry="11" fill="#589EF7" stroke="#589EF7" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="379" y="315.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 覆盖团队</tspan></text>
+<text x="40" y="297.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">0–30 天</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="379" y="355.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 建立规范</tspan></text>
-</g>
-<rect x="655" y="160" width="270" height="260" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="675" y="191.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#22C76A" font-weight="bold" font-style="normal" text-decoration="none">Phase 3</tspan></text>
+<text x="40" y="364.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 明确场景</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="675" y="226.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">规模化</tspan></text>
+<text x="40" y="406.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 完成试点</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="900" y="223.025" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">90 天+</tspan></text>
-</g>
-<ellipse cx="790" cy="259" rx="11" ry="11" fill="#22C76A" stroke="#22C76A" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="679" y="315.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 开放生态</tspan></text>
+<text x="344" y="191.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">Phase 2</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="679" y="355.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 持续优化</tspan></text>
+<text x="344" y="254" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="28" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">扩展</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="519.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>
+<text x="344" y="297.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">31–90 天</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="920" y="519.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">39</tspan></text>
+<text x="344" y="364.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 覆盖团队</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="344" y="406.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 建立规范</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="191.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">Phase 3</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="254" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="28" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">规模化</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="297.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">90 天+</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="364.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 开放生态</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="406.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 持续优化</tspan></text>
+</g>
+<g data-preview-line="true" opacity="1">
+<line x1="278" y1="247" x2="326" y2="247" fill="none" stroke="#E2E2E0" stroke-width="2"/>
+</g>
+<g data-preview-line="true" opacity="1">
+<line x1="582" y1="247" x2="630" y2="247" fill="none" stroke="#E2E2E0" stroke-width="2"/>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

@@ -66,6 +66,23 @@ class PreviewTests(unittest.TestCase):
         self.assertGreater(float(lines[0].get("y")), 37)
         self.assertEqual(issues, [])
 
+    def test_speaker_notes_do_not_change_visual_output_or_diagnostics(self):
+        for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+            with self.subTest(namespace=namespace):
+                path = self.folder/'with-notes.xml'
+                body = '<data><shape type="text" width="200" height="40"><content fontSize="16"><p>Visible title</p></content></shape></data>'
+                path.write_text(f'<slide {namespace}>{body}</slide>')
+                plain = preview.xml_to_svg(path, diagnostics=[])
+                # Formatting and unsupported children inside notes must not affect
+                # visual support warnings or leak into the SVG/metadata.
+                note = '<note><content fontSize="2" color="hsl(0,50%,50%)"><p>Speaker-only source note <span underline="true">citation</span></p><unknown>private cue</unknown></content></note>'
+                path.write_text(f'<slide {namespace}>{body}{note}</slide>')
+                issues = []
+                with_notes = preview.xml_to_svg(path, diagnostics=issues)
+                self.assertEqual(issues, [])
+                self.assertEqual(with_notes, plain)
+                self.assertIn('Speaker-only source note', path.read_text())
+
     def test_table_retains_direct_and_rich_text(self):
         tree, _ = self.render('<table width="200"><colgroup><col width="200"/></colgroup><tr height="60"><td><content fontSize="14"><p>表格<span bold="true">内容</span>尾</p><p>第二行</p></content></td></tr></table>')
         lines = tree.findall(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text')
@@ -148,55 +165,246 @@ class PreviewTests(unittest.TestCase):
         self.assertFalse([e for e in tree.iter() if e.get("data-preview-arrow")])
 
     def test_cycle_template_keeps_native_connectors_under_nodes(self):
-        for page in (28,):
-            with self.subTest(page=page):
-                source = ROOT / "templates" / f"slide{page}.xml"
-                data = preview.find(ET.parse(source).getroot(), "data")
-                lines = preview.children(data, "line")
-                self.assertEqual(len(lines), 4)
-                shapes = preview.children(data, "shape")
-                nodes = [e for e in shapes if e.get("type") in {"round-rect", "ellipse"}]
-                self.assertTrue(all(list(data).index(line) < min(list(data).index(node) for node in nodes) for line in lines))
-                self.assertFalse([e for e in shapes if e.get("type") == "rect" and float(e.get("height", 20)) <= 3])
-                centers = [(float(e.get("topLeftX"))+float(e.get("width"))/2,
-                            float(e.get("topLeftY"))+float(e.get("height"))/2) for e in nodes]
-                endpoints = [tuple(float(e.get(k)) for k in preview.LINE_ENDPOINTS) for e in lines]
-                outer = centers[1:]
-                edges = []
-                for coords in endpoints:
-                    pair = []
-                    for point in (coords[:2], coords[2:]):
-                        closest = min(range(len(outer)), key=lambda i: math.dist(point, outer[i]))
-                        pair.append(closest)
-                        cx, cy = outer[closest]
-                        self.assertGreater(((point[0]-cx)/55)**2+((point[1]-cy)/36)**2, 1)
-                    edges.append(tuple(pair))
-                self.assertEqual(set(edges), {(0, 1), (1, 2), (2, 3), (3, 0)})
-                issues = []
-                tree = ET.fromstring(preview.xml_to_svg(source, diagnostics=issues))
-                self.assertEqual(issues, [])
-                self.assertEqual(len(tree.findall(f'{SVG}g[@data-preview-line="true"]')), 4)
-                self.assertEqual(len(tree.findall(f'.//{SVG}polygon[@data-preview-arrow="end"]')), 4)
+        source = ROOT / "templates" / "slide28.xml"
+        data = preview.find(ET.parse(source).getroot(), "data")
+        lines = preview.children(data, "line")
+        shapes = preview.children(data, "shape")
+        nodes = [e for e in shapes if e.get("type") in {"round-rect", "ellipse"}]
+        self.assertEqual(len(nodes), 4)
+        self.assertGreaterEqual(len(lines), len(nodes))
+        self.assertTrue(all(list(data).index(line) < min(list(data).index(node) for node in nodes) for line in lines))
+        self.assertFalse([e for e in shapes if e.get("type") == "rect" and
+                          min(float(e.get("height", 20)), float(e.get("width", 20))) <= 3])
+        boxes = [preview.geometry(node) for node in nodes]
+
+        def vertex(point):
+            px, py = point
+            attached = []
+            for index, (x, y, width, height) in enumerate(boxes):
+                self.assertFalse(x+1e-6 < px < x+width-1e-6 and y+1e-6 < py < y+height-1e-6,
+                                 "A connector endpoint must not penetrate a stage node")
+                if x-1e-6 <= px <= x+width+1e-6 and y-1e-6 <= py <= y+height+1e-6:
+                    attached.append(index)
+            self.assertLessEqual(len(attached), 1)
+            return ("stage", attached[0]) if attached else ("bend", round(px, 6), round(py, 6))
+
+        # Contract the straight return-path segments into one logical edge. This
+        # verifies a four-stage directed cycle without assuming a particular layout
+        # or limiting a connector to a single segment.
+        graph, incoming, endpoints = {}, {}, []
+        for line in lines:
+            coords = tuple(float(line.get(key)) for key in preview.LINE_ENDPOINTS)
+            self.assertTrue(all(math.isfinite(value) for value in coords))
+            self.assertNotEqual(coords[:2], coords[2:])
+            start, end = vertex(coords[:2]), vertex(coords[2:])
+            self.assertNotIn(start, graph, "Each stage/bend must have one outgoing segment")
+            graph[start] = end
+            incoming[end] = incoming.get(end, 0)+1
+            endpoints.append(coords)
+            arrow = preview.find(line, "endArrow")
+            if end[0] == "stage":
+                self.assertIsNotNone(arrow, "Every arrival at a stage must show its direction")
+                self.assertEqual(arrow.get("type"), "solid-triangle")
+        self.assertEqual(set(graph), set(incoming), "The return path must not have a dangling bend")
+        self.assertTrue(all(count == 1 for count in incoming.values()))
+        successors = {}
+        for index in range(len(nodes)):
+            origin = ("stage", index)
+            current, seen = graph[origin], {origin}
+            while current[0] == "bend":
+                self.assertNotIn(current, seen, "A return path must reach another stage")
+                seen.add(current)
+                current = graph[current]
+            self.assertNotEqual(current, origin)
+            successors[origin] = current
+        current, visited = ("stage", 0), set()
+        for _ in nodes:
+            self.assertNotIn(current, visited)
+            visited.add(current)
+            current = successors[current]
+        self.assertEqual(current, ("stage", 0))
+        self.assertEqual(len(visited), len(nodes))
+
+        issues = []
+        tree = ET.fromstring(preview.xml_to_svg(source, diagnostics=issues))
+        self.assertEqual(issues, [])
+        rendered = tree.findall(f'{SVG}g[@data-preview-line="true"]/{SVG}line')
+        self.assertEqual(len(rendered), len(lines))
+        for expected, actual in zip(endpoints, rendered):
+            self.assertEqual(tuple(float(actual.get(k)) for k in ("x1", "y1", "x2", "y2")), expected)
+        self.assertEqual(len(tree.findall(f'.//{SVG}polygon[@data-preview-arrow="end"]')), len(nodes))
 
     def test_all_five_library_charts_have_real_marks(self):
         chart_types, marks = [], []
+        expected_types = []
+        expected_marks = {'bar':0,'line':0,'point':0,'slice':0}
         for page in range(21,25):
             diagnostics = []
+            source = ET.parse(ROOT/'templates'/f'slide{page}.xml').getroot()
+            source_charts = [e for e in source.iter() if preview.local_name(e.tag) == 'chart']
+            for source_chart in source_charts:
+                kind = preview.find(source_chart,'chartPlotArea/chartPlot').get('type')
+                self.assertIn(kind,{'column','line','pie'})
+                expected_types.append(kind)
+                fields = preview.children(preview.find(source_chart,'chartData/dim2'),'chartField')
+                series = [[float(value) for value in ''.join(field.itertext()).split(',')] for field in fields]
+                if kind == 'column':
+                    expected_marks['bar'] += sum(len(values) for values in series)
+                elif kind == 'line':
+                    expected_marks['line'] += len(series)
+                    expected_marks['point'] += sum(len(values) for values in series)
+                else:
+                    expected_marks['slice'] += sum(value > 0 for value in series[0])
             tree = ET.fromstring(preview.xml_to_svg(ROOT / "templates" / f"slide{page}.xml", diagnostics=diagnostics))
             self.assertFalse(any(issue["severity"] == "error" for issue in diagnostics))
             charts = tree.findall(f'.//{SVG}g[@data-preview-chart]')
             chart_types.extend(chart.get("data-preview-chart") for chart in charts)
             marks.extend(e.get("data-chart-mark") for e in tree.iter() if e.get("data-chart-mark"))
             if page == 21:
+                source_chart = source_charts[0]
+                field = preview.find(source_chart,'chartData/dim2/chartField')
+                values = [float(value) for value in ''.join(field.itertext()).split(',')]
+                axes = preview.children(preview.find(source_chart,'chartPlotArea/chartAxes'),'chartAxis')
+                numeric_axis = next(axis for axis in axes if axis.get('type') == 'y')
+                low, high = float(numeric_axis.get('min')), float(numeric_axis.get('max'))
                 bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
-                heights = [float(bar.get("height")) for bar in bars]
-                self.assertEqual(heights, sorted(heights))
-                self.assertAlmostEqual(heights[-1]/heights[0], 46/18, places=4)
-        self.assertEqual(chart_types, ["column","line","pie","column","line"])
-        self.assertEqual(marks.count("bar"), 10)
-        self.assertEqual(marks.count("line"), 2)
-        self.assertEqual(marks.count("point"), 12)
-        self.assertEqual(marks.count("slice"), 4)
+                self.assertEqual(len(bars),len(values))
+                clip_height = float(tree.find(f'.//{SVG}clipPath/{SVG}rect').get('height'))
+                baseline = min(high,max(low,0))
+                for value,bar in zip(values,bars):
+                    expected_height = abs(min(high,max(low,value))-baseline)/(high-low)*clip_height
+                    self.assertAlmostEqual(float(bar.get('height')),expected_height,places=3)
+                    self.assertIn(f': {value:g}',bar.find(f'{SVG}title').text)
+                labels = tree.findall(f'.//{SVG}text[@data-chart-value]')
+                self.assertEqual([float(label.get('data-chart-value')) for label in labels],values)
+                self.assertEqual([label.text for label in labels],[f'{value:.0f}' for value in values])
+                tick_values = [float(tick.get('data-axis-value')) for tick in tree.findall(f'.//{SVG}text[@data-chart-axis="y"]')]
+                self.assertEqual((min(tick_values),max(tick_values)),(low,high))
+        self.assertEqual(len(expected_types),5)
+        self.assertEqual(chart_types,expected_types)
+        for kind,count in expected_marks.items():
+            self.assertEqual(marks.count(kind),count)
+
+    def chart_body(self, values="9,5,4,2,4,13", *, y_axis='min="0" max="15"',
+                   bars='', labels='', extra_axis='', kind='column', second_series=''):
+        categories = ','.join(f'M{i+1}' for i in range(len(values.split(','))))
+        return (f'<chart topLeftX="40" topLeftY="202" width="650" height="250"><chartPlotArea>'
+                f'<chartPlot type="{kind}">{bars}{labels}</chartPlot><chartAxes>'
+                f'<chartAxis type="x" {extra_axis}><chartLabel fontSize="12" angle="0"/></chartAxis>'
+                f'<chartAxis type="y" position="left" {y_axis}><chartLabel fontSize="12" format="0"/></chartAxis>'
+                f'</chartAxes></chartPlotArea><chartData><dim1><chartField>{categories}</chartField></dim1>'
+                f'<dim2><chartField name="Count" valueType="number">{values}</chartField>{second_series}</dim2>'
+                '</chartData></chart>')
+
+    def test_explicit_axis_bar_width_color_and_outside_count_labels(self):
+        body = self.chart_body(bars='<chartBars width="44" color="rgba(105,105,112,1)"/>',
+                               labels='<chartLabels position="outside" value="true" fontSize="12" color="rgba(72,72,78,1)" format="0"/>')
+        for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+            with self.subTest(namespace=namespace):
+                tree, issues = self.render(body, namespace)
+                self.assertEqual(issues, [])
+                bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+                labels = tree.findall(f'.//{SVG}text[@data-chart-value]')
+                self.assertEqual([e.text for e in labels], ['9','5','4','2','4','13'])
+                ticks = tree.findall(f'.//{SVG}text[@data-chart-axis="y"]')
+                self.assertEqual([tick.text for tick in ticks], ['0','5','10','15'])
+                for value, bar, label in zip((9,5,4,2,4,13),bars,labels):
+                    self.assertEqual(bar.get('width'),'44')
+                    self.assertEqual(bar.get('fill'),'#696970')
+                    self.assertAlmostEqual(float(bar.get('height')), value/15*200, places=3)
+                    self.assertAlmostEqual(float(label.get('x')),float(bar.get('x'))+22, places=3)
+                    self.assertAlmostEqual(float(label.get('y')),float(bar.get('y'))-5, places=3)
+                    self.assertEqual(label.get('font-size'),'12')
+                    self.assertEqual(label.get('fill'),'#48484E')
+                # Value labels must remain outside the plot clipping group.
+                clipped = tree.find(f'.//{SVG}g[@data-chart-marks="true"]')
+                self.assertFalse(clipped.findall(f'{SVG}text[@data-chart-value]'))
+
+    def test_negative_value_labels_and_positive_axis_minimum(self):
+        body = self.chart_body('-5,5,15', y_axis='min="-5" max="15"',
+                               labels='<chartLabels position="outside" value="true" fontSize="12"/>')
+        tree, issues = self.render(body)
+        self.assertEqual(issues, [])
+        bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+        labels = tree.findall(f'.//{SVG}text[@data-chart-value]')
+        self.assertGreater(float(labels[0].get('y')),float(bars[0].get('y'))+float(bars[0].get('height')))
+        for bar,label in zip(bars[1:],labels[1:]):
+            self.assertLess(float(label.get('y')),float(bar.get('y')))
+        tree, issues = self.render(self.chart_body('10,15',y_axis='min="5" max="15"'))
+        self.assertEqual(issues, [])
+        bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+        self.assertAlmostEqual(float(bars[1].get('height'))/float(bars[0].get('height')),2)
+
+    def test_grouped_bar_gap_is_relative_to_pixel_width(self):
+        second = '<chartField name="Second" valueType="number">4,8</chartField>'
+        for style in ('width="20" gap="0.5"','gap="0.5"'):
+            with self.subTest(style=style):
+                tree, issues = self.render(self.chart_body('5,10',bars=f'<chartBars {style}/>',second_series=second))
+                self.assertEqual(issues, [])
+                bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+                # Bars are serialized by series, so the paired same-category bars are 0/2.
+                width = float(bars[0].get('width'))
+                gap = float(bars[2].get('x'))-float(bars[0].get('x'))-width
+                self.assertAlmostEqual(gap/width,.5,places=4)
+                if 'width' in style:
+                    self.assertEqual(width,20)
+
+    def test_fixed_single_series_gap_boundary_is_explicit(self):
+        tree, issues = self.render(self.chart_body('5,10',bars='<chartBars width="20" gap="0.5"/>'))
+        self.assertEqual([i['code'] for i in issues],['chart_bar_gap_approximation'])
+        self.assertEqual(tree.find(f'.//{SVG}rect[@data-chart-mark="bar"]').get('width'),'20')
+
+    def test_invalid_axis_and_bar_parameters_are_not_rendered_as_valid(self):
+        bodies = [self.chart_body(y_axis=attrs) for attrs in ('min="15" max="0"','min="1.5" max="15"','max="nan"')]
+        bodies += [self.chart_body(bars=f'<chartBars {attrs}/>') for attrs in ('width="-1"','width="1.5"','gap="1.1"','gap="nan"','width="600"')]
+        for body in bodies:
+            with self.subTest(body=body):
+                tree, issues = self.render(body)
+                self.assertTrue(any(i['severity'] == 'error' for i in issues))
+                self.assertFalse(tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]'))
+        tree, issues = self.render(self.chart_body(bars='<chartBars width="0"/>'))
+        self.assertEqual(issues,[])
+        self.assertTrue(all(e.get('width') == '0' for e in tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')))
+
+    def test_unsupported_label_variants_and_category_limits_are_explicit(self):
+        for attrs in ('position="inside"','position="outside" percentage="true"',
+                      'position="outside" format="0%"','position="outside" category="true"'):
+            with self.subTest(attrs=attrs):
+                tree, issues = self.render(self.chart_body(labels=f'<chartLabels {attrs}/>'))
+                self.assertIn('unsupported_chart_labels',[i['code'] for i in issues])
+                self.assertFalse(tree.findall(f'.//{SVG}text[@data-chart-value]'))
+        _, issues = self.render(self.chart_body(extra_axis='min="0" max="2"'))
+        self.assertIn('unsupported_axis_range',[i['code'] for i in issues])
+        _, issues = self.render(self.chart_body().replace('angle="0"','angle="30"').replace('format="0"','format="0%"'))
+        self.assertTrue({'unsupported_axis_format','unsupported_axis_label_angle'} <= {i['code'] for i in issues})
+
+    def test_line_bounds_clip_marks_and_warn_about_excluded_data(self):
+        tree, issues = self.render(self.chart_body('0,4',kind='line',y_axis='min="1" max="3"'))
+        self.assertEqual([i['code'] for i in issues],['chart_data_clipped'])
+        ticks = tree.findall(f'.//{SVG}text[@data-chart-axis="y"]')
+        self.assertEqual(ticks[0].get('data-axis-value'),'1')
+        self.assertEqual(ticks[-1].get('data-axis-value'),'3')
+        group = tree.find(f'.//{SVG}g[@data-chart-marks="true"]')
+        self.assertTrue(group.get('clip-path').startswith('url(#preview-chart-clip-'))
+        clip = tree.find(f'.//{SVG}clipPath/{SVG}rect')
+        line = tree.find(f'.//{SVG}polyline[@data-chart-mark="line"]')
+        ys = [float(point.split(',')[1]) for point in line.get('points').split()]
+        self.assertGreater(ys[0],float(clip.get('y'))+float(clip.get('height')))
+        self.assertLess(ys[1],float(clip.get('y')))
+
+    def test_explicitly_disabled_pie_labels_preserve_slices_and_data(self):
+        body = self.chart_body('988,4,4,4',kind='pie',y_axis='')
+        default_tree, _ = self.render(body)
+        self.assertTrue([e for e in default_tree.findall(f'.//{SVG}text') if '%' in (e.text or '')])
+        hidden = '<chartLabels position="inside" value="false" percentage="false" category="false" series="false"/>'
+        tree, issues = self.render(self.chart_body('988,4,4,4',kind='pie',y_axis='',labels=hidden))
+        self.assertEqual([issue['code'] for issue in issues],['native_label_visibility_unverified'])
+        self.assertEqual(issues[0]['severity'],'warning')
+        self.assertIn('restoring default percentages',issues[0]['message'])
+        self.assertIn('actual Feishu screenshot',issues[0]['message'])
+        self.assertEqual(len([e for e in tree.iter() if e.get('data-chart-mark') == 'slice']),4)
+        self.assertFalse([e for e in tree.findall(f'.//{SVG}text') if '%' in (e.text or '')])
+        self.assertTrue([e for e in tree.findall(f'.//{SVG}title') if '988' in (e.text or '')])
 
     def test_all_templates_parse_with_images_and_approximation_label(self):
         paths = list((ROOT / "templates").glob("*.xml"))
@@ -208,7 +416,20 @@ class PreviewTests(unittest.TestCase):
                 self.assertEqual(tree.get("data-preview-approximate"), "true")
                 self.assertIn("Approximate preview",tree.find(f"{SVG}title").text)
                 self.assertTrue(tree.findall(f".//{SVG}image"))
-                self.assertTrue(all(i["code"] == "chart_smoothing_approximation" for i in issues),issues)
+                expected = []
+                source = ET.parse(path).getroot()
+                if any(preview.local_name(e.tag) == 'chartSmooth' for e in preview.find(source,'data').iter()):
+                    expected.append(('warning','chart_smoothing_approximation','chartSmooth'))
+                # This exact native outside category+percentage pie layout is
+                # intentionally left to real Feishu screenshot verification.
+                if path.name == 'slide23.xml':
+                    expected.append(('warning','unsupported_chart_labels','chartLabels'))
+                self.assertEqual([(i['severity'],i['code'],i['element']) for i in issues],expected)
+                if path.name == 'slide23.xml':
+                    native_label = preview.find(ET.parse(path).getroot(),'data/chart/chartPlotArea/chartPlot/chartLabels')
+                    self.assertEqual({key:native_label.get(key) for key in ('position','category','percentage','value')},
+                                     {'position':'outside','category':'true','percentage':'true','value':'false'})
+                    self.assertIn('this label variant is omitted',issues[0]['message'])
 
     def test_missing_image_is_visible_and_an_error(self):
         tree, issues = self.render('<img src="@./missing.png" width="100" height="40"/>')

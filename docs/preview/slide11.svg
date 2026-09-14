@@ -16,59 +16,55 @@
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">11</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="123.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">把信息组织成</tspan></text>
-<text x="40" y="164" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">行动路径</tspan></text>
+<text x="40" y="121.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">把信息组织成</tspan></text>
+<text x="40" y="157.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">行动路径</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="201.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 先给结论</tspan></text>
-<text x="40" y="220.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 再给依据</tspan></text>
-<text x="40" y="239.7" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 最后落到行动</tspan></text>
-</g>
-<rect x="430" y="90" width="470" height="342" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<rect x="458" y="118" width="414" height="72" rx="12" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<rect x="474" y="136" width="8" height="36" rx="4" fill="#589EF7" stroke="#589EF7" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="500" y="142.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">01  输入</tspan></text>
+<text x="40" y="264.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 先给结论</tspan></text>
+<text x="40" y="282.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 再给依据</tspan></text>
+<text x="40" y="300.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">• 最后落到行动</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="500" y="167.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">事实与背景</tspan></text>
-</g>
-<rect x="458" y="212" width="414" height="72" rx="12" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<rect x="474" y="230" width="8" height="36" rx="4" fill="#A66BEA" stroke="#A66BEA" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="500" y="236.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">02  判断</tspan></text>
+<text x="400" y="197" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">01  输入</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="500" y="261.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">洞察与选择</tspan></text>
-</g>
-<rect x="458" y="306" width="414" height="72" rx="12" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<rect x="474" y="324" width="8" height="36" rx="4" fill="#22C76A" stroke="#22C76A" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="500" y="330.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">03  行动</tspan></text>
+<text x="920" y="197" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">事实与背景</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="500" y="355.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">下一步与责任</tspan></text>
-</g>
-<rect x="40" y="300" width="4" height="14" rx="0" fill="#FF5A5F"/>
-<g data-preview-text="true">
-<text x="56" y="309.275" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">先给结论</tspan></text>
+<text x="400" y="247.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">先给结论</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="56" y="329.1" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">听众先听到最重要的判断</tspan></text>
+<text x="536" y="245.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">听众先听到最重要的判断</tspan></text>
 </g>
-<rect x="40" y="352" width="4" height="14" rx="0" fill="#2BC9D1"/>
-<g data-preview-text="true">
-<text x="56" y="361.275" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">再给依据</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="56" y="381.1" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">数据与事实支撑判断</tspan></text>
-</g>
-<rect x="40" y="404" width="4" height="14" rx="0" fill="#A66BEA"/>
-<g data-preview-text="true">
-<text x="56" y="413.275" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">最后落到行动</tspan></text>
+<g data-preview-line="true" opacity="1">
+<line x1="400" y1="276" x2="920" y2="276" fill="none" stroke="#E2E2E0" stroke-width="1"/>
 </g>
 <g data-preview-text="true">
-<text x="56" y="433.1" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">明确下一步与负责人</tspan></text>
+<text x="400" y="299" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">02  判断</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="920" y="299" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">洞察与选择</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="400" y="349.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">再给依据</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="536" y="347.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">数据与事实支撑判断</tspan></text>
+</g>
+<g data-preview-line="true" opacity="1">
+<line x1="400" y1="378" x2="920" y2="378" fill="none" stroke="#E2E2E0" stroke-width="1"/>
+</g>
+<g data-preview-text="true">
+<text x="400" y="401" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">03  行动</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="920" y="401" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">下一步与责任</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="400" y="451.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">最后落到行动</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="536" y="449.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">明确下一步与负责人</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

@@ -7,49 +7,74 @@
 <text x="78" y="37.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">Cherry Studio</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="920" y="36.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">图表 · 柱状图</tspan></text>
+<text x="920" y="36.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">数据 · 柱状图</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="107.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">用六个时间点，看清变化</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="149.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">使用同一指标比较六个时间点，并说明统计范围。</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="182.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">指标值 · 单位</tspan></text>
+</g>
+<g data-preview-chart="column" transform="translate(40 202)">
+<rect width="650" height="250" fill="#00000000"/>
+<line x1="42" y1="220" x2="638" y2="220" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="0" x="36" y="223" text-anchor="end" font-size="12" fill="#696970">0</text>
+<line x1="42" y1="153.333" x2="638" y2="153.333" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="5" x="36" y="156.333" text-anchor="end" font-size="12" fill="#696970">5</text>
+<line x1="42" y1="86.6667" x2="638" y2="86.6667" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="10" x="36" y="89.6667" text-anchor="end" font-size="12" fill="#696970">10</text>
+<line x1="42" y1="20" x2="638" y2="20" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="15" x="36" y="23" text-anchor="end" font-size="12" fill="#696970">15</text>
+<line x1="42" y1="220" x2="638" y2="220" stroke="#999999"/>
+<text data-chart-axis="x" x="91.6667" y="237" text-anchor="middle" font-size="12" fill="#696970">第1期</text>
+<text data-chart-axis="x" x="191" y="237" text-anchor="middle" font-size="12" fill="#696970">第2期</text>
+<text data-chart-axis="x" x="290.333" y="237" text-anchor="middle" font-size="12" fill="#696970">第3期</text>
+<text data-chart-axis="x" x="389.667" y="237" text-anchor="middle" font-size="12" fill="#696970">第4期</text>
+<text data-chart-axis="x" x="489" y="237" text-anchor="middle" font-size="12" fill="#696970">第5期</text>
+<text data-chart-axis="x" x="588.333" y="237" text-anchor="middle" font-size="12" fill="#696970">第6期</text>
+<defs><clipPath id="preview-chart-clip-1"><rect x="42" y="20" width="596" height="200"/></clipPath></defs>
+<g data-chart-marks="true" clip-path="url(#preview-chart-clip-1)">
+<rect data-chart-mark="bar" x="69.6667" y="100" width="44" height="120" fill="#696970"><title>指标值 / 第1期: 9</title></rect>
+<rect data-chart-mark="bar" x="169" y="153.333" width="44" height="66.6667" fill="#696970"><title>指标值 / 第2期: 5</title></rect>
+<rect data-chart-mark="bar" x="268.333" y="166.667" width="44" height="53.3333" fill="#696970"><title>指标值 / 第3期: 4</title></rect>
+<rect data-chart-mark="bar" x="367.667" y="193.333" width="44" height="26.6667" fill="#696970"><title>指标值 / 第4期: 2</title></rect>
+<rect data-chart-mark="bar" x="467" y="166.667" width="44" height="53.3333" fill="#696970"><title>指标值 / 第5期: 4</title></rect>
+<rect data-chart-mark="bar" x="566.333" y="46.6667" width="44" height="173.333" fill="#696970"><title>指标值 / 第6期: 13</title></rect>
+</g>
+<text data-chart-value="9" x="91.6667" y="95" text-anchor="middle" font-size="12" fill="#48484E">9</text>
+<text data-chart-value="5" x="191" y="148.333" text-anchor="middle" font-size="12" fill="#48484E">5</text>
+<text data-chart-value="4" x="290.333" y="161.667" text-anchor="middle" font-size="12" fill="#48484E">4</text>
+<text data-chart-value="2" x="389.667" y="188.333" text-anchor="middle" font-size="12" fill="#48484E">2</text>
+<text data-chart-value="4" x="489" y="161.667" text-anchor="middle" font-size="12" fill="#48484E">4</text>
+<text data-chart-value="13" x="588.333" y="41.6667" text-anchor="middle" font-size="12" fill="#48484E">13</text>
+</g>
+<g data-preview-text="true">
+<text x="738" y="205.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">第6期</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="730" y="277.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="72" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">13</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="828" y="277.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">单位</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="738" y="325.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">展示范围内</tspan></text>
+<text x="738" y="346" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">的最高值</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="475.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">来源：模板示例数据，使用前替换真实来源与查询日期。</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="496.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">口径：同步替换时间范围、图表数值、重点数字与统计限定。</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="518.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">21</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="40" y="101.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">月度活跃用户持续增长</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="40" y="132.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">连续六个月保持稳定上行。</tspan></text>
-</g>
-<rect x="40" y="158" width="880" height="292" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-chart="column" transform="translate(58 176)">
-<rect width="844" height="248" fill="#00000000" stroke="#D6D6D2" stroke-width="0"/>
-<line x1="42" y1="218" x2="832" y2="218" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="221" text-anchor="end" font-size="10" fill="#696970">0</text>
-<line x1="42" y1="166.5" x2="832" y2="166.5" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="169.5" text-anchor="end" font-size="10" fill="#696970">12.4</text>
-<line x1="42" y1="115" x2="832" y2="115" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="118" text-anchor="end" font-size="10" fill="#696970">24.8</text>
-<line x1="42" y1="63.5" x2="832" y2="63.5" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="66.5" text-anchor="end" font-size="10" fill="#696970">37.3</text>
-<line x1="42" y1="12" x2="832" y2="12" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="15" text-anchor="end" font-size="10" fill="#696970">49.7</text>
-<line x1="42" y1="218" x2="832" y2="218" stroke="#999999"/>
-<text x="107.833" y="235" text-anchor="middle" font-size="10" fill="#696970">1月</text>
-<text x="239.5" y="235" text-anchor="middle" font-size="10" fill="#696970">2月</text>
-<text x="371.167" y="235" text-anchor="middle" font-size="10" fill="#696970">3月</text>
-<text x="502.833" y="235" text-anchor="middle" font-size="10" fill="#696970">4月</text>
-<text x="634.5" y="235" text-anchor="middle" font-size="10" fill="#696970">5月</text>
-<text x="766.167" y="235" text-anchor="middle" font-size="10" fill="#696970">6月</text>
-<rect data-chart-mark="bar" x="60.4333" y="143.362" width="87.216" height="74.6377" fill="#FF5A5F"><title>活跃用户 / 1月: 18</title></rect>
-<rect data-chart-mark="bar" x="192.1" y="126.776" width="87.216" height="91.2238" fill="#FF5A5F"><title>活跃用户 / 2月: 22</title></rect>
-<rect data-chart-mark="bar" x="323.767" y="106.043" width="87.216" height="111.957" fill="#FF5A5F"><title>活跃用户 / 3月: 27</title></rect>
-<rect data-chart-mark="bar" x="455.433" y="89.4573" width="87.216" height="128.543" fill="#FF5A5F"><title>活跃用户 / 4月: 31</title></rect>
-<rect data-chart-mark="bar" x="587.1" y="60.4316" width="87.216" height="157.568" fill="#FF5A5F"><title>活跃用户 / 5月: 38</title></rect>
-<rect data-chart-mark="bar" x="718.767" y="27.2593" width="87.216" height="190.741" fill="#FF5A5F"><title>活跃用户 / 6月: 46</title></rect>
-</g>
-<g data-preview-text="true">
-<text x="40" y="478.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">来源：模拟数据，仅占位，待替换真实数据</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

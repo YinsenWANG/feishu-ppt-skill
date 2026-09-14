@@ -10,49 +10,43 @@
 <text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">生态 · 徽章矩阵</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">每一份认可，都是长期主义的回响</tspan></text>
-</g>
-<rect x="75" y="170" width="240" height="210" rx="16" fill="#FFFFFF" stroke="#FF5A5F" stroke-width="1"/>
-<ellipse cx="195" cy="240" rx="45" ry="45" fill="#FAFAF9" stroke="#FF5A5F" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="195" y="243.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">01</tspan></text>
+<text x="40" y="521.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="195" y="321.625" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">年度创新产品</tspan></text>
+<text x="920" y="521.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">45</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="195" y="351.025" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Product Hunt</tspan></text>
-</g>
-<rect x="360" y="170" width="240" height="210" rx="16" fill="#FFFFFF" stroke="#A66BEA" stroke-width="1"/>
-<ellipse cx="480" cy="240" rx="45" ry="45" fill="#FAFAF9" stroke="#A66BEA" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="480" y="243.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#A66BEA" font-weight="bold" font-style="normal" text-decoration="none">02</tspan></text>
+<text x="40" y="112.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">每一份认可，都是长期主义的回响</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="480" y="321.625" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">最佳开源体验</tspan></text>
+<text x="40" y="251" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">01</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="480" y="351.025" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Open Source</tspan></text>
-</g>
-<rect x="645" y="170" width="240" height="210" rx="16" fill="#FFFFFF" stroke="#2BC9D1" stroke-width="1"/>
-<ellipse cx="765" cy="240" rx="45" ry="45" fill="#FAFAF9" stroke="#2BC9D1" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="765" y="243.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#2BC9D1" font-weight="bold" font-style="normal" text-decoration="none">03</tspan></text>
+<text x="40" y="317" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">年度创新产品</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="765" y="321.625" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">社区选择奖</tspan></text>
+<text x="40" y="357.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Product Hunt</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="765" y="351.025" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Community</tspan></text>
+<text x="344" y="251" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">02</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="480" y="435.575" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">荣誉不是终点，而是继续把体验做好的提醒。</tspan></text>
+<text x="344" y="317" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">最佳开源体验</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="519.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>
+<text x="344" y="357.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Open Source</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="920" y="519.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">45</tspan></text>
+<text x="648" y="251" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">03</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="317" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">社区选择奖</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="648" y="357.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Community</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="457.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">荣誉不是终点，而是继续把体验做好的提醒。</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

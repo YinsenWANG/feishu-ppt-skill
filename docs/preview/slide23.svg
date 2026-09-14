@@ -16,39 +16,34 @@
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">23</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">用户来源结构</tspan></text>
+<text x="40" y="107.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">用户来源结构</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="132.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">自然增长已经成为主要来源。</tspan></text>
+<text x="40" y="149.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">自然增长已经成为主要来源。</tspan></text>
 </g>
-<rect x="40" y="158" width="880" height="292" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-chart="pie" transform="translate(100 180)">
-<rect width="440" height="240" fill="#00000000" stroke="#D6D6D2" stroke-width="0"/>
-<path data-chart-mark="slice" d="M 220,110 L 220,10 A 100,100 0 0 1 244.869,206.858 Z" fill="#FF5A5F" stroke="#FFFFFF" stroke-width="1"><title>自然: 46 (46.0%)</title></path>
-<text x="286.472" y="105.603" text-anchor="middle" font-size="12" fill="#171717">46%</text>
-<path data-chart-mark="slice" d="M 220,110 L 244.869,206.858 A 100,100 0 0 1 120.197,116.279 Z" fill="#589EF7" stroke="#FFFFFF" stroke-width="1"><title>推荐: 28 (28.0%)</title></path>
-<text x="180.618" y="168.204" text-anchor="middle" font-size="12" fill="#171717">28%</text>
-<path data-chart-mark="slice" d="M 220,110 L 120.197,116.279 A 100,100 0 0 1 171.825,22.3693 Z" fill="#2BC9D1" stroke="#FFFFFF" stroke-width="1"><title>付费: 18 (18.0%)</title></path>
-<text x="161.287" y="81.7225" text-anchor="middle" font-size="12" fill="#171717">18%</text>
-<path data-chart-mark="slice" d="M 220,110 L 171.825,22.3693 A 100,100 0 0 1 220,10 Z" fill="#A66BEA" stroke="#FFFFFF" stroke-width="1"><title>其他: 8 (8.0%)</title></path>
-<text x="203.338" y="49.1049" text-anchor="middle" font-size="12" fill="#171717">8%</text>
-<rect x="132" y="223" width="8" height="8" fill="#FF5A5F"/><text x="144" y="231" font-size="11" fill="#48484E">自然</text>
-<rect x="176" y="223" width="8" height="8" fill="#589EF7"/><text x="188" y="231" font-size="11" fill="#48484E">推荐</text>
-<rect x="220" y="223" width="8" height="8" fill="#2BC9D1"/><text x="232" y="231" font-size="11" fill="#48484E">付费</text>
-<rect x="264" y="223" width="8" height="8" fill="#A66BEA"/><text x="276" y="231" font-size="11" fill="#48484E">其他</text>
+<g data-preview-chart="pie" transform="translate(40 190)">
+<rect width="420" height="268" fill="#00000000"/>
+<path data-chart-mark="slice" d="M 210,134 L 210,10 A 124,124 0 0 1 240.838,254.104 Z" fill="#696970" stroke="#FFFFFF" stroke-width="1"><title>自然: 46 (46.0%)</title></path>
+<text x="292.425" y="127.587" text-anchor="middle" font-size="12" fill="#171717">46%</text>
+<path data-chart-mark="slice" d="M 210,134 L 240.838,254.104 A 124,124 0 0 1 86.2447,141.786 Z" fill="#FF5A5F" stroke="#FFFFFF" stroke-width="1"><title>推荐: 28 (28.0%)</title></path>
+<text x="161.167" y="205.213" text-anchor="middle" font-size="12" fill="#171717">28%</text>
+<path data-chart-mark="slice" d="M 210,134 L 86.2447,141.786 A 124,124 0 0 1 150.263,25.338 Z" fill="#D6D6D2" stroke="#FFFFFF" stroke-width="1"><title>付费: 18 (18.0%)</title></path>
+<text x="137.196" y="97.9759" text-anchor="middle" font-size="12" fill="#171717">18%</text>
+<path data-chart-mark="slice" d="M 210,134 L 150.263,25.338 A 124,124 0 0 1 210,10 Z" fill="#48484E" stroke="#FFFFFF" stroke-width="1"><title>其他: 8 (8.0%)</title></path>
+<text x="189.339" y="57.5301" text-anchor="middle" font-size="12" fill="#171717">8%</text>
 </g>
 <g data-preview-text="true">
-<text x="580" y="229.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">46%</tspan></text>
+<text x="516" y="234.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">46%</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="580" y="257.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">来自自然增长</tspan></text>
+<text x="516" y="287" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">来自自然增长</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="580" y="297.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">内容质量与口碑，正在形成复利。</tspan></text>
+<text x="516" y="342.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">内容质量与口碑，正在形成复利。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="478.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">来源：模拟数据，仅占位，待替换真实数据</tspan></text>
+<text x="40" y="482.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">来源：模拟数据，仅占位，待替换真实数据</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
-<metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>
+<metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: [{&quot;severity&quot;: &quot;warning&quot;, &quot;code&quot;: &quot;unsupported_chart_labels&quot;, &quot;element&quot;: &quot;chartLabels&quot;, &quot;message&quot;: &quot;Only global column labels with position=outside and plain numeric values or format=0 are rendered; this label variant is omitted.&quot;}]}</metadata>
 </svg>

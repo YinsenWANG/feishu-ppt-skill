@@ -16,64 +16,78 @@
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">24</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">增长与留存同步改善</tspan></text>
+<text x="40" y="107.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">增长与留存同步改善</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="132.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">两个指标共同验证策略有效。</tspan></text>
-</g>
-<rect x="40" y="158" width="420" height="230" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<rect x="480" y="158" width="440" height="230" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="58" y="184.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">新增用户</tspan></text>
+<text x="40" y="149.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">两个指标共同验证策略有效。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="498" y="184.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">次月留存</tspan></text>
+<text x="40" y="201" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">新增用户</tspan></text>
 </g>
-<g data-preview-chart="column" transform="translate(58 198)">
-<rect width="384" height="170" fill="#00000000" stroke="#D6D6D2" stroke-width="0"/>
-<line x1="42" y1="140" x2="372" y2="140" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="143" text-anchor="end" font-size="10" fill="#696970">0</text>
-<line x1="42" y1="108" x2="372" y2="108" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="111" text-anchor="end" font-size="10" fill="#696970">9.18</text>
-<line x1="42" y1="76" x2="372" y2="76" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="79" text-anchor="end" font-size="10" fill="#696970">18.4</text>
-<line x1="42" y1="44" x2="372" y2="44" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="47" text-anchor="end" font-size="10" fill="#696970">27.5</text>
-<line x1="42" y1="12" x2="372" y2="12" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="15" text-anchor="end" font-size="10" fill="#696970">36.7</text>
-<line x1="42" y1="140" x2="372" y2="140" stroke="#999999"/>
-<text x="83.25" y="157" text-anchor="middle" font-size="10" fill="#696970">Q1</text>
-<text x="165.75" y="157" text-anchor="middle" font-size="10" fill="#696970">Q2</text>
-<text x="248.25" y="157" text-anchor="middle" font-size="10" fill="#696970">Q3</text>
-<text x="330.75" y="157" text-anchor="middle" font-size="10" fill="#696970">Q4</text>
-<rect data-chart-mark="bar" x="53.55" y="98.1699" width="54.648" height="41.8301" fill="#FF5A5F"><title>新增 / Q1: 12</title></rect>
-<rect data-chart-mark="bar" x="136.05" y="77.2549" width="54.648" height="62.7451" fill="#FF5A5F"><title>新增 / Q2: 18</title></rect>
-<rect data-chart-mark="bar" x="218.55" y="52.854" width="54.648" height="87.146" fill="#FF5A5F"><title>新增 / Q3: 25</title></rect>
-<rect data-chart-mark="bar" x="301.05" y="21.4815" width="54.648" height="118.519" fill="#FF5A5F"><title>新增 / Q4: 34</title></rect>
+<g data-preview-text="true">
+<text x="500" y="201" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">次月留存</tspan></text>
 </g>
-<g data-preview-chart="line" transform="translate(498 198)">
-<rect width="404" height="170" fill="#00000000" stroke="#D6D6D2" stroke-width="0"/>
-<line x1="42" y1="140" x2="392" y2="140" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="143" text-anchor="end" font-size="10" fill="#696970">0</text>
-<line x1="42" y1="108" x2="392" y2="108" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="111" text-anchor="end" font-size="10" fill="#696970">17.3</text>
-<line x1="42" y1="76" x2="392" y2="76" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="79" text-anchor="end" font-size="10" fill="#696970">34.6</text>
-<line x1="42" y1="44" x2="392" y2="44" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="47" text-anchor="end" font-size="10" fill="#696970">51.8</text>
-<line x1="42" y1="12" x2="392" y2="12" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="15" text-anchor="end" font-size="10" fill="#696970">69.1</text>
-<line x1="42" y1="140" x2="392" y2="140" stroke="#999999"/>
-<text x="85.75" y="157" text-anchor="middle" font-size="10" fill="#696970">Q1</text>
-<text x="173.25" y="157" text-anchor="middle" font-size="10" fill="#696970">Q2</text>
-<text x="260.75" y="157" text-anchor="middle" font-size="10" fill="#696970">Q3</text>
-<text x="348.25" y="157" text-anchor="middle" font-size="10" fill="#696970">Q4</text>
-<polyline data-chart-mark="line" points="85.75,62.2222 173.25,51.1111 260.75,34.4444 348.25,21.4815" fill="none" stroke="#FF5A5F" stroke-width="2.5"/>
-<circle data-chart-mark="point" cx="85.75" cy="62.2222" r="3.5" fill="#FF5A5F"><title>留存 / Q1: 42</title></circle>
-<circle data-chart-mark="point" cx="173.25" cy="51.1111" r="3.5" fill="#FF5A5F"><title>留存 / Q2: 48</title></circle>
-<circle data-chart-mark="point" cx="260.75" cy="34.4444" r="3.5" fill="#FF5A5F"><title>留存 / Q3: 57</title></circle>
-<circle data-chart-mark="point" cx="348.25" cy="21.4815" r="3.5" fill="#FF5A5F"><title>留存 / Q4: 64</title></circle>
+<g data-preview-chart="column" transform="translate(40 222)">
+<rect width="420" height="232" fill="#00000000"/>
+<line x1="42" y1="202" x2="408" y2="202" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="0" x="36" y="205" text-anchor="end" font-size="12" fill="#696970">0</text>
+<line x1="42" y1="156.5" x2="408" y2="156.5" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="10" x="36" y="159.5" text-anchor="end" font-size="12" fill="#696970">10</text>
+<line x1="42" y1="111" x2="408" y2="111" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="20" x="36" y="114" text-anchor="end" font-size="12" fill="#696970">20</text>
+<line x1="42" y1="65.5" x2="408" y2="65.5" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="30" x="36" y="68.5" text-anchor="end" font-size="12" fill="#696970">30</text>
+<line x1="42" y1="20" x2="408" y2="20" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="40" x="36" y="23" text-anchor="end" font-size="12" fill="#696970">40</text>
+<line x1="42" y1="202" x2="408" y2="202" stroke="#999999"/>
+<text data-chart-axis="x" x="87.75" y="219" text-anchor="middle" font-size="12" fill="#696970">Q1</text>
+<text data-chart-axis="x" x="179.25" y="219" text-anchor="middle" font-size="12" fill="#696970">Q2</text>
+<text data-chart-axis="x" x="270.75" y="219" text-anchor="middle" font-size="12" fill="#696970">Q3</text>
+<text data-chart-axis="x" x="362.25" y="219" text-anchor="middle" font-size="12" fill="#696970">Q4</text>
+<defs><clipPath id="preview-chart-clip-1"><rect x="42" y="20" width="366" height="182"/></clipPath></defs>
+<g data-chart-marks="true" clip-path="url(#preview-chart-clip-1)">
+<rect data-chart-mark="bar" x="65.75" y="147.4" width="44" height="54.6" fill="#696970"><title>新增 / Q1: 12</title></rect>
+<rect data-chart-mark="bar" x="157.25" y="120.1" width="44" height="81.9" fill="#696970"><title>新增 / Q2: 18</title></rect>
+<rect data-chart-mark="bar" x="248.75" y="88.25" width="44" height="113.75" fill="#696970"><title>新增 / Q3: 25</title></rect>
+<rect data-chart-mark="bar" x="340.25" y="47.3" width="44" height="154.7" fill="#696970"><title>新增 / Q4: 34</title></rect>
+</g>
+<text data-chart-value="12" x="87.75" y="142.4" text-anchor="middle" font-size="12" fill="#48484E">12</text>
+<text data-chart-value="18" x="179.25" y="115.1" text-anchor="middle" font-size="12" fill="#48484E">18</text>
+<text data-chart-value="25" x="270.75" y="83.25" text-anchor="middle" font-size="12" fill="#48484E">25</text>
+<text data-chart-value="34" x="362.25" y="42.3" text-anchor="middle" font-size="12" fill="#48484E">34</text>
+</g>
+<g data-preview-chart="column" transform="translate(500 222)">
+<rect width="420" height="232" fill="#00000000"/>
+<line x1="42" y1="202" x2="408" y2="202" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="0" x="36" y="205" text-anchor="end" font-size="12" fill="#696970">0</text>
+<line x1="42" y1="156.5" x2="408" y2="156.5" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="20" x="36" y="159.5" text-anchor="end" font-size="12" fill="#696970">20</text>
+<line x1="42" y1="111" x2="408" y2="111" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="40" x="36" y="114" text-anchor="end" font-size="12" fill="#696970">40</text>
+<line x1="42" y1="65.5" x2="408" y2="65.5" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="60" x="36" y="68.5" text-anchor="end" font-size="12" fill="#696970">60</text>
+<line x1="42" y1="20" x2="408" y2="20" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="80" x="36" y="23" text-anchor="end" font-size="12" fill="#696970">80</text>
+<line x1="42" y1="202" x2="408" y2="202" stroke="#999999"/>
+<text data-chart-axis="x" x="87.75" y="219" text-anchor="middle" font-size="12" fill="#696970">Q1</text>
+<text data-chart-axis="x" x="179.25" y="219" text-anchor="middle" font-size="12" fill="#696970">Q2</text>
+<text data-chart-axis="x" x="270.75" y="219" text-anchor="middle" font-size="12" fill="#696970">Q3</text>
+<text data-chart-axis="x" x="362.25" y="219" text-anchor="middle" font-size="12" fill="#696970">Q4</text>
+<defs><clipPath id="preview-chart-clip-2"><rect x="42" y="20" width="366" height="182"/></clipPath></defs>
+<g data-chart-marks="true" clip-path="url(#preview-chart-clip-2)">
+<rect data-chart-mark="bar" x="65.75" y="106.45" width="44" height="95.55" fill="#FF5A5F"><title>留存 / Q1: 42</title></rect>
+<rect data-chart-mark="bar" x="157.25" y="92.8" width="44" height="109.2" fill="#FF5A5F"><title>留存 / Q2: 48</title></rect>
+<rect data-chart-mark="bar" x="248.75" y="72.325" width="44" height="129.675" fill="#FF5A5F"><title>留存 / Q3: 57</title></rect>
+<rect data-chart-mark="bar" x="340.25" y="56.4" width="44" height="145.6" fill="#FF5A5F"><title>留存 / Q4: 64</title></rect>
+</g>
+<text data-chart-value="42" x="87.75" y="101.45" text-anchor="middle" font-size="12" fill="#48484E">42</text>
+<text data-chart-value="48" x="179.25" y="87.8" text-anchor="middle" font-size="12" fill="#48484E">48</text>
+<text data-chart-value="57" x="270.75" y="67.325" text-anchor="middle" font-size="12" fill="#48484E">57</text>
+<text data-chart-value="64" x="362.25" y="51.4" text-anchor="middle" font-size="12" fill="#48484E">64</text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="479.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">示例指标采用各自刻度。比较结论须先核对量纲与统计口径。</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
-<metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: [{&quot;severity&quot;: &quot;warning&quot;, &quot;code&quot;: &quot;chart_smoothing_approximation&quot;, &quot;element&quot;: &quot;chartSmooth&quot;, &quot;message&quot;: &quot;Smooth curves use straight segments through the actual data points.&quot;}]}</metadata>
+<metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>
 </svg>

@@ -10,73 +10,43 @@
 <text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">团队 · 成员卡片</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">一支互补、敏捷、可信赖的团队</tspan></text>
-</g>
-<rect x="55" y="145" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="113" cy="209" rx="36" ry="36" fill="#F5F5F4" stroke="#FF5A5F" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="113" y="212.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">林</tspan></text>
+<text x="40" y="113.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">一支互补、敏捷、可信赖的团队</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="170" y="193.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">林澈</tspan></text>
+<text x="64" y="228.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">林澈</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="170" y="227.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">产品策略</tspan></text>
-</g>
-<rect x="345" y="145" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="403" cy="209" rx="36" ry="36" fill="#F5F5F4" stroke="#F45D9B" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="403" y="212.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#F45D9B" font-weight="bold" font-style="normal" text-decoration="none">周</tspan></text>
+<text x="64" y="273.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">产品策略</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="460" y="193.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">周可</tspan></text>
+<text x="368" y="228.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">周可</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="460" y="227.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">体验设计</tspan></text>
-</g>
-<rect x="635" y="145" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="693" cy="209" rx="36" ry="36" fill="#F5F5F4" stroke="#2BC9D1" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="693" y="212.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#2BC9D1" font-weight="bold" font-style="normal" text-decoration="none">陈</tspan></text>
+<text x="368" y="273.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">体验设计</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="750" y="193.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">陈遇</tspan></text>
+<text x="672" y="228.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">陈遇</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="750" y="227.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">平台研发</tspan></text>
-</g>
-<rect x="55" y="305" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="113" cy="369" rx="36" ry="36" fill="#F5F5F4" stroke="#A66BEA" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="113" y="372.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#A66BEA" font-weight="bold" font-style="normal" text-decoration="none">苏</tspan></text>
+<text x="672" y="273.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">平台研发</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="170" y="353.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">苏禾</tspan></text>
+<text x="64" y="374.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">苏禾</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="170" y="387.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">AI 工程</tspan></text>
-</g>
-<rect x="345" y="305" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="403" cy="369" rx="36" ry="36" fill="#F5F5F4" stroke="#589EF7" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="403" y="372.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#589EF7" font-weight="bold" font-style="normal" text-decoration="none">许</tspan></text>
+<text x="64" y="419.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">AI 工程</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="460" y="353.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">许安</tspan></text>
+<text x="368" y="374.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">许安</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="460" y="387.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">增长运营</tspan></text>
-</g>
-<rect x="635" y="305" width="270" height="135" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="693" cy="369" rx="36" ry="36" fill="#F5F5F4" stroke="#22C76A" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="693" y="372.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#22C76A" font-weight="bold" font-style="normal" text-decoration="none">叶</tspan></text>
+<text x="368" y="419.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">增长运营</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="750" y="353.9" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">叶宁</tspan></text>
+<text x="672" y="374.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">叶宁</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="750" y="387.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">客户成功</tspan></text>
+<text x="672" y="419.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">客户成功</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="519.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>

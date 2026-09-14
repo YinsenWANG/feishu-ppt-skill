@@ -1,1 +1,47 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="160" height="18"><content fontSize="12" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="730" topLeftY="28" width="190" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>正文 · 单栏观点</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="300" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="50" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>10</p></content></shape><shape type="text" topLeftX="160" topLeftY="112" width="640" height="78"><content fontSize="34" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>好的表达，</p><p>先有清晰的取舍</p></content></shape><shape type="text" topLeftX="190" topLeftY="226" width="580" height="100"><content fontSize="15" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>当一页只承担一个核心观点，信息就更容易被理解、记住，并转化为后续行动。</p></content></shape><shape type="round-rect" presetHandlers="14" topLeftX="150" topLeftY="374" width="660" height="54"><fill><fillColor color="rgba(253, 235, 237, 1)"/></fill><border color="rgba(255, 220, 222, 1)" width="1"/></shape><shape type="text" topLeftX="174" topLeftY="374" width="612" height="54"><content fontSize="14" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>结论：先明确希望听众记住什么。</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255,255,255,1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>正文 · 单栏观点</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="600" height="18">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="18">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>10</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="210" width="312" height="112">
+      <content fontSize="30" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>好的表达，</p>
+        <p>先有清晰的取舍</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="408" topLeftY="210" width="512" height="100">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.6" wrap="true" autoFit="normal-auto-fit">
+        <p>当一页只承担一个<span color="rgba(255,90,95,1)" bold="true">核心观点</span>，</p>
+        <p>信息就更容易被理解、记住，并转化为后续行动。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="408" topLeftY="348" width="512" height="64">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>结论：先明确希望听众记住什么。</p>
+      </content>
+    </shape>
+  </data>
+</slide>

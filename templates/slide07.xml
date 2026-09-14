@@ -1,1 +1,115 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="160" height="18"><content fontSize="12" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="730" topLeftY="28" width="190" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>目录 · 编号列表</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="300" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="50" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>07</p></content></shape><shape type="text" topLeftX="40" topLeftY="76" width="820" height="42"><content fontSize="30" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>目录 · AGENDA</p></content></shape><shape type="text" topLeftX="40" topLeftY="121" width="820" height="24"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>五个章节，一条清晰的叙事路径。</p></content></shape><shape type="text" topLeftX="56" topLeftY="168" width="54" height="28"><content fontSize="18" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>01</p></content></shape><shape type="text" topLeftX="126" topLeftY="168" width="180" height="24"><content fontSize="15" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>洞察</p></content></shape><shape type="text" topLeftX="320" topLeftY="169" width="480" height="22"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>看见机会与关键问题</p></content></shape><shape type="rect" topLeftX="56" topLeftY="205" width="844" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="230" width="54" height="28"><content fontSize="18" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>02</p></content></shape><shape type="text" topLeftX="126" topLeftY="230" width="180" height="24"><content fontSize="15" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>策略</p></content></shape><shape type="text" topLeftX="320" topLeftY="231" width="480" height="22"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>确定目标与取舍</p></content></shape><shape type="rect" topLeftX="56" topLeftY="267" width="844" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="292" width="54" height="28"><content fontSize="18" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>03</p></content></shape><shape type="text" topLeftX="126" topLeftY="292" width="180" height="24"><content fontSize="15" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>方案</p></content></shape><shape type="text" topLeftX="320" topLeftY="293" width="480" height="22"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>把方向变成设计</p></content></shape><shape type="rect" topLeftX="56" topLeftY="329" width="844" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="354" width="54" height="28"><content fontSize="18" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>04</p></content></shape><shape type="text" topLeftX="126" topLeftY="354" width="180" height="24"><content fontSize="15" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>验证</p></content></shape><shape type="text" topLeftX="320" topLeftY="355" width="480" height="22"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>用数据校准判断</p></content></shape><shape type="rect" topLeftX="56" topLeftY="391" width="844" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="56" topLeftY="416" width="54" height="28"><content fontSize="18" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>05</p></content></shape><shape type="text" topLeftX="126" topLeftY="416" width="180" height="24"><content fontSize="15" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>行动</p></content></shape><shape type="text" topLeftX="320" topLeftY="417" width="480" height="22"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>明确下一步与责任</p></content></shape><shape type="rect" topLeftX="56" topLeftY="453" width="844" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>目录 · 编号列表</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="300" height="14">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="14">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>07</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontSize="30" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>目录 · AGENDA</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="137" width="880" height="26">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>五个章节，一条清晰的叙事路径。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="192" width="48" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>01</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="188" width="200" height="32">
+      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>洞察</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="346" topLeftY="192" width="574" height="32">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>看见机会与关键问题</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="250" width="48" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>02</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="246" width="200" height="32">
+      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>策略</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="346" topLeftY="250" width="574" height="32">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>确定目标与取舍</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="308" width="48" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>03</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="304" width="200" height="32">
+      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>方案</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="346" topLeftY="308" width="574" height="32">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>把方向变成设计</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="366" width="48" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>04</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="362" width="200" height="32">
+      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>验证</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="346" topLeftY="366" width="574" height="32">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>用数据校准判断</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="424" width="48" height="24">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>05</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="420" width="200" height="32">
+      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>行动</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="346" topLeftY="424" width="574" height="32">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>明确下一步与责任</p>
+      </content>
+    </shape>
+  </data>
+</slide>

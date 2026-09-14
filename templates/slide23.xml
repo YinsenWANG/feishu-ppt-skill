@@ -1,1 +1,89 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="160" height="18"><content fontSize="12" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="730" topLeftY="28" width="190" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>图表 · 饼图占比</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="300" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="50" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>23</p></content></shape><shape type="text" topLeftX="40" topLeftY="76" width="820" height="42"><content fontSize="30" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>用户来源结构</p></content></shape><shape type="text" topLeftX="40" topLeftY="121" width="820" height="24"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>自然增长已经成为主要来源。</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="40" topLeftY="158" width="880" height="292"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><chart topLeftX="100" topLeftY="180" width="440" height="240"><chartPlotArea><chartPlot type="pie"><chartExtra/></chartPlot></chartPlotArea><chartLegend position="bottom" fontSize="11"/><chartData><dim1><chartField name="来源" valueType="string">自然,推荐,付费,其他</chartField></dim1><dim2><chartField name="占比" valueType="number">46,28,18,8</chartField></dim2></chartData><chartStyle><chartBackground color="rgba(0, 0, 0, 0)"/><chartBorder color="rgba(214,214,210,1)" width="0"/><chartColorTheme><color value="rgb(255, 90, 95)"/><color value="rgb(88, 158, 247)"/><color value="rgb(43, 201, 209)"/><color value="rgb(166, 107, 234)"/></chartColorTheme></chartStyle></chart><shape type="text" topLeftX="580" topLeftY="204" width="260" height="28"><content fontSize="30" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>46%</p></content></shape><shape type="text" topLeftX="580" topLeftY="246" width="250" height="24"><content fontSize="14" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>来自自然增长</p></content></shape><shape type="text" topLeftX="580" topLeftY="286" width="260" height="48"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>内容质量与口碑，正在形成复利。</p></content></shape><shape type="text" topLeftX="40" topLeftY="470" width="500" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>来源：模拟数据，仅占位，待替换真实数据</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>图表 · 饼图占比</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="300" height="14">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="14">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>23</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontSize="30" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>用户来源结构</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="137" width="880" height="26">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>自然增长已经成为主要来源。</p>
+      </content>
+    </shape>
+    <chart topLeftX="40" topLeftY="190" width="420" height="268">
+      <chartPlotArea>
+        <chartPlot type="pie">
+          <chartLabels position="outside" value="false" percentage="true" category="true" series="false" fontSize="12" color="rgba(72,72,78,1)" />
+        </chartPlot>
+      </chartPlotArea>
+      <chartData>
+        <dim1>
+          <chartField name="来源" valueType="string">自然,推荐,付费,其他</chartField>
+        </dim1>
+        <dim2>
+          <chartField name="占比" valueType="number">46,28,18,8</chartField>
+        </dim2>
+      </chartData>
+      <chartStyle>
+        <chartBackground color="rgba(0, 0, 0, 0)" />
+        <chartColorTheme>
+          <color value="rgba(105,105,112,1)" />
+          <color value="rgba(255,90,95,1)" />
+          <color value="rgba(214,214,210,1)" />
+          <color value="rgba(72,72,78,1)" />
+        </chartColorTheme>
+      </chartStyle>
+    </chart>
+    <shape type="text" topLeftX="516" topLeftY="194" width="400" height="64">
+      <content fontSize="48" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>46%</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="516" topLeftY="270" width="400" height="30">
+      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>来自自然增长</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="516" topLeftY="332" width="404" height="70">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>内容质量与口碑，正在形成复利。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="472" width="880" height="22">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>来源：模拟数据，仅占位，待替换真实数据</p>
+      </content>
+    </shape>
+    </data>
+  <note>
+    <content fontSize="12">
+      <p>视觉复核：原生饼图保留外侧类别与百分比标签，四项完整数据不变。实际飞书截图已证实 outside 布局无重叠，因此不再隐藏标签或添加重复分类列表。</p>
+    </content>
+  </note>
+</slide>

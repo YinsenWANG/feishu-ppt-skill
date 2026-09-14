@@ -1,1 +1,95 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="150" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="720" topLeftY="27" width="200" height="16"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>方案 · ROI 计算</p></content></shape><shape type="text" topLeftX="40" topLeftY="72" width="880" height="42"><content fontFamily="思源黑体" fontSize="30" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>更少投入，换来可量化增长</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="55" topLeftY="190" width="250" height="190"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="78" topLeftY="215" width="204" height="25"><content fontFamily="思源黑体" fontSize="14" color="rgba(105, 105, 112, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>投入</p></content></shape><shape type="text" topLeftX="78" topLeftY="255" width="204" height="46"><content fontFamily="思源黑体" fontSize="38" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>1.0</p></content></shape><shape type="text" topLeftX="78" topLeftY="315" width="204" height="25"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>人力 · 时间 · 工具</p></content></shape><shape type="text" topLeftX="320" topLeftY="268" width="55" height="38"><content fontFamily="思源黑体" fontSize="26" color="rgba(255, 90, 95, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>→</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="375" topLeftY="170" width="210" height="230"><fill><fillColor color="rgba(255,90,95,0.06)"/></fill><border color="rgba(255, 90, 95, 1)" width="1"/></shape><shape type="text" topLeftX="392" topLeftY="205" width="176" height="24"><content fontFamily="思源黑体" fontSize="13" color="rgba(255, 90, 95, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>价值回报</p></content></shape><shape type="text" topLeftX="390" topLeftY="248" width="180" height="62"><content fontFamily="思源黑体" fontSize="48" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>3.2x</p></content></shape><shape type="text" topLeftX="392" topLeftY="326" width="176" height="24"><content fontFamily="思源黑体" fontSize="15" color="rgba(255, 90, 95, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>ROI</p></content></shape><shape type="text" topLeftX="600" topLeftY="268" width="55" height="38"><content fontFamily="思源黑体" fontSize="26" color="rgba(255, 90, 95, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>=</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="655" topLeftY="190" width="250" height="190"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="678" topLeftY="215" width="204" height="25"><content fontFamily="思源黑体" fontSize="14" color="rgba(105, 105, 112, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>产出</p></content></shape><shape type="text" topLeftX="678" topLeftY="255" width="204" height="46"><content fontFamily="思源黑体" fontSize="38" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>3.2</p></content></shape><shape type="text" topLeftX="678" topLeftY="315" width="204" height="25"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>效率 · 质量 · 增长</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="260" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="40" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>37</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255,255,255,1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="150" height="18">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="720" topLeftY="27" width="200" height="16">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>方案 · ROI 计算</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="600" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="40" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>37</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>更少投入，换来可量化增长</p>
+      </content>
+    </shape>
+    <shape type="round-rect" topLeftX="632" topLeftY="184" width="288" height="244" presetHandlers="16">
+      <fill>
+        <fillColor color="rgba(253,235,237,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="212" width="224" height="28">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>投入</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="259" width="224" height="72">
+      <content fontFamily="思源黑体" fontSize="48" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>1.0</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="350" width="224" height="44">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>人力 · 时间 · 工具</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="212" width="224" height="28">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>价值回报</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="259" width="224" height="72">
+      <content fontFamily="思源黑体" fontSize="48" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>3.2x</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="350" width="224" height="44">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>ROI</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="664" topLeftY="212" width="224" height="28">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>产出</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="664" topLeftY="259" width="224" height="72">
+      <content fontFamily="思源黑体" fontSize="48" color="rgba(255,90,95,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>3.2</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="664" topLeftY="350" width="224" height="44">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>效率 · 质量 · 增长</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="270" topLeftY="268" width="52" height="58">
+      <content fontFamily="思源黑体" fontSize="28" color="rgba(105,105,112,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>→</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="582" topLeftY="268" width="40" height="58">
+      <content fontFamily="思源黑体" fontSize="28" color="rgba(105,105,112,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>=</p>
+      </content>
+    </shape>
+  </data>
+</slide>

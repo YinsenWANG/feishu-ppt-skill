@@ -1,1 +1,86 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="150" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="720" topLeftY="27" width="200" height="16"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>生态 · 合作模式</p></content></shape><shape type="text" topLeftX="40" topLeftY="72" width="880" height="42"><content fontFamily="思源黑体" fontSize="30" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>从申请到共赢，合作简单而透明</p></content></shape><shape type="rect" topLeftX="290" topLeftY="279" width="90" height="2" presetHandlers="0"><fill><fillColor color="rgba(255, 90, 95, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="580" topLeftY="279" width="90" height="2" presetHandlers="0"><fill><fillColor color="rgba(255, 90, 95, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="580" topLeftY="309" width="90" height="2" presetHandlers="0"><fill><fillColor color="rgba(43, 201, 209, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="290" topLeftY="309" width="90" height="2" presetHandlers="0"><fill><fillColor color="rgba(43, 201, 209, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="70" topLeftY="190" width="220" height="210"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(255, 90, 95, 1)" width="1"/></shape><shape type="text" topLeftX="92" topLeftY="210" width="50" height="22"><content fontFamily="思源黑体" fontSize="11" color="rgba(255, 90, 95, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>01</p></content></shape><shape type="text" topLeftX="92" topLeftY="250" width="176" height="32"><content fontFamily="思源黑体" fontSize="20" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>申请</p></content></shape><shape type="text" topLeftX="92" topLeftY="305" width="176" height="50"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>提交合作方向与资源</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="370" topLeftY="190" width="220" height="210"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(88, 158, 247, 1)" width="1"/></shape><shape type="text" topLeftX="392" topLeftY="210" width="50" height="22"><content fontFamily="思源黑体" fontSize="11" color="rgba(88, 158, 247, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>02</p></content></shape><shape type="text" topLeftX="392" topLeftY="250" width="176" height="32"><content fontFamily="思源黑体" fontSize="20" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>对接</p></content></shape><shape type="text" topLeftX="392" topLeftY="305" width="176" height="50"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>确认目标、节奏与边界</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="670" topLeftY="190" width="220" height="210"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(34, 199, 106, 1)" width="1"/></shape><shape type="text" topLeftX="692" topLeftY="210" width="50" height="22"><content fontFamily="思源黑体" fontSize="11" color="rgba(34, 199, 106, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>03</p></content></shape><shape type="text" topLeftX="692" topLeftY="250" width="176" height="32"><content fontFamily="思源黑体" fontSize="20" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>共赢</p></content></shape><shape type="text" topLeftX="692" topLeftY="305" width="176" height="50"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>联合交付并持续复盘</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="260" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="40" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>49</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255,255,255,1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="150" height="18">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="720" topLeftY="27" width="200" height="16">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>生态 · 合作模式</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="600" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="40" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>49</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>从申请到共赢，合作简单而透明</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="184" width="272" height="28">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>01</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="240" width="272" height="54">
+      <content fontFamily="思源黑体" fontSize="28" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>申请</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="324" width="272" height="68">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>提交合作方向与资源</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="184" width="272" height="28">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>02</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="240" width="272" height="54">
+      <content fontFamily="思源黑体" fontSize="28" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>对接</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="324" width="272" height="68">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>确认目标、节奏与边界</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="648" topLeftY="184" width="272" height="28">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>03</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="648" topLeftY="240" width="272" height="54">
+      <content fontFamily="思源黑体" fontSize="28" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>共赢</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="648" topLeftY="324" width="272" height="68">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>联合交付并持续复盘</p>
+      </content>
+    </shape>
+    <line type="straight-connector1" startX="278" startY="267" endX="326" endY="267">
+      <border color="rgba(226,226,224,1)" width="2" />
+    </line>
+    <line type="straight-connector1" startX="582" startY="267" endX="630" endY="267">
+      <border color="rgba(226,226,224,1)" width="2" />
+    </line>
+  </data>
+</slide>

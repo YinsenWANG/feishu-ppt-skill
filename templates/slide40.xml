@@ -1,1 +1,100 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="150" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="720" topLeftY="27" width="200" height="16"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>组织 · 架构图</p></content></shape><shape type="text" topLeftX="40" topLeftY="72" width="880" height="42"><content fontFamily="思源黑体" fontSize="30" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>精简组织，保持决策链路短而清晰</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="400" topLeftY="145" width="160" height="54"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(255, 90, 95, 1)" width="1"/></shape><shape type="text" topLeftX="420" topLeftY="161" width="120" height="22"><content fontFamily="思源黑体" fontSize="15" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>CEO</p></content></shape><shape type="rect" topLeftX="479" topLeftY="199" width="2" height="31" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="190" topLeftY="229" width="580" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="189" topLeftY="230" width="2" height="28" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="100" topLeftY="258" width="180" height="56"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(88, 158, 247, 1)" width="1"/></shape><shape type="text" topLeftX="115" topLeftY="275" width="150" height="22"><content fontFamily="思源黑体" fontSize="14" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>产品部</p></content></shape><shape type="rect" topLeftX="189" topLeftY="314" width="2" height="24" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="140" topLeftY="337" width="100" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="139" topLeftY="338" width="2" height="14" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="100" topLeftY="352" width="80" height="62"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="107" topLeftY="370" width="66" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(72, 72, 78, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>产品策略</p></content></shape><shape type="rect" topLeftX="239" topLeftY="338" width="2" height="14" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="200" topLeftY="352" width="80" height="62"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="207" topLeftY="370" width="66" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(72, 72, 78, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>用户研究</p></content></shape><shape type="rect" topLeftX="479" topLeftY="230" width="2" height="28" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="390" topLeftY="258" width="180" height="56"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(166, 107, 234, 1)" width="1"/></shape><shape type="text" topLeftX="405" topLeftY="275" width="150" height="22"><content fontFamily="思源黑体" fontSize="14" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>技术部</p></content></shape><shape type="rect" topLeftX="479" topLeftY="314" width="2" height="24" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="430" topLeftY="337" width="100" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="429" topLeftY="338" width="2" height="14" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="390" topLeftY="352" width="80" height="62"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="397" topLeftY="370" width="66" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(72, 72, 78, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>平台研发</p></content></shape><shape type="rect" topLeftX="529" topLeftY="338" width="2" height="14" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="490" topLeftY="352" width="80" height="62"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="497" topLeftY="370" width="66" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(72, 72, 78, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>质量保障</p></content></shape><shape type="rect" topLeftX="769" topLeftY="230" width="2" height="28" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="680" topLeftY="258" width="180" height="56"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(43, 201, 209, 1)" width="1"/></shape><shape type="text" topLeftX="695" topLeftY="275" width="150" height="22"><content fontFamily="思源黑体" fontSize="14" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>增长部</p></content></shape><shape type="rect" topLeftX="769" topLeftY="314" width="2" height="24" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="720" topLeftY="337" width="100" height="2" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="rect" topLeftX="719" topLeftY="338" width="2" height="14" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="680" topLeftY="352" width="80" height="62"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="687" topLeftY="370" width="66" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(72, 72, 78, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>市场品牌</p></content></shape><shape type="rect" topLeftX="819" topLeftY="338" width="2" height="14" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="780" topLeftY="352" width="80" height="62"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="787" topLeftY="370" width="66" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(72, 72, 78, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>社区运营</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="260" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="40" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>40</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255,255,255,1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="150" height="18">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="720" topLeftY="27" width="200" height="16">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>组织 · 架构图</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="600" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="40" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>40</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>精简组织，保持决策链路短而清晰</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="328" topLeftY="172" width="304" height="52">
+      <content fontFamily="思源黑体" fontSize="28" color="rgba(255,90,95,1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>CEO</p>
+      </content>
+    </shape>
+    <line type="straight-connector1" startX="480" startY="226" endX="480" endY="248">
+      <border color="rgba(214,214,210,1)" width="2" />
+    </line>
+    <line type="straight-connector1" startX="176" startY="248" endX="784" endY="248">
+      <border color="rgba(214,214,210,1)" width="2" />
+    </line>
+    <line type="straight-connector1" startX="176" startY="248" endX="176" endY="270">
+      <border color="rgba(214,214,210,1)" width="2" />
+    </line>
+    <shape type="text" topLeftX="40" topLeftY="278" width="272" height="38">
+      <content fontFamily="思源黑体" fontSize="22" color="rgba(23,23,23,1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>产品部</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="336" width="272" height="30">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>产品策略</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="380" width="272" height="30">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>用户研究</p>
+      </content>
+    </shape>
+    <line type="straight-connector1" startX="480" startY="248" endX="480" endY="270">
+      <border color="rgba(214,214,210,1)" width="2" />
+    </line>
+    <shape type="text" topLeftX="344" topLeftY="278" width="272" height="38">
+      <content fontFamily="思源黑体" fontSize="22" color="rgba(23,23,23,1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>技术部</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="336" width="272" height="30">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>平台研发</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="344" topLeftY="380" width="272" height="30">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>质量保障</p>
+      </content>
+    </shape>
+    <line type="straight-connector1" startX="784" startY="248" endX="784" endY="270">
+      <border color="rgba(214,214,210,1)" width="2" />
+    </line>
+    <shape type="text" topLeftX="648" topLeftY="278" width="272" height="38">
+      <content fontFamily="思源黑体" fontSize="22" color="rgba(23,23,23,1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>增长部</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="648" topLeftY="336" width="272" height="30">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>市场品牌</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="648" topLeftY="380" width="272" height="30">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>社区运营</p>
+      </content>
+    </shape>
+  </data>
+</slide>

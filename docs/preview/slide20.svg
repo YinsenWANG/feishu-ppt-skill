@@ -16,36 +16,34 @@
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">20</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">改变，清晰可见</tspan></text>
+<text x="40" y="107.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">改变，清晰可见</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="132.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">同一指标，在优化前后的对比。</tspan></text>
-</g>
-<rect x="70" y="176" width="330" height="210" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="98" y="212.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">优化前</tspan></text>
+<text x="40" y="149.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">同一指标，在优化前后的对比。</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="98" y="283.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="44" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">42%</tspan></text>
+<text x="40" y="221" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">优化前</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="98" y="331.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
+<text x="40" y="302.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">42%</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="480" y="280.9" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">→</tspan></text>
-</g>
-<rect x="560" y="176" width="330" height="210" rx="16" fill="#FDEBED" stroke="#FFD2D5" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="588" y="212.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">优化后</tspan></text>
+<text x="40" y="360.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="588" y="283.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="44" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">68%</tspan></text>
+<text x="480" y="297" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">→</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="588" y="331.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
+<text x="550" y="221" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#171717" font-weight="normal" font-style="normal" text-decoration="none">优化后</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="852" y="366.2" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">↑ 26 个百分点</tspan></text>
+<text x="550" y="302.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">68%</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="550" y="360.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="454.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">↑ 26 个百分点</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

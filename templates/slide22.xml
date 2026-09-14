@@ -1,1 +1,103 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="160" height="18"><content fontSize="12" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="730" topLeftY="28" width="190" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>图表 · 折线趋势</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="300" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="50" height="14"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>22</p></content></shape><shape type="text" topLeftX="40" topLeftY="76" width="820" height="42"><content fontSize="30" fontFamily="思源黑体" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>用户留存进入稳定区间</p></content></shape><shape type="text" topLeftX="40" topLeftY="121" width="820" height="24"><content fontSize="13" fontFamily="思源黑体" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>关键拐点出现在第 4 周。</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="40" topLeftY="158" width="880" height="292"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><chart topLeftX="58" topLeftY="176" width="844" height="248"><chartPlotArea><chartPlot type="line"><chartExtra><chartSmooth/></chartExtra></chartPlot><chartAxes><chartAxis type="x"><chartLabel fontSize="10"/></chartAxis><chartAxis type="y" position="left"><chartGridLine color="rgba(214,214,210,1)"/><chartLabel fontSize="10"/></chartAxis></chartAxes></chartPlotArea><chartData><dim1><chartField name="周次" valueType="string">W1,W2,W3,W4,W5,W6,W7,W8</chartField></dim1><dim2><chartField name="留存率" valueType="number">48,52,55,63,66,67,68,69</chartField></dim2></chartData><chartStyle><chartBackground color="rgba(0, 0, 0, 0)"/><chartBorder color="rgba(214,214,210,1)" width="0"/><chartColorTheme><color value="rgb(255, 90, 95)"/><color value="rgb(88, 158, 247)"/><color value="rgb(43, 201, 209)"/></chartColorTheme></chartStyle></chart><shape type="round-rect" presetHandlers="10" topLeftX="480" topLeftY="188" width="138" height="32"><fill><fillColor color="rgba(253, 235, 237, 1)"/></fill><border color="rgba(255, 210, 213, 1)" width="1"/></shape><shape type="text" topLeftX="490" topLeftY="194" width="118" height="20"><content fontSize="10" fontFamily="思源黑体" color="rgba(255, 90, 95, 1)" bold="true" textAlign="center" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>W4 · 关键拐点</p></content></shape><shape type="text" topLeftX="40" topLeftY="470" width="500" height="16"><content fontSize="10" fontFamily="思源黑体" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>来源：模拟数据，仅占位，待替换真实数据</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>图表 · 折线趋势</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="300" height="14">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="14">
+      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>22</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontSize="30" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>用户留存进入稳定区间</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="137" width="880" height="26">
+      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>关键拐点出现在第 4 周。</p>
+      </content>
+    </shape>
+    <chart topLeftX="40" topLeftY="202" width="650" height="250">
+      <chartPlotArea>
+        <chartPlot type="line" />
+        <chartAxes>
+          <chartAxis type="x">
+            <chartLabel fontSize="12" color="rgba(105,105,112,1)" angle="0" />
+          </chartAxis>
+          <chartAxis type="y" position="left" min="0" max="70">
+            <chartGridLine color="rgba(214,214,210,1)" width="1" />
+            <chartLabel fontSize="12" color="rgba(105,105,112,1)" format="0" />
+          </chartAxis>
+        </chartAxes>
+      </chartPlotArea>
+      <chartData>
+        <dim1>
+          <chartField name="周次" valueType="string">W1,W2,W3,W4,W5,W6,W7,W8</chartField>
+        </dim1>
+        <dim2>
+          <chartField name="留存率" valueType="number">48,52,55,63,66,67,68,69</chartField>
+        </dim2>
+      </chartData>
+      <chartStyle>
+        <chartBackground color="rgba(0, 0, 0, 0)" />
+        <chartColorTheme>
+          <color value="rgba(105,105,112,1)" />
+        </chartColorTheme>
+      </chartStyle>
+    </chart>
+    <shape type="text" topLeftX="738" topLeftY="364" width="182" height="44">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>W4 · 关键拐点</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="465" width="880" height="18">
+      <content fontSize="12" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>来源：模拟数据，仅占位，待替换真实数据</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="172" width="650" height="20">
+      <content fontSize="12" fontFamily="思源黑体" bold="false" color="rgba(105,105,112,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+        <p>指标变化 · 示例数据</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="738" topLeftY="202" width="180" height="22">
+      <content fontSize="12" fontFamily="思源黑体" bold="false" color="rgba(105,105,112,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+        <p>展示期末</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="238" width="180" height="66">
+      <content fontSize="48" fontFamily="思源黑体" bold="true" color="rgba(255,90,95,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+        <p>69</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="738" topLeftY="316" width="180" height="24">
+      <content fontSize="15" fontFamily="思源黑体" bold="false" color="rgba(72,72,78,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+        <p>指标值</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="486" width="880" height="18">
+      <content fontSize="12" fontFamily="思源黑体" bold="false" color="rgba(105,105,112,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+        <p>示例数据仅展示布局，替换数值后重新设定纵轴和重点数字。</p>
+      </content>
+    </shape>
+  </data>
+</slide>

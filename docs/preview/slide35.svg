@@ -10,52 +10,37 @@
 <text x="920" y="37.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">方案 · 问题解决</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">每一个痛点，都有对应解法</tspan></text>
+<text x="40" y="113.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">每一个痛点，都有对应解法</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="70" y="163.85" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">当前痛点</tspan></text>
+<text x="40" y="172.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">当前痛点</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="535" y="163.85" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">对应解法</tspan></text>
+<text x="524" y="172.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#FF5A5F" font-weight="normal" font-style="normal" text-decoration="none">对应解法</tspan></text>
 </g>
-<rect x="55" y="190" width="390" height="62" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="82" cy="219" rx="7" ry="7" fill="#FF5A5F" stroke="#FF5A5F" stroke-width="1"/>
+<rect x="40" y="202" width="396" height="68" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="105" y="223.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">工具分散，切换成本高</tspan></text>
+<text x="64" y="240.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">工具分散，切换成本高</tspan></text>
 </g>
-<rect x="515" y="190" width="390" height="62" rx="16" fill="#FFFFFF" stroke="#22C76A" stroke-width="1"/>
-<ellipse cx="544" cy="219" rx="9" ry="9" fill="#22C76A" stroke="#22C76A" stroke-width="1"/>
+<rect x="524" y="202" width="396" height="68" rx="10" fill="#FDEBED"/>
 <g data-preview-text="true">
-<text x="544" y="221.025" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold" font-style="normal" text-decoration="none">●</tspan></text>
+<text x="548" y="240.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">一个工作区统一入口</tspan></text>
 </g>
+<rect x="40" y="288" width="396" height="68" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="570" y="223.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">一个工作区统一入口</tspan></text>
+<text x="64" y="326.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">知识孤岛，查找效率低</tspan></text>
 </g>
-<rect x="55" y="272" width="390" height="62" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="82" cy="301" rx="7" ry="7" fill="#FF5A5F" stroke="#FF5A5F" stroke-width="1"/>
+<rect x="524" y="288" width="396" height="68" rx="10" fill="#FDEBED"/>
 <g data-preview-text="true">
-<text x="105" y="305.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">知识孤岛，查找效率低</tspan></text>
+<text x="548" y="326.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">知识库实时关联任务</tspan></text>
 </g>
-<rect x="515" y="272" width="390" height="62" rx="16" fill="#FFFFFF" stroke="#22C76A" stroke-width="1"/>
-<ellipse cx="544" cy="301" rx="9" ry="9" fill="#22C76A" stroke="#22C76A" stroke-width="1"/>
+<rect x="40" y="374" width="396" height="68" rx="10" fill="#F5F5F3"/>
 <g data-preview-text="true">
-<text x="544" y="303.025" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold" font-style="normal" text-decoration="none">●</tspan></text>
+<text x="64" y="412.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">流程依赖个人经验</tspan></text>
 </g>
+<rect x="524" y="374" width="396" height="68" rx="10" fill="#FDEBED"/>
 <g data-preview-text="true">
-<text x="570" y="305.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">知识库实时关联任务</tspan></text>
-</g>
-<rect x="55" y="354" width="390" height="62" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<ellipse cx="82" cy="383" rx="7" ry="7" fill="#FF5A5F" stroke="#FF5A5F" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="105" y="387.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">流程依赖个人经验</tspan></text>
-</g>
-<rect x="515" y="354" width="390" height="62" rx="16" fill="#FFFFFF" stroke="#22C76A" stroke-width="1"/>
-<ellipse cx="544" cy="383" rx="9" ry="9" fill="#22C76A" stroke="#22C76A" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="544" y="385.025" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold" font-style="normal" text-decoration="none">●</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="570" y="387.575" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">标准模板沉淀方法</tspan></text>
+<text x="548" y="412.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">标准模板沉淀方法</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="519.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">Cherry Studio · Internal Template</tspan></text>

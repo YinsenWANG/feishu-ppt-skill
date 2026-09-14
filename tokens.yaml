@@ -161,14 +161,14 @@ accent_colors:
 - palette_120_220_160_1
 font_sizes:
   page_title: 30
-  card_title: 18
-  body: 13
-  caption: 11
+  card_title: 22
+  body: 15
+  caption: 12
   footer: 10
   kpi_number: 48
 radii:
-  card: 16
-  tag: 16
+  card: 10
+  tag: 10
   bar: 16
 spacing:
   margin: 40

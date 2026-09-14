@@ -1,1 +1,55 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="160" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="730" topLeftY="28" width="190" height="16"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>封底 · CTA</p></content></shape><shape type="text" topLeftX="180" topLeftY="158" width="600" height="62"><content fontFamily="思源黑体" fontSize="40" color="rgba(23, 23, 23, 1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>让我们开始</p></content></shape><shape type="text" topLeftX="220" topLeftY="232" width="520" height="28"><content fontFamily="思源黑体" fontSize="14" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>把下一次表达，变成下一步行动。</p></content></shape><shape type="round-rect" presetHandlers="16" topLeftX="356" topLeftY="290" width="248" height="56"><fill><fillColor color="rgba(255,255,255,1)"/></fill><border color="rgba(255,90,95,1)" width="1"/></shape><shape type="text" topLeftX="386" topLeftY="300" width="188" height="36"><content fontFamily="思源黑体" fontSize="16" color="rgba(255,90,95,1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>联系 Cherry Studio</p></content></shape><shape type="text" topLeftX="300" topLeftY="376" width="360" height="22"><content fontFamily="思源黑体" fontSize="13" color="rgba(72, 72, 78, 1)" bold="false" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>hello@cherry-ai.com</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="260" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="40" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit"><p>06</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255,255,255,1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>封底 · CTA</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="600" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="40" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.35" wrap="true" autoFit="normal-auto-fit">
+        <p>06</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="198" width="548" height="70">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>让我们开始</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="279" width="548" height="66">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>把下一次表达，变成下一步行动。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="365" width="548" height="52">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(255,90,95,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>hello@cherry-ai.com</p>
+      </content>
+    </shape>
+    <shape type="round-rect" topLeftX="648" topLeftY="208" width="272" height="176" presetHandlers="16">
+      <fill>
+        <fillColor color="rgba(253,235,237,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="672" topLeftY="248" width="224" height="92">
+      <content fontFamily="思源黑体" fontSize="22" color="rgba(23,23,23,1)" bold="true" textAlign="center" verticalAlign="middle" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>联系 Cherry Studio</p>
+      </content>
+    </shape>
+  </data>
+</slide>

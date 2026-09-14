@@ -16,50 +16,66 @@
 <text x="930" y="518.5" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">22</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="101.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">用户留存进入稳定区间</tspan></text>
+<text x="40" y="107.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">用户留存进入稳定区间</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="132.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">关键拐点出现在第 4 周。</tspan></text>
+<text x="40" y="149.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">关键拐点出现在第 4 周。</tspan></text>
 </g>
-<rect x="40" y="158" width="880" height="292" rx="16" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
-<g data-preview-chart="line" transform="translate(58 176)">
-<rect width="844" height="248" fill="#00000000" stroke="#D6D6D2" stroke-width="0"/>
-<line x1="42" y1="218" x2="832" y2="218" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="221" text-anchor="end" font-size="10" fill="#696970">0</text>
-<line x1="42" y1="166.5" x2="832" y2="166.5" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="169.5" text-anchor="end" font-size="10" fill="#696970">18.6</text>
-<line x1="42" y1="115" x2="832" y2="115" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="118" text-anchor="end" font-size="10" fill="#696970">37.3</text>
-<line x1="42" y1="63.5" x2="832" y2="63.5" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="66.5" text-anchor="end" font-size="10" fill="#696970">55.9</text>
-<line x1="42" y1="12" x2="832" y2="12" stroke="#D6D6D2" stroke-width="0.5"/>
-<text x="36" y="15" text-anchor="end" font-size="10" fill="#696970">74.5</text>
-<line x1="42" y1="218" x2="832" y2="218" stroke="#999999"/>
-<text x="91.375" y="235" text-anchor="middle" font-size="10" fill="#696970">W1</text>
-<text x="190.125" y="235" text-anchor="middle" font-size="10" fill="#696970">W2</text>
-<text x="288.875" y="235" text-anchor="middle" font-size="10" fill="#696970">W3</text>
-<text x="387.625" y="235" text-anchor="middle" font-size="10" fill="#696970">W4</text>
-<text x="486.375" y="235" text-anchor="middle" font-size="10" fill="#696970">W5</text>
-<text x="585.125" y="235" text-anchor="middle" font-size="10" fill="#696970">W6</text>
-<text x="683.875" y="235" text-anchor="middle" font-size="10" fill="#696970">W7</text>
-<text x="782.625" y="235" text-anchor="middle" font-size="10" fill="#696970">W8</text>
-<polyline data-chart-mark="line" points="91.375,85.3108 190.125,74.2534 288.875,65.9603 387.625,43.8454 486.375,35.5523 585.125,32.788 683.875,30.0236 782.625,27.2593" fill="none" stroke="#FF5A5F" stroke-width="2.5"/>
-<circle data-chart-mark="point" cx="91.375" cy="85.3108" r="3.5" fill="#FF5A5F"><title>留存率 / W1: 48</title></circle>
-<circle data-chart-mark="point" cx="190.125" cy="74.2534" r="3.5" fill="#FF5A5F"><title>留存率 / W2: 52</title></circle>
-<circle data-chart-mark="point" cx="288.875" cy="65.9603" r="3.5" fill="#FF5A5F"><title>留存率 / W3: 55</title></circle>
-<circle data-chart-mark="point" cx="387.625" cy="43.8454" r="3.5" fill="#FF5A5F"><title>留存率 / W4: 63</title></circle>
-<circle data-chart-mark="point" cx="486.375" cy="35.5523" r="3.5" fill="#FF5A5F"><title>留存率 / W5: 66</title></circle>
-<circle data-chart-mark="point" cx="585.125" cy="32.788" r="3.5" fill="#FF5A5F"><title>留存率 / W6: 67</title></circle>
-<circle data-chart-mark="point" cx="683.875" cy="30.0236" r="3.5" fill="#FF5A5F"><title>留存率 / W7: 68</title></circle>
-<circle data-chart-mark="point" cx="782.625" cy="27.2593" r="3.5" fill="#FF5A5F"><title>留存率 / W8: 69</title></circle>
+<g data-preview-chart="line" transform="translate(40 202)">
+<rect width="650" height="250" fill="#00000000"/>
+<line x1="42" y1="220" x2="638" y2="220" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="0" x="36" y="223" text-anchor="end" font-size="12" fill="#696970">0</text>
+<line x1="42" y1="160.571" x2="638" y2="160.571" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="20" x="36" y="163.571" text-anchor="end" font-size="12" fill="#696970">20</text>
+<line x1="42" y1="101.143" x2="638" y2="101.143" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="40" x="36" y="104.143" text-anchor="end" font-size="12" fill="#696970">40</text>
+<line x1="42" y1="41.7143" x2="638" y2="41.7143" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="60" x="36" y="44.7143" text-anchor="end" font-size="12" fill="#696970">60</text>
+<line x1="42" y1="12" x2="638" y2="12" stroke="#D6D6D2" stroke-width="1"/>
+<text data-chart-axis="y" data-axis-value="70" x="36" y="15" text-anchor="end" font-size="12" fill="#696970">70</text>
+<line x1="42" y1="220" x2="638" y2="220" stroke="#999999"/>
+<text data-chart-axis="x" x="79.25" y="237" text-anchor="middle" font-size="12" fill="#696970">W1</text>
+<text data-chart-axis="x" x="153.75" y="237" text-anchor="middle" font-size="12" fill="#696970">W2</text>
+<text data-chart-axis="x" x="228.25" y="237" text-anchor="middle" font-size="12" fill="#696970">W3</text>
+<text data-chart-axis="x" x="302.75" y="237" text-anchor="middle" font-size="12" fill="#696970">W4</text>
+<text data-chart-axis="x" x="377.25" y="237" text-anchor="middle" font-size="12" fill="#696970">W5</text>
+<text data-chart-axis="x" x="451.75" y="237" text-anchor="middle" font-size="12" fill="#696970">W6</text>
+<text data-chart-axis="x" x="526.25" y="237" text-anchor="middle" font-size="12" fill="#696970">W7</text>
+<text data-chart-axis="x" x="600.75" y="237" text-anchor="middle" font-size="12" fill="#696970">W8</text>
+<defs><clipPath id="preview-chart-clip-1"><rect x="42" y="12" width="596" height="208"/></clipPath></defs>
+<g data-chart-marks="true" clip-path="url(#preview-chart-clip-1)">
+<polyline data-chart-mark="line" points="79.25,77.3714 153.75,65.4857 228.25,56.5714 302.75,32.8 377.25,23.8857 451.75,20.9143 526.25,17.9429 600.75,14.9714" fill="none" stroke="#696970" stroke-width="2.5"/>
+<circle data-chart-mark="point" cx="79.25" cy="77.3714" r="3.5" fill="#696970"><title>留存率 / W1: 48</title></circle>
+<circle data-chart-mark="point" cx="153.75" cy="65.4857" r="3.5" fill="#696970"><title>留存率 / W2: 52</title></circle>
+<circle data-chart-mark="point" cx="228.25" cy="56.5714" r="3.5" fill="#696970"><title>留存率 / W3: 55</title></circle>
+<circle data-chart-mark="point" cx="302.75" cy="32.8" r="3.5" fill="#696970"><title>留存率 / W4: 63</title></circle>
+<circle data-chart-mark="point" cx="377.25" cy="23.8857" r="3.5" fill="#696970"><title>留存率 / W5: 66</title></circle>
+<circle data-chart-mark="point" cx="451.75" cy="20.9143" r="3.5" fill="#696970"><title>留存率 / W6: 67</title></circle>
+<circle data-chart-mark="point" cx="526.25" cy="17.9429" r="3.5" fill="#696970"><title>留存率 / W7: 68</title></circle>
+<circle data-chart-mark="point" cx="600.75" cy="14.9714" r="3.5" fill="#696970"><title>留存率 / W8: 69</title></circle>
 </g>
-<rect x="480" y="188" width="138" height="32" rx="10" fill="#FDEBED" stroke="#FFD2D5" stroke-width="1"/>
-<g data-preview-text="true">
-<text x="549" y="202.5" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">W4 · 关键拐点</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="478.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">来源：模拟数据，仅占位，待替换真实数据</tspan></text>
+<text x="738" y="374.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">W4 · 关键拐点</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="475.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">来源：模拟数据，仅占位，待替换真实数据</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="182.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">指标变化 · 示例数据</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="738" y="212.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">展示期末</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="730" y="278.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="48" fill="#FF5A5F" font-weight="bold" font-style="normal" text-decoration="none">69</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="738" y="328.75" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#48484E" font-weight="normal" font-style="normal" text-decoration="none">指标值</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="40" y="496.2" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#696970" font-weight="normal" font-style="normal" text-decoration="none">示例数据仅展示布局，替换数值后重新设定纵轴和重点数字。</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
-<metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: [{&quot;severity&quot;: &quot;warning&quot;, &quot;code&quot;: &quot;chart_smoothing_approximation&quot;, &quot;element&quot;: &quot;chartSmooth&quot;, &quot;message&quot;: &quot;Smooth curves use straight segments through the actual data points.&quot;}]}</metadata>
+<metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>
 </svg>

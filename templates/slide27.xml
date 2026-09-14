@@ -1,1 +1,126 @@
-<slide xmlns="https://www.larkoffice.com/sml/2.0"><style><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill></style><data><img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24"/><shape type="text" topLeftX="78" topLeftY="27" width="150" height="18"><content fontFamily="思源黑体" fontSize="12" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio</p></content></shape><shape type="text" topLeftX="720" topLeftY="27" width="200" height="16"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>流程 · 纵向时间线</p></content></shape><shape type="text" topLeftX="40" topLeftY="72" width="880" height="42"><content fontFamily="思源黑体" fontSize="30" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>从启动到复盘，每一步都有时间锚点</p></content></shape><shape type="rect" topLeftX="189" topLeftY="166" width="2" height="278" presetHandlers="0"><fill><fillColor color="rgba(214, 214, 210, 1)"/></fill><content fontSize="6"/></shape><shape type="text" topLeftX="55" topLeftY="150" width="105" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(105, 105, 112, 1)" bold="true" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>09:00</p></content></shape><shape type="ellipse" topLeftX="180" topLeftY="157" width="20" height="20"><fill><fillColor color="rgba(255, 90, 95, 1)"/></fill><border color="rgba(255, 90, 95, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="230" topLeftY="148" width="650" height="58"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="250" topLeftY="157" width="145" height="22"><content fontFamily="思源黑体" fontSize="15" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>项目启动</p></content></shape><shape type="text" topLeftX="405" topLeftY="157" width="440" height="22"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>确认目标、范围与成功标准</p></content></shape><shape type="text" topLeftX="55" topLeftY="228" width="105" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(105, 105, 112, 1)" bold="true" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Day 3</p></content></shape><shape type="ellipse" topLeftX="180" topLeftY="235" width="20" height="20"><fill><fillColor color="rgba(244, 93, 155, 1)"/></fill><border color="rgba(244, 93, 155, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="230" topLeftY="226" width="650" height="58"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="250" topLeftY="235" width="145" height="22"><content fontFamily="思源黑体" fontSize="15" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>方案评审</p></content></shape><shape type="text" topLeftX="405" topLeftY="235" width="440" height="22"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>聚焦关键假设与资源约束</p></content></shape><shape type="text" topLeftX="55" topLeftY="306" width="105" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(105, 105, 112, 1)" bold="true" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Week 2</p></content></shape><shape type="ellipse" topLeftX="180" topLeftY="313" width="20" height="20"><fill><fillColor color="rgba(43, 201, 209, 1)"/></fill><border color="rgba(43, 201, 209, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="230" topLeftY="304" width="650" height="58"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="250" topLeftY="313" width="145" height="22"><content fontFamily="思源黑体" fontSize="15" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>首轮交付</p></content></shape><shape type="text" topLeftX="405" topLeftY="313" width="440" height="22"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>用真实反馈校准执行路径</p></content></shape><shape type="text" topLeftX="55" topLeftY="384" width="105" height="24"><content fontFamily="思源黑体" fontSize="11" color="rgba(105, 105, 112, 1)" bold="true" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Month 1</p></content></shape><shape type="ellipse" topLeftX="180" topLeftY="391" width="20" height="20"><fill><fillColor color="rgba(166, 107, 234, 1)"/></fill><border color="rgba(166, 107, 234, 1)" width="1"/></shape><shape type="round-rect" presetHandlers="16" topLeftX="230" topLeftY="382" width="650" height="58"><fill><fillColor color="rgba(255, 255, 255, 1)"/></fill><border color="rgba(214, 214, 210, 1)" width="1"/></shape><shape type="text" topLeftX="250" topLeftY="391" width="145" height="22"><content fontFamily="思源黑体" fontSize="15" color="rgba(23, 23, 23, 1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>复盘升级</p></content></shape><shape type="text" topLeftX="405" topLeftY="391" width="440" height="22"><content fontFamily="思源黑体" fontSize="12" color="rgba(72, 72, 78, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>沉淀模板，进入下一轮迭代</p></content></shape><shape type="text" topLeftX="40" topLeftY="510" width="260" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>Cherry Studio · Internal Template</p></content></shape><shape type="text" topLeftX="880" topLeftY="510" width="40" height="14"><content fontFamily="思源黑体" fontSize="10" color="rgba(105, 105, 112, 1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit"><p>27</p></content></shape></data></slide>
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(255, 255, 255, 1)" />
+    </fill>
+  </style>
+  <data>
+    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
+    <shape type="text" topLeftX="78" topLeftY="27" width="150" height="18">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="720" topLeftY="27" width="200" height="16">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>流程 · 纵向时间线</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="82" width="880" height="46">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>从启动到复盘，每一步都有时间锚点</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="174" topLeftY="190" width="1" height="226" presetHandlers="0">
+      <fill>
+        <fillColor color="rgba(214,214,210,1)" />
+      </fill>
+      <content fontSize="6" />
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="180" width="120" height="26">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>09:00</p>
+      </content>
+    </shape>
+    <shape type="ellipse" topLeftX="169" topLeftY="188" width="12" height="12">
+      <fill>
+        <fillColor color="rgba(105,105,112,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="210" topLeftY="174" width="192" height="34">
+      <content fontFamily="思源黑体" fontSize="20" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>项目启动</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="432" topLeftY="180" width="488" height="42">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>确认目标、范围与成功标准</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="254" width="120" height="26">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Day 3</p>
+      </content>
+    </shape>
+    <shape type="ellipse" topLeftX="169" topLeftY="262" width="12" height="12">
+      <fill>
+        <fillColor color="rgba(105,105,112,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="210" topLeftY="248" width="192" height="34">
+      <content fontFamily="思源黑体" fontSize="20" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>方案评审</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="432" topLeftY="254" width="488" height="42">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>聚焦关键假设与资源约束</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="328" width="120" height="26">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Week 2</p>
+      </content>
+    </shape>
+    <shape type="ellipse" topLeftX="169" topLeftY="336" width="12" height="12">
+      <fill>
+        <fillColor color="rgba(105,105,112,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="210" topLeftY="322" width="192" height="34">
+      <content fontFamily="思源黑体" fontSize="20" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>首轮交付</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="432" topLeftY="328" width="488" height="42">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>用真实反馈校准执行路径</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="402" width="120" height="26">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Month 1</p>
+      </content>
+    </shape>
+    <shape type="ellipse" topLeftX="169" topLeftY="410" width="12" height="12">
+      <fill>
+        <fillColor color="rgba(255,90,95,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="210" topLeftY="396" width="192" height="34">
+      <content fontFamily="思源黑体" fontSize="20" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>复盘升级</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="432" topLeftY="402" width="488" height="42">
+      <content fontFamily="思源黑体" fontSize="15" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>沉淀模板，进入下一轮迭代</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="510" width="260" height="14">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="880" topLeftY="510" width="40" height="14">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+        <p>27</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="40" topLeftY="472" width="880" height="22">
+      <content fontSize="12" fontFamily="思源黑体" bold="false" color="rgba(105,105,112,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+        <p>日期、节点与说明应使用同一时间口径。</p>
+      </content>
+    </shape>
+  </data>
+</slide>
