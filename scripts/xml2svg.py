@@ -24,12 +24,16 @@ SKILL_ROOT = Path(__file__).resolve().parent.parent
 FONT = "'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif"
 APPROXIMATION = "Approximate preview: estimated text wrapping; no auto-fit or exact Feishu font/chart layout. Final acceptance requires Feishu screenshots."
 GEOMETRY = {"topLeftX", "topLeftY", "width", "height"}
+LINE_ENDPOINTS = ("startX", "startY", "endX", "endY")
 TEXT_ATTRS = {"fontSize", "fontFamily", "color", "bold", "italic", "underline", "strikethrough", "textAlign", "verticalAlign", "lineSpacing", "wrap", "autoFit"}
 COLOR_PATTERN = re.compile(r"rgba?\(\s*\d+\s*,\s*\d+\s*,\s*\d+(?:\s*,\s*[\d.]+)?\s*\)|#[0-9a-fA-F]{3,4}|#[0-9a-fA-F]{6}|#[0-9a-fA-F]{8}")
 # Unknown elements/attributes are reported; identity metadata is intentionally ignored.
 SUPPORTED = {
     "slide": {"width", "height"}, "data": set(), "style": set(),
     "shape": GEOMETRY | {"type", "radius", "presetHandlers"},
+    "line": set(LINE_ENDPOINTS) | {"type", "alpha"},
+    "startArrow": {"type", "widthScale", "heightScale"},
+    "endArrow": {"type", "widthScale", "heightScale"},
     "content": TEXT_ATTRS, "p": TEXT_ATTRS, "span": TEXT_ATTRS, "br": set(),
     "fill": set(), "fillColor": {"color"}, "border": {"color", "width"},
     "img": GEOMETRY | {"src"}, "table": GEOMETRY, "colgroup": set(),
@@ -246,6 +250,68 @@ class Renderer:
         self.issue("unsupported_shape",f"Shape type {kind!r} is not rendered.",elem)
         return self.placeholder(elem,f"Unsupported shape: {kind}")
 
+    def line(self, elem):
+        """Render native SML absolute endpoints, preserving document paint order."""
+        if elem.get("type", "straight-connector1") not in {"line", "straight-connector1"}:
+            self.issue("unsupported_line", f"Line type {elem.get('type')!r} is not rendered.", elem)
+            return self.placeholder(elem, "Unsupported line")
+        points = [parse_float(elem.get(key), None) for key in LINE_ENDPOINTS]
+        if any(value is None for value in points):
+            self.issue("invalid_line_geometry", "Line requires four finite startX/startY/endX/endY coordinates.", elem, "error")
+            return self.placeholder(elem, "Invalid line endpoints")
+        x1, y1, x2, y2 = points
+        dx, dy = x2-x1, y2-y1
+        length = math.hypot(dx, dy)
+        if not math.isfinite(length) or length == 0:
+            self.issue("invalid_line_geometry", "Line endpoints must define a finite, nonzero-length line.", elem, "error")
+            return self.placeholder(elem, "Invalid line endpoints")
+        border = find(elem, "border")
+        if border is None:
+            self.issue("missing_line_border", "Native SML line requires a border element.", elem, "error")
+            return self.placeholder(elem, "Missing line border")
+        width = parse_float(border.get("width"), 2.0 if border.get("width") is None else None)
+        alpha = parse_float(elem.get("alpha"), 1 if elem.get("alpha") is None else None)
+        if width is None or width < 0 or not width.is_integer() or alpha is None or not 0 <= alpha <= 1:
+            self.issue("invalid_line_style", "Line border width must be a nonnegative integer; alpha must be between 0 and 1.", elem, "error")
+            return self.placeholder(elem, "Invalid line style")
+        color = esc(rgba_to_hex(border.get("color", "rgba(43, 47, 54, 1)")))
+        parts = [f'<g data-preview-line="true" opacity="{alpha:g}">',
+                 f'<line x1="{x1:g}" y1="{y1:g}" x2="{x2:g}" y2="{y2:g}" fill="none" stroke="{color}" stroke-width="{width:g}"/>']
+        for child, position, tip, direction in (("startArrow", "start", (x1, y1), (-dx/length, -dy/length)),
+                                                 ("endArrow", "end", (x2, y2), (dx/length, dy/length))):
+            arrow = find(elem, child)
+            if arrow is not None:
+                parts.append(self.line_arrow(arrow, position, tip, direction, width, color))
+        return "\n".join(parts+["</g>"])
+
+    def line_arrow(self, elem, position, tip, direction, width, color):
+        """Approximate basic/filled triangle arrow sizes in the line's direction."""
+        kind = elem.get("type", "none")
+        if kind == "none":
+            return ""
+        if kind not in {"arrow", "solid-triangle"}:
+            self.issue("unsupported_arrow", f"Arrow type {kind!r} is not rendered.", elem)
+            return ""
+        scales = {"sm": 3, "med": 4, "lg": 5}
+        sizes = []
+        for key in ("heightScale", "widthScale"):
+            scale = elem.get(key, "med")
+            if scale not in scales:
+                self.issue("unsupported_attribute_value", f"<{local_name(elem.tag)}> {key}={scale!r} uses medium arrow size.", elem)
+            sizes.append(scales.get(scale, scales["med"])*width)
+        if width == 0:
+            return ""
+        arrow_length, arrow_width = sizes
+        x, y = tip
+        ux, uy = direction
+        bx, by = x-ux*arrow_length, y-uy*arrow_length
+        left = (bx-uy*arrow_width/2, by+ux*arrow_width/2)
+        right = (bx+uy*arrow_width/2, by-ux*arrow_width/2)
+        attrs = f'data-preview-arrow="{position}" stroke="{color}" stroke-width="{width:g}" stroke-linejoin="round"'
+        if kind == "solid-triangle":
+            return f'<polygon {attrs} points="{x:g},{y:g} {left[0]:g},{left[1]:g} {right[0]:g},{right[1]:g}" fill="{color}"/>'
+        return f'<path {attrs} d="M {left[0]:g},{left[1]:g} L {x:g},{y:g} L {right[0]:g},{right[1]:g}" fill="none"/>'
+
     def image(self, elem):
         src = elem.get("src", "")
         path = Path(src[1:] if src.startswith("@") else src)
@@ -418,7 +484,7 @@ class Renderer:
                  f'<title>{esc(self.xml_path.stem)} — 近似预览 / Approximate preview</title>',f'<desc>{esc(APPROXIMATION)}</desc>',
                  f'<rect width="{width:g}" height="{height:g}" fill="{self.fill(find(root,"style"))}"/>']
         for elem in find(root,"data"):
-            method = {"shape":self.shape,"img":self.image,"table":self.table,"chart":self.chart}.get(local_name(elem.tag))
+            method = {"shape":self.shape,"line":self.line,"img":self.image,"table":self.table,"chart":self.chart}.get(local_name(elem.tag))
             parts.append(method(elem) if method else self.placeholder(elem,f"Unsupported: {local_name(elem.tag)}"))
         parts.append(f'<text x="{width-8:g}" y="{height-3:g}" text-anchor="end" font-family="{FONT}" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>')
         parts.append("<metadata>"+esc(json.dumps({"approximate":True,"issues":self.issues},ensure_ascii=False))+"</metadata>")

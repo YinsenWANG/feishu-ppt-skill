@@ -11923,7 +11923,7 @@
     {
       "id": "slide28",
       "file": "slide28.xml",
-      "source_sha256": "0b8888969a2c8b1cba4ce45c8b887127d4c6cdbcb500ab6f850501d56d03c036",
+      "source_sha256": "1475db89ff8d3decad945d0fe714175233e1a580c1013708d0831bc08121e783",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 11,
       "fields": [
@@ -12045,7 +12045,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 9
+              "index": 5
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12075,7 +12075,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12105,7 +12105,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12135,7 +12135,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12165,7 +12165,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12195,7 +12195,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 18
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12225,7 +12225,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 15
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12607,7 +12607,7 @@
     {
       "id": "slide30",
       "file": "slide30.xml",
-      "source_sha256": "4fceea6888bc6d878a04627c83a627c6e03f573980cce6905d907020ff5bd15d",
+      "source_sha256": "1ea2eb46d10f959709c51e25135e4d257da4112d929c8ba09292d41b1dfd665a",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 15,
       "fields": [
@@ -12759,7 +12759,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12789,7 +12789,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 9
+              "index": 8
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12819,7 +12819,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12849,7 +12849,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12879,7 +12879,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12909,7 +12909,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12939,7 +12939,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 20
+              "index": 16
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12969,7 +12969,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 21
+              "index": 17
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12999,7 +12999,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 22
+              "index": 18
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13029,7 +13029,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 23
+              "index": 19
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",

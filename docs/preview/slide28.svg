@@ -12,10 +12,22 @@
 <g data-preview-text="true">
 <text x="40" y="101.25" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">增长不是终点，而是一套持续闭环</tspan></text>
 </g>
-<rect x="500" y="189" width="190" height="2" rx="0" fill="#D6D6D2"/>
-<rect x="500" y="324" width="190" height="2" rx="0" fill="#D6D6D2"/>
-<rect x="210" y="409" width="250" height="2" rx="0" fill="#D6D6D2"/>
-<rect x="210" y="294" width="250" height="2" rx="0" fill="#D6D6D2"/>
+<g data-preview-line="true" opacity="1">
+<line x1="526.59" y1="205.26" x2="673.41" y2="281.74" fill="none" stroke="#D6D6D2" stroke-width="2"/>
+<polygon data-preview-arrow="end" stroke="#D6D6D2" stroke-width="2" stroke-linejoin="round" points="673.41,281.74 666.703,281.629 669.475,276.307" fill="#D6D6D2"/>
+</g>
+<g data-preview-line="true" opacity="1">
+<line x1="672.01" y1="328.99" x2="527.99" y2="398.01" fill="none" stroke="#D6D6D2" stroke-width="2"/>
+<polygon data-preview-arrow="end" stroke="#D6D6D2" stroke-width="2" stroke-linejoin="round" points="527.99,398.01 532.104,392.712 534.697,398.122" fill="#D6D6D2"/>
+</g>
+<g data-preview-line="true" opacity="1">
+<line x1="432.01" y1="398.01" x2="287.99" y2="328.99" fill="none" stroke="#D6D6D2" stroke-width="2"/>
+<polygon data-preview-arrow="end" stroke="#D6D6D2" stroke-width="2" stroke-linejoin="round" points="287.99,328.99 294.697,328.878 292.104,334.288" fill="#D6D6D2"/>
+</g>
+<g data-preview-line="true" opacity="1">
+<line x1="286.59" y1="281.74" x2="433.41" y2="205.26" fill="none" stroke="#D6D6D2" stroke-width="2"/>
+<polygon data-preview-arrow="end" stroke="#D6D6D2" stroke-width="2" stroke-linejoin="round" points="433.41,205.26 429.475,210.693 426.703,205.371" fill="#D6D6D2"/>
+</g>
 <ellipse cx="480" cy="300" rx="80" ry="55" fill="#FFFFFF" stroke="#D6D6D2" stroke-width="1"/>
 <g data-preview-text="true">
 <text x="480" y="295.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#171717" font-weight="bold" font-style="normal" text-decoration="none">持续增长</tspan></text>

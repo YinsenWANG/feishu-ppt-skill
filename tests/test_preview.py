@@ -2,6 +2,7 @@
 import base64
 import importlib.util
 import json
+import math
 from pathlib import Path
 import re
 import subprocess
@@ -69,6 +70,118 @@ class PreviewTests(unittest.TestCase):
         tree, _ = self.render('<table width="200"><colgroup><col width="200"/></colgroup><tr height="60"><td><content fontSize="14"><p>表格<span bold="true">内容</span>尾</p><p>第二行</p></content></td></tr></table>')
         lines = tree.findall(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text')
         self.assertEqual(["".join(line.itertext()) for line in lines], ["表格内容尾","第二行"])
+
+    def test_native_line_preserves_endpoints_defaults_and_paint_order(self):
+        body = ('<line startX="120.5" startY="90" endX="35" endY="210" alpha="0.6"><border/></line>'
+                '<shape type="ellipse" topLeftX="20" topLeftY="180" width="30" height="60"/>')
+        for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+            with self.subTest(namespace=namespace):
+                tree, issues = self.render(body, namespace)
+                group = tree.find(f'{SVG}g[@data-preview-line="true"]')
+                line = group.find(f'{SVG}line')
+                self.assertEqual([float(line.get(k)) for k in ("x1", "y1", "x2", "y2")], [120.5, 90, 35, 210])
+                self.assertEqual(line.get("stroke"), "#2B2F36")
+                self.assertEqual(line.get("stroke-width"), "2")
+                self.assertEqual(group.get("opacity"), "0.6")
+                self.assertLess(list(tree).index(group), list(tree).index(tree.find(f'{SVG}ellipse')))
+                self.assertEqual(issues, [])
+
+    def test_arrowheads_follow_both_endpoints_in_all_directions(self):
+        for end in ((150, 100), (50, 100), (100, 150), (100, 50), (140, 160), (40, 70)):
+            with self.subTest(end=end):
+                body = (f'<line type="line" startX="100" startY="100" endX="{end[0]}" endY="{end[1]}">'
+                        '<border color="rgba(255, 90, 95, 1)" width="2"/>'
+                        '<startArrow type="solid-triangle" widthScale="sm" heightScale="sm"/>'
+                        '<endArrow type="solid-triangle" widthScale="lg" heightScale="lg"/></line>')
+                tree, issues = self.render(body)
+                arrows = {e.get("data-preview-arrow"): e for e in tree.findall(f'.//{SVG}polygon[@data-preview-arrow]')}
+                self.assertEqual(set(arrows), {"start", "end"})
+                lengths = {}
+                for position, tip, direction in (("start", (100, 100), (100-end[0], 100-end[1])),
+                                                  ("end", end, (end[0]-100, end[1]-100))):
+                    points = [tuple(map(float, pair.split(","))) for pair in arrows[position].get("points").split()]
+                    self.assertEqual(points[0], tip)
+                    midpoint = tuple((points[1][i]+points[2][i])/2 for i in (0, 1))
+                    back = (midpoint[0]-tip[0], midpoint[1]-tip[1])
+                    self.assertLess(sum(back[i]*direction[i] for i in (0, 1)), 0)
+                    self.assertAlmostEqual(back[0]*direction[1]-back[1]*direction[0], 0, delta=0.1)
+                    lengths[position] = math.hypot(*back)
+                    self.assertEqual(arrows[position].get("fill"), "#FF5A5F")
+                self.assertGreater(lengths["end"], lengths["start"])
+                self.assertEqual(issues, [])
+
+    def test_basic_none_and_unsupported_arrowheads_are_explicit(self):
+        tree, issues = self.render('<line startX="0" startY="0" endX="20" endY="30"><border/>'
+                                  '<startArrow type="none"/><endArrow type="arrow"/></line>')
+        arrow = tree.find(f'.//{SVG}path[@data-preview-arrow="end"]')
+        self.assertIsNotNone(arrow)
+        self.assertEqual(arrow.get("fill"), "none")
+        self.assertEqual(issues, [])
+        tree, issues = self.render('<line startX="0" startY="0" endX="20" endY="30"><border/>'
+                                  '<endArrow type="empty-circle"/></line>')
+        self.assertEqual([i["code"] for i in issues], ["unsupported_arrow"])
+        self.assertIsNotNone(tree.find(f'.//{SVG}g[@data-preview-line="true"]/{SVG}line'))
+        self.assertFalse([e for e in tree.iter() if e.get("data-preview-arrow")])
+
+    def test_invalid_line_endpoints_are_not_silently_drawn(self):
+        for attrs in ('startX="10" startY="20" endX="30"',
+                      'startX="NaN" startY="20" endX="30" endY="40"',
+                      'startX="10" startY="20" endX="inf" endY="40"',
+                      'startX="10" startY="20" endX="10" endY="20"'):
+            with self.subTest(attrs=attrs):
+                tree, issues = self.render(f'<line {attrs}><border/></line>')
+                self.assertTrue(any(i["code"] == "invalid_line_geometry" and i["severity"] == "error" for i in issues))
+                self.assertIsNone(tree.find(f'.//{SVG}g[@data-preview-line="true"]'))
+
+    def test_invalid_line_styles_and_zero_width(self):
+        for children, attrs in (("", ""), ('<border width="-1"/>', ""),
+                                ('<border width="NaN"/>', ""), ('<border width="1.5"/>', ""),
+                                ('<border/>', 'alpha="2"'), ('<border/>', 'alpha="NaN"')):
+            with self.subTest(children=children, attrs=attrs):
+                tree, issues = self.render(f'<line startX="10" startY="20" endX="30" endY="40" {attrs}>{children}</line>')
+                self.assertTrue(any(i["severity"] == "error" for i in issues))
+                self.assertIsNone(tree.find(f'.//{SVG}g[@data-preview-line="true"]'))
+        tree, issues = self.render('<line startX="0" startY="0" endX="20" endY="30"><border width="0"/>'
+                                  '<endArrow type="solid-triangle"/></line>')
+        self.assertEqual(issues, [])
+        self.assertEqual(tree.find(f'.//{SVG}g[@data-preview-line="true"]/{SVG}line').get("stroke-width"), "0")
+        self.assertFalse([e for e in tree.iter() if e.get("data-preview-arrow")])
+
+    def test_diagram_templates_keep_native_connectors_under_nodes(self):
+        for page in (28, 30):
+            with self.subTest(page=page):
+                source = ROOT / "templates" / f"slide{page}.xml"
+                data = preview.find(ET.parse(source).getroot(), "data")
+                lines = preview.children(data, "line")
+                self.assertEqual(len(lines), 4)
+                shapes = preview.children(data, "shape")
+                nodes = [e for e in shapes if e.get("type") in {"round-rect", "ellipse"}]
+                self.assertTrue(all(list(data).index(line) < min(list(data).index(node) for node in nodes) for line in lines))
+                self.assertFalse([e for e in shapes if e.get("type") == "rect" and float(e.get("height", 20)) <= 3])
+                centers = [(float(e.get("topLeftX"))+float(e.get("width"))/2,
+                            float(e.get("topLeftY"))+float(e.get("height"))/2) for e in nodes]
+                endpoints = [tuple(float(e.get(k)) for k in preview.LINE_ENDPOINTS) for e in lines]
+                if page == 30:
+                    hub = centers[0]
+                    self.assertEqual({coords[2:] for coords in endpoints}, {hub})
+                    self.assertEqual({coords[:2] for coords in endpoints}, set(centers[1:]))
+                else:
+                    outer = centers[1:]
+                    edges = []
+                    for coords in endpoints:
+                        pair = []
+                        for point in (coords[:2], coords[2:]):
+                            closest = min(range(len(outer)), key=lambda i: math.dist(point, outer[i]))
+                            pair.append(closest)
+                            cx, cy = outer[closest]
+                            self.assertGreater(((point[0]-cx)/55)**2+((point[1]-cy)/36)**2, 1)
+                        edges.append(tuple(pair))
+                    self.assertEqual(set(edges), {(0, 1), (1, 2), (2, 3), (3, 0)})
+                issues = []
+                tree = ET.fromstring(preview.xml_to_svg(source, diagnostics=issues))
+                self.assertEqual(issues, [])
+                self.assertEqual(len(tree.findall(f'{SVG}g[@data-preview-line="true"]')), 4)
+                self.assertEqual(len(tree.findall(f'.//{SVG}polygon[@data-preview-arrow="end"]')), 4 if page == 28 else 0)
 
     def test_all_five_library_charts_have_real_marks(self):
         chart_types, marks = [], []

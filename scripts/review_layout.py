@@ -113,6 +113,22 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
     boxes = {}
     for element in root.iter():
         name = local_name(element.tag)
+        if name == "line":
+            coordinates = ("startX", "startY", "endX", "endY")
+            if any(element.get(attribute) is None for attribute in coordinates):
+                issue("error", "missing_geometry", "Line needs startX, startY, endX and endY", element)
+            else:
+                try:
+                    sx, sy, ex, ey = (number(element.get(attribute)) for attribute in coordinates)
+                except ValueError:
+                    issue("error", "invalid_geometry", "Line endpoints must be finite numbers", element)
+                else:
+                    if min(sx, sy, ex, ey) < 0:
+                        issue("error", "negative_coord", "Line endpoint has a negative coordinate", element)
+                    if max(sx, ex) > canvas["width"] + 0.01 or max(sy, ey) > canvas["height"] + 0.01:
+                        issue("error", "out_of_bounds", "Line endpoint exceeds the slide canvas", element)
+                    if sx == ex and sy == ey:
+                        issue("error", "zero_size", "Line endpoints coincide", element)
         for attribute in ("topLeftX", "topLeftY", "width", "height"):
             raw = element.get(attribute)
             if raw is not None:

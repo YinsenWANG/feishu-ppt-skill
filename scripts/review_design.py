@@ -32,12 +32,19 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
     palette = tokens["normalized_colors"]
     allowed = set(tokens["allowed_colors"])
     paths = element_paths(root)
+    # Speaker notes are retained in the XML but do not appear on the canvas.
+    visible_elements = tuple(element for branch in root
+                             if local_name(branch.tag) in ("data", "style")
+                             for element in branch.iter())
+
+    def visible_descendants(name):
+        return (element for element in visible_elements if local_name(element.tag) == name)
 
     def issue(level, code, message, element=root):
         issues.append(make_issue(level, code, message, paths[element]))
 
     colors = {}
-    for element in root.iter():
+    for element in visible_elements:
         raw_color = element.get("color")
         if raw_color is None and local_name(element.tag) == "color":
             raw_color = element.get("value")
@@ -54,9 +61,9 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
 
     # A chart theme is a candidate palette. Validate every defined color above,
     # but only count colors assigned to data series/slices as visible accents.
-    theme_elements = {color for theme in descendants(root, "chartColorTheme") for color in descendants(theme, "color")}
+    theme_elements = {color for theme in visible_descendants("chartColorTheme") for color in descendants(theme, "color")}
     visible_colors = {value for element, value in colors.items() if element not in theme_elements}
-    for chart in descendants(root, "chart"):
+    for chart in visible_descendants("chart"):
         theme = next(descendants(chart, "chartColorTheme"), None)
         data = child(chart, "chartData")
         if theme is None or data is None:
@@ -82,7 +89,7 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
         issue("warning", "accent_overuse", f"{len(accents)} accent colors; theme recommends at most {rules['max_accent_colors']}")
 
     sizes = set()
-    for content in descendants(root, "content"):
+    for content in visible_descendants("content"):
         for paragraph, runs in paragraph_runs(content):
             for text, attrs in runs:
                 if not text.strip():
@@ -120,7 +127,7 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
             issue("error", "page_background_mismatch", f"Page background must be {palette[rules['page_background']]} in the selected theme", background)
 
     # Covers nested shape fills and table cell fills, not text/stroke colors.
-    for fill in descendants(root, "fillColor"):
+    for fill in visible_descendants("fillColor"):
         if fill in background_colors:
             continue
         value = colors.get(fill)
@@ -130,7 +137,7 @@ def review_slide(path: Path, tokens=None, tokens_path=None, assets_dir=None) -> 
     pill = rules["bottom_pill_bar"]
     if pill["enabled"]:
         pill_colors = {palette[name] for name in pill["colors"]}
-        for shape in descendants(root, "shape"):
+        for shape in visible_descendants("shape"):
             if shape.get("type") != "round-rect":
                 continue
             try:

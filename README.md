@@ -92,7 +92,7 @@ This produces a conservative comparison report, **not merged XML**. Missing IDs 
 | `scripts/template_fields.py` | Create bindings and prepare working copies |
 | `scripts/validate.py` | Unified schema, layout and theme checks |
 | `scripts/review_layout.py`, `scripts/review_design.py` | Individual checks for diagnosis |
-| `scripts/xml2svg.py` | Approximate text, image, shape, table and basic chart preview |
+| `scripts/xml2svg.py` | Approximate text, image, shape, native line/arrow, table and basic chart preview |
 | `scripts/compare_slides.py` | Offline three-way change/conflict report |
 | `scripts/preflight.py` | Local dependencies and optional CLI capability checks |
 | `tests/` | Regression and integration tests |

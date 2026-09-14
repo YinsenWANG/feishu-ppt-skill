@@ -97,6 +97,17 @@ class ValidatorsTests(unittest.TestCase):
         self.assertIn('invalid_geometry', self.codes(slide(text_shape(width='NaN'))))
         self.assertIn('invalid_geometry', self.codes(slide(text_shape(width=-2))))
 
+    def test_line_endpoint_geometry_is_checked_without_a_schema(self):
+        def source(sx='40', sy='40', ex='300', ey='200'):
+            return slide(f'<line startX="{sx}" startY="{sy}" endX="{ex}" endY="{ey}"><border color="#171717" width="2"/></line>')
+        self.assertFalse(self.codes(source()))
+        self.assertFalse(self.codes(source(sx='300', ex='40')))
+        self.assertIn('invalid_geometry', self.codes(source(ex='NaN')))
+        self.assertIn('out_of_bounds', self.codes(source(ey='541')))
+        self.assertIn('negative_coord', self.codes(source(sx='-1')))
+        self.assertIn('zero_size', self.codes(source(ex='40', ey='40')))
+        self.assertIn('missing_geometry', self.codes(slide('<line startX="40"/>')))
+
     def test_image_resolution_uses_xml_directory_and_explicit_asset_root(self):
         source = slide('<img src="@./asset.png" width="20" height="20" topLeftX="1" topLeftY="1"/>')
         path = self.xml(source)
@@ -193,6 +204,37 @@ class ValidatorsTests(unittest.TestCase):
 
     def test_span_font_minimum_is_checked(self):
         self.assertIn('font_below_min', self.codes(slide(text_shape('<p>正常<span fontSize="9">过小文字</span></p>')), review_design))
+
+    def test_note_font_and_color_errors_are_ignored_but_visible_data_is_checked(self):
+        cases = (
+            ('missing_font_size', '<content><p>备注没有字号</p></content>'),
+            ('font_below_min', '<content fontSize="1"><p>备注小字</p></content>'),
+            ('invalid_font_size', '<content fontSize="NaN"><p>备注字号</p></content>'),
+            ('color_not_in_palette', '<content fontSize="12" color="#010203"><p>备注颜色</p></content>'),
+            ('invalid_color', '<content fontSize="12" color="invalid"><p>备注颜色</p></content>'),
+        )
+        for expected, content in cases:
+            for namespace in (NS, ''):
+                with self.subTest(expected=expected, namespace=namespace):
+                    source = slide(text_shape(), namespace).replace('</slide>', f'<note>{content}</note></slide>')
+                    forms = (source, ET.tostring(ET.fromstring(source), encoding='unicode'))
+                    for form in forms:
+                        self.assertEqual(self.codes(form, review_design), set())
+                    visible = slide(f'<shape type="text">{content}</shape>', namespace)
+                    issues = self.review(visible, review_design)
+                    self.assertIn(expected, {item['code'] for item in issues})
+                    self.assertTrue(all('/data[1]/' in item['element'] for item in issues))
+
+    def test_note_styles_do_not_inflate_font_or_accent_counts(self):
+        count = self.tokens['validation']['max_font_variants'] + 1
+        paragraphs = ''.join(f'<p fontSize="{12 + index}">备注字号</p>' for index in range(count))
+        accents = ('#FF5A5F', '#589EF7', '#2BC9D1')
+        paragraphs += ''.join(f'<p color="{color}">备注强调色</p>' for color in accents)
+        content = f'<content fontSize="12">{paragraphs}</content>'
+        source = slide(text_shape()).replace('</slide>', f'<note>{content}</note></slide>')
+        self.assertEqual(self.codes(source, review_design), set())
+        visible = slide(f'<shape type="text">{content}</shape>')
+        self.assertTrue({'font_hierarchy_too_many', 'accent_overuse'}.issubset(self.codes(visible, review_design)))
 
     def test_declared_gray_token_and_equivalent_colors_are_accepted(self):
         gray = self.tokens['colors']['bg_light_gray']['rgba']
