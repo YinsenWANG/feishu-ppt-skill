@@ -273,9 +273,9 @@
     {
       "id": "slide02",
       "file": "slide02.xml",
-      "source_sha256": "0a5c7674062c7a8c94f1790b12946977fbe96eb6c482bcd31698a578fc73ce10",
+      "source_sha256": "287b89a88912a54c7d6bb83e2f860cf9d39190d3aead5309fe54e7b70588e4e7",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
-      "field_count": 10,
+      "field_count": 9,
       "fields": [
         {
           "id": "image_0001",
@@ -346,7 +346,7 @@
               "index": 1
             }
           ],
-          "example": "封面 · 产品窗口",
+          "example": "封面 · 产品截图",
           "role": "header_annotation",
           "required": true,
           "rich_text": false,
@@ -522,36 +522,6 @@
           "role": "image",
           "required": true,
           "attribute": "src"
-        },
-        {
-          "id": "text_0008",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
-          "example": "表达，从结构开始",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
         }
       ]
     },
@@ -13948,7 +13918,7 @@
     {
       "id": "slide33",
       "file": "slide33.xml",
-      "source_sha256": "c282cd7b26247b5f037fda6e428d7e25a7b250eccb31f0bcf61f99114485f469",
+      "source_sha256": "4a74461f9c25bc6f1265270fbcf2fd1f2888a13a7d69d30044691a4630c2f4b9",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 16,
       "fields": [
@@ -14088,7 +14058,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 4
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14118,7 +14088,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 5
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14148,7 +14118,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 14
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14178,7 +14148,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14208,7 +14178,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
+              "index": 8
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14238,7 +14208,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14268,7 +14238,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 18
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14298,7 +14268,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14328,7 +14298,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 20
+              "index": 12
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14358,7 +14328,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 21
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -14388,7 +14358,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 22
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
