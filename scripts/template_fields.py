@@ -309,7 +309,8 @@ def prepare(args):
                 report["copied_assets"].append(relative.as_posix())
         if root.tag.startswith("{"):
             ET.register_namespace("", root.tag[1:].split("}", 1)[0])
-        ET.ElementTree(root).write(xml_path, encoding="utf-8", xml_declaration=True)
+        # lark-cli requires a <slide> fragment and rejects XML declarations.
+        ET.ElementTree(root).write(xml_path, encoding="utf-8", xml_declaration=False)
         report["xml_path"] = str(xml_path)
         report["xml_sha256"] = digest(xml_path)
     write_json(report_path, report)

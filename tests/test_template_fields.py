@@ -95,6 +95,24 @@ class TemplateFieldsTests(unittest.TestCase):
         self.assertEqual(report["status"], "draft")
         self.assertFalse(report["complete"])
 
+    def test_prepared_pages_start_with_slide_for_lark_cli(self):
+        # The source may be a full XML document, but the CLI accepts only a
+        # slide fragment and rejects declarations before the opening tag.
+        self.source.write_text('<?xml version="1.0" encoding="utf-8"?>\n' + self.source.read_text(), encoding="utf-8")
+        self.built = fields.build_index(self.templates)
+        fields.write_json(self.index, self.built)
+        bindings, _ = self.complete_bindings()
+        for draft in (False, True):
+            with self.subTest(draft=draft):
+                report, code = fields.prepare(self.args(
+                    bindings=None if draft else str(bindings), allow_draft=draft,
+                    output_dir=str(self.root / ("draft" if draft else "final"))))
+                self.assertEqual(code, 0)
+                payload = Path(report["xml_path"]).read_bytes()
+                self.assertTrue(payload.startswith(b"<slide "), payload[:100])
+                self.assertEqual(ET.fromstring(payload).tag, "{urn:test}slide")
+                self.assertEqual(report["xml_sha256"], fields.digest(report["xml_path"]))
+
     def test_unchanged_example_needs_confirmation(self):
         path, draft = self.complete_bindings()
         target = next(f for f in draft["fields"] if f["required"] and f["kind"] == "text")

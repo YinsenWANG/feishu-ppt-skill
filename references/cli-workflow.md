@@ -6,6 +6,8 @@
 
 从工作目录执行，图片的 `@./` 路径按 CLI 当前工作目录解析。保持 XML 与准备工具复制的图片在同一目录。
 
+提交单页时，文件应直接从 `<slide>` 开始，不含 `<?xml ...?>` 声明。1.0.86 的 `+create --slide` 会在参数校验阶段拒绝该声明，即使文件通过 XML schema 校验；`template_fields.py prepare` 已按此格式输出。
+
 ```bash
 # 直接渲染本地 XML；需要当前 CLI 的身份与渲染服务
 lark-cli slides +screenshot --content @./slide01.xml --output-dir ./screenshots --as user
