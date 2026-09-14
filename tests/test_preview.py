@@ -88,6 +88,38 @@ class PreviewTests(unittest.TestCase):
         lines = tree.findall(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text')
         self.assertEqual(["".join(line.itertext()) for line in lines], ["表格内容尾","第二行"])
 
+    def test_content_padding_changes_wrap_area_and_alignment(self):
+        for align, expected_x in (('left',25), ('center',55), ('right',85)):
+            with self.subTest(align=align):
+                tree, issues = self.render(
+                    '<shape type="text" topLeftX="10" topLeftY="20" width="100" height="60">'
+                    f'<content fontSize="10" lineSpacing="multiple:1" textAlign="{align}" verticalAlign="middle" '
+                    'paddingLeft="15" paddingRight="25" paddingTop="7" paddingBottom="13">'
+                    '<p>甲乙丙丁戊己庚辛</p></content></shape>')
+                self.assertEqual(issues, [])
+                lines = tree.findall(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text')
+                self.assertEqual([''.join(line.itertext()) for line in lines], ['甲乙丙丁戊己','庚辛'])
+                self.assertTrue(all(float(line.get('x')) == expected_x for line in lines))
+                self.assertAlmostEqual(float(lines[0].get('y')),45.5)
+                self.assertAlmostEqual(float(lines[1].get('y')),55.5)
+
+    def test_native_table_padding_is_applied_once_and_defaults_to_eight(self):
+        for attrs, expected_x in (('',18), ('paddingLeft="16" paddingRight="12" paddingTop="12" paddingBottom="12"',26),
+                                  ('paddingLeft="0" paddingRight="0" paddingTop="0" paddingBottom="0"',10)):
+            with self.subTest(attrs=attrs):
+                tree, issues = self.render('<table topLeftX="10" topLeftY="20" width="100"><colgroup><col width="100"/></colgroup>'
+                                          f'<tr height="60"><td><content fontSize="15" {attrs}><p>正文</p></content></td></tr></table>')
+                self.assertEqual(issues, [])
+                self.assertEqual(float(tree.find(f'.//{SVG}g[@data-preview-text="true"]/{SVG}text').get('x')),expected_x)
+
+    def test_invalid_or_excessive_content_padding_is_reported(self):
+        for value in ('-1', 'nan', '1585', '101'):
+            with self.subTest(value=value):
+                tree, issues = self.render(f'<shape type="text" width="100" height="60"><content paddingLeft="{value}"><p>Text</p></content></shape>')
+                self.assertEqual([i['code'] for i in issues], ['invalid_text_padding'])
+                self.assertEqual(issues[0]['severity'], 'error')
+                self.assertFalse(tree.findall(f'.//{SVG}g[@data-preview-text="true"]'))
+
     def test_native_line_preserves_endpoints_defaults_and_paint_order(self):
         body = ('<line startX="120.5" startY="90" endX="35" endY="210" alpha="0.6"><border/></line>'
                 '<shape type="ellipse" topLeftX="20" topLeftY="180" width="30" height="60"/>')
@@ -295,6 +327,139 @@ class PreviewTests(unittest.TestCase):
                 f'</chartAxes></chartPlotArea><chartData><dim1><chartField>{categories}</chartField></dim1>'
                 f'<dim2><chartField name="Count" valueType="number">{values}</chartField>{second_series}</dim2>'
                 '</chartData></chart>')
+
+    def horizontal_chart_body(self, values='223,60', *, limits='', bar_width=36,
+                              series_color='', point_index=2, kind='bar'):
+        # Same supported schema shape as the native release-record comparison:
+        # one-based series/bar overrides, outside counts, logical x/y axes.
+        count = len(values.split(','))
+        categories = '非预发布,预发布标记' if count == 2 else ','.join(f'C{i+1}' for i in range(count))
+        return (f'<chart topLeftX="340" topLeftY="181" width="580" height="227">'
+                f'<chartPlotArea><chartPlot type="{kind}">'
+                f'<chartBars color="rgba(67,103,199,1)" width="{bar_width}"/>'
+                '<chartLabels position="outside" value="true" category="false" fontSize="15" '
+                'color="rgba(30,34,44,1)" format="0"/>'
+                f'<chartSeriesList><chartSeries index="1"><chartBars {series_color}>'
+                f'<chartBar index="{point_index}" color="rgba(233,70,93,1)"/>'
+                '</chartBars></chartSeries></chartSeriesList></chartPlot><chartAxes>'
+                '<chartAxis type="x"><chartLabel fontSize="12" color="rgba(93,101,116,1)"/></chartAxis>'
+                f'<chartAxis type="y" {limits}><chartLabel fontSize="12" color="rgba(93,101,116,1)"/></chartAxis>'
+                '</chartAxes></chartPlotArea><chartData><dim1><chartField name="发布标记" valueType="string">'
+                f'{categories}</chartField></dim1><dim2><chartField name="可见记录" valueType="number">'
+                f'{values}</chartField></dim2></chartData><chartStyle><chartBackground color="rgba(255,255,255,1)"/>'
+                '<chartBorder width="0"/><chartColorTheme><color value="rgba(67,103,199,1)"/>'
+                '</chartColorTheme></chartStyle></chart>')
+
+    def test_horizontal_bars_preserve_values_orientation_labels_and_point_color(self):
+        for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+            with self.subTest(namespace=namespace):
+                tree, issues = self.render(self.horizontal_chart_body(), namespace)
+                self.assertEqual(issues, [])
+                self.assertEqual(tree.get('data-preview-approximate'), 'true')
+                self.assertIn('Feishu', tree.find(f'{SVG}desc').text)
+                self.assertIsNotNone(tree.find(f'.//{SVG}g[@data-preview-chart="bar"]'))
+                bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+                self.assertEqual(len(bars), 2)
+                self.assertTrue(all(b.get('data-chart-orientation') == 'horizontal' for b in bars))
+                self.assertTrue(all(b.get('height') == '36' for b in bars))
+                self.assertAlmostEqual(float(bars[0].get('width')) / float(bars[1].get('width')), 223/60, places=4)
+                self.assertEqual(bars[0].get('x'), bars[1].get('x'))
+                self.assertLess(float(bars[0].get('y')), float(bars[1].get('y')))
+                self.assertEqual([b.get('fill') for b in bars], ['#4367C7', '#E9465D'])
+                baseline = tree.find(f'.//{SVG}line[@data-chart-zero-baseline="true"]')
+                self.assertEqual(baseline.get('x1'), baseline.get('x2'))
+                self.assertEqual(baseline.get('x1'), bars[0].get('x'))
+                labels = tree.findall(f'.//{SVG}text[@data-chart-value]')
+                self.assertEqual([e.text for e in labels], ['223', '60'])
+                for bar, label in zip(bars, labels):
+                    self.assertEqual(label.get('font-size'), '15')
+                    self.assertEqual(label.get('fill'), '#1E222C')
+                    self.assertEqual(label.get('text-anchor'), 'start')
+                    self.assertGreater(float(label.get('x')), float(bar.get('x'))+float(bar.get('width')))
+                category_labels = tree.findall(f'.//{SVG}text[@data-chart-axis="x"]')
+                self.assertEqual([e.text for e in category_labels], ['非预发布', '预发布标记'])
+                self.assertTrue(all(float(e.get('x')) < float(bars[0].get('x')) for e in category_labels))
+                ticks = tree.findall(f'.//{SVG}text[@data-chart-axis="y"]')
+                self.assertEqual([e.text for e in ticks], ['0','50','100','150','200','250'])
+                clipped = tree.find(f'.//{SVG}g[@data-chart-marks="true"]')
+                self.assertFalse(clipped.findall(f'{SVG}text[@data-chart-value]'))
+
+    def test_horizontal_negative_zero_and_positive_values_share_a_zero_baseline(self):
+        tree, issues = self.render(self.horizontal_chart_body('-5,0,10', limits='min="-5" max="10"', bar_width=20))
+        self.assertEqual(issues, [])
+        bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+        baseline = float(tree.find(f'.//{SVG}line[@data-chart-zero-baseline="true"]').get('x1'))
+        self.assertAlmostEqual(float(bars[0].get('x'))+float(bars[0].get('width')), baseline, places=3)
+        self.assertEqual(float(bars[1].get('width')), 0)
+        self.assertAlmostEqual(float(bars[1].get('x')), baseline, places=3)
+        self.assertAlmostEqual(float(bars[2].get('x')), baseline, places=3)
+        self.assertAlmostEqual(float(bars[2].get('width'))/float(bars[0].get('width')), 2, places=4)
+        labels = tree.findall(f'.//{SVG}text[@data-chart-value]')
+        self.assertEqual([e.text for e in labels], ['-5','0','10'])
+        self.assertEqual(labels[0].get('text-anchor'), 'end')
+        self.assertLess(float(labels[0].get('x')), float(bars[0].get('x')))
+
+    def test_fill_overrides_are_one_based_and_bounded_to_bar_and_column_charts(self):
+        tree, issues = self.render(self.horizontal_chart_body(series_color='color="rgba(30,126,130,1)"'))
+        self.assertEqual(issues, [])
+        bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+        self.assertEqual([b.get('fill') for b in bars], ['#1E7E82', '#E9465D'])
+        for index in (0, 3):
+            with self.subTest(index=index):
+                tree, issues = self.render(self.horizontal_chart_body(point_index=index))
+                self.assertIn('invalid_chart_bar', [i['code'] for i in issues])
+                self.assertFalse(tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]'))
+        tree, issues = self.render(self.horizontal_chart_body(kind='column'))
+        self.assertEqual(issues, [])
+        bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+        self.assertEqual([b.get('fill') for b in bars], ['#4367C7', '#E9465D'])
+        self.assertTrue(all(b.get('width') == '36' for b in bars))
+        self.assertNotEqual(bars[0].get('height'), bars[1].get('height'))
+        _, issues = self.render(self.horizontal_chart_body(kind='line'))
+        self.assertIn('unsupported_element', [i['code'] for i in issues])
+
+    def test_horizontal_template_one_decimal_labels_preserve_trailing_zero(self):
+        body = self.horizontal_chart_body('1,3.2').replace('format="0"', 'format="0.0"')
+        tree, issues = self.render(body)
+        self.assertEqual(issues, [])
+        labels = tree.findall(f'.//{SVG}text[@data-chart-value]')
+        self.assertEqual([e.text for e in labels], ['1.0','3.2'])
+        bars = tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]')
+        self.assertAlmostEqual(float(bars[1].get('width'))/float(bars[0].get('width')),3.2,places=4)
+        self.assertEqual(preview.chart_number(1.05, '0.0'), '1.1')
+
+    def test_series_label_override_cannot_silently_look_supported(self):
+        # Native series-level labels may override the global visibility/style.
+        # The preview deliberately supports only plot-level labels, so this
+        # valid override must produce an actionable approximation diagnostic.
+        for kind in ('bar', 'column'):
+            for namespace in ('', 'xmlns="https://www.larkoffice.com/sml/2.0"'):
+                with self.subTest(kind=kind, namespace=namespace):
+                    body = self.horizontal_chart_body(kind=kind)
+                    _, control_issues = self.render(body, namespace)
+                    self.assertEqual(control_issues, [])
+                    body = body.replace('</chartSeries>',
+                        '<chartLabels position="outside" value="false" category="false" '
+                        'series="false" percentage="false"/></chartSeries>')
+                    tree, issues = self.render(body, namespace)
+                    self.assertEqual([(i['severity'], i['code'], i['element']) for i in issues],
+                                     [('warning', 'unsupported_series_chart_labels', 'chartLabels')])
+                    self.assertIn('plot-level labels', issues[0]['message'])
+                    self.assertEqual([e.text for e in tree.findall(f'.//{SVG}text[@data-chart-value]')],
+                                     ['223', '60'])
+                    self.assertEqual(tree.get('data-preview-approximate'), 'true')
+
+    def test_horizontal_clipping_and_wide_axis_limits_are_safe(self):
+        tree, issues = self.render(self.horizontal_chart_body('-5,0,10', limits='min="-2" max="8"', bar_width=20))
+        self.assertEqual([i['code'] for i in issues], ['chart_data_clipped'])
+        self.assertEqual([e.text for e in tree.findall(f'.//{SVG}text[@data-chart-value]')], ['0'])
+        tree, issues = self.render(self.horizontal_chart_body(limits='min="0" max="1000000000"'))
+        self.assertEqual(issues, [])
+        self.assertLessEqual(len(tree.findall(f'.//{SVG}text[@data-chart-axis="y"]')), 7)
+        for width in (-1, 300):
+            tree, issues = self.render(self.horizontal_chart_body(bar_width=width))
+            self.assertTrue(any(i['severity'] == 'error' for i in issues))
+            self.assertFalse(tree.findall(f'.//{SVG}rect[@data-chart-mark="bar"]'))
 
     def test_explicit_axis_bar_width_color_and_outside_count_labels(self):
         body = self.chart_body(bars='<chartBars width="44" color="rgba(105,105,112,1)"/>',

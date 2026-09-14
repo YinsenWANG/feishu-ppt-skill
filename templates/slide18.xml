@@ -1,48 +1,54 @@
 <slide xmlns="https://www.larkoffice.com/sml/2.0">
   <style>
     <fill>
-      <fillColor color="rgba(255, 255, 255, 1)" />
+      <fillColor color="rgba(255,255,255,1)" />
     </fill>
   </style>
   <data>
-    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
-    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
-      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <img src="@./cherry-logo.png" width="26" height="26" topLeftX="40" topLeftY="25" />
+    <shape type="text" topLeftX="74" topLeftY="27" width="160" height="24">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>Cherry Studio</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
-      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="716" topLeftY="27" width="204" height="20">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(93,101,116,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>数据 · 单一大数字</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="40" topLeftY="510" width="300" height="14">
-      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
-        <p>Cherry Studio · Internal Template</p>
-      </content>
-    </shape>
-    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="14">
-      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
-        <p>18</p>
-      </content>
-    </shape>
-    <shape type="text" topLeftX="40" topLeftY="206" width="356" height="102">
-      <content fontSize="72" fontFamily="思源黑体" color="rgba(255,90,95,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.0" wrap="true" autoFit="normal-auto-fit">
-        <p>50,000+</p>
-      </content>
-    </shape>
-    <shape type="text" topLeftX="434" topLeftY="216" width="486" height="60">
-      <content fontSize="20" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="40" topLeftY="79" width="880" height="50">
+      <content fontFamily="思源黑体" fontSize="32" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>次创作 · 累计完成</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="434" topLeftY="300" width="446" height="72">
-      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="40" topLeftY="508" width="520" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>Cherry Studio · Internal Template</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="864" topLeftY="508" width="56" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(93,101,116,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>18</p>
+      </content>
+    </shape>
+    <shape type="round-rect" topLeftX="40" topLeftY="176" width="880" height="268" presetHandlers="12">
+      <fill>
+        <fillColor color="rgba(255,240,243,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="64" topLeftY="218" width="350" height="138">
+      <content fontFamily="思源黑体" fontSize="70" color="rgba(233,70,93,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>50,000+</p>
+      </content>
+    </shape>
+    <img src="@./lucide-NotebookPen-e86e75.png" topLeftX="468" topLeftY="213" width="40" height="40" />
+    <shape type="text" topLeftX="468" topLeftY="274" width="410" height="86">
+      <content fontFamily="思源黑体" fontSize="22" color="rgba(30,34,44,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>每一次表达，都在让想法更接近行动。</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="40" topLeftY="465" width="880" height="24">
-      <content fontSize="12" fontFamily="思源黑体" bold="false" color="rgba(105,105,112,1)" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" autoFit="normal-auto-fit" wrap="true">
+    <shape type="text" topLeftX="40" topLeftY="465" width="880" height="22">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>替换指标时，同步注明定义与统计范围。</p>
       </content>
     </shape>

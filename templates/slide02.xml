@@ -1,42 +1,47 @@
 <slide xmlns="https://www.larkoffice.com/sml/2.0">
   <style>
     <fill>
-      <fillColor color="rgba(255, 255, 255, 1)" />
+      <fillColor color="rgba(255,255,255,1)" />
     </fill>
   </style>
   <data>
-    <img src="@./cherry-logo.png" width="28" height="28" topLeftX="44" topLeftY="24" />
-    <shape type="text" topLeftX="78" topLeftY="27" width="160" height="18">
-      <content fontSize="12" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <img src="@./cherry-logo.png" width="26" height="26" topLeftX="40" topLeftY="25" />
+    <shape type="text" topLeftX="74" topLeftY="27" width="160" height="24">
+      <content fontFamily="思源黑体" fontSize="12" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>Cherry Studio</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="730" topLeftY="28" width="190" height="16">
-      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="716" topLeftY="27" width="204" height="20">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(93,101,116,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>封面 · 产品截图</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="40" topLeftY="510" width="300" height="14">
-      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="40" topLeftY="508" width="520" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>Cherry Studio · Internal Template</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="880" topLeftY="510" width="50" height="14">
-      <content fontSize="10" fontFamily="思源黑体" color="rgba(105,105,112,1)" bold="false" textAlign="right" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="864" topLeftY="508" width="56" height="18">
+      <content fontFamily="思源黑体" fontSize="10" color="rgba(93,101,116,1)" bold="false" textAlign="right" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>02</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="40" topLeftY="172" width="360" height="88">
-      <content fontSize="30" fontFamily="思源黑体" color="rgba(23,23,23,1)" bold="true" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
-        <p>把想法，</p>
-        <p>变成可见的作品</p>
+    <shape type="round-rect" topLeftX="40" topLeftY="148" width="286" height="334" presetHandlers="10">
+      <fill>
+        <fillColor color="rgba(244,247,253,1)" />
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="62" topLeftY="185" width="245" height="112">
+      <content fontFamily="思源黑体" fontSize="32" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+        <p>把想法，变成</p>
+        <p>可见的作品</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="40" topLeftY="280" width="340" height="70">
-      <content fontSize="15" fontFamily="思源黑体" color="rgba(72,72,78,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.2" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="62" topLeftY="324" width="238" height="104">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>从内容组织到视觉表达，一处完成。</p>
       </content>
     </shape>
-    <img src="@./product-placeholder.png" width="490.0" height="208.019" topLeftX="430" topLeftY="151" />
+    <img src="@./product-placeholder.png" width="538" height="228.396" topLeftX="382" topLeftY="201" />
   </data>
 </slide>

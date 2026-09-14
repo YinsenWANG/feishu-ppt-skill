@@ -1,5 +1,3 @@
-# Theme colors and review policy. The whitelist is derived from colors.
-# Copy this complete file and pass --tokens to select a different brand.
 schema_version: 1
 theme: Cherry Studio (default; replace with --tokens for another brand)
 colors:
@@ -148,6 +146,78 @@ colors:
   palette_120_220_160_1:
     rgba: rgba(120,220,160,1)
     role: 主题允许的辅助颜色
+  flat_ink:
+    hex: '#1E222C'
+    rgba: rgba(30,34,44,1)
+    role: 正文与标题
+  flat_muted:
+    hex: '#5D6574'
+    rgba: rgba(93,101,116,1)
+    role: 次要说明
+  flat_coral:
+    hex: '#E9465D'
+    rgba: rgba(233,70,93,1)
+    role: 重点、会话与行动
+  flat_blue:
+    hex: '#4367C7'
+    rgba: rgba(67,103,199,1)
+    role: 模型与平台类别
+  flat_teal:
+    hex: '#1E7E82'
+    rgba: rgba(30,126,130,1)
+    role: 知识与资料类别
+  flat_purple:
+    hex: '#764EAB'
+    rgba: rgba(118,78,171,1)
+    role: 工具与流程类别
+  flat_edge:
+    hex: '#DDE1E8'
+    rgba: rgba(221,225,232,1)
+    role: 必要细边界
+  flat_connector:
+    hex: '#AEB8C6'
+    rgba: rgba(174,184,198,1)
+    role: 关系连线
+  flat_grid:
+    hex: '#EDEFF4'
+    rgba: rgba(237,239,244,1)
+    role: 图表网格
+  flat_light:
+    hex: '#F7F8FA'
+    rgba: rgba(247,248,250,1)
+    role: 中性分区
+  flat_neutral_tint:
+    hex: '#F6F8FA'
+    rgba: rgba(246,248,250,1)
+    role: 中性浅底分组
+  flat_coral_tint:
+    hex: '#FFF0F3'
+    rgba: rgba(255,240,243,1)
+    role: 重点浅底
+  flat_core_tint:
+    hex: '#FFEDF2'
+    rgba: rgba(255,237,242,1)
+    role: 核心浅底
+  flat_coral_soft:
+    hex: '#FFF6F8'
+    rgba: rgba(255,246,248,1)
+    role: 次要会话类别浅底
+  flat_blue_tint:
+    hex: '#F4F7FD'
+    rgba: rgba(244,247,253,1)
+    role: 模型类别浅底
+  flat_teal_tint:
+    hex: '#F3F9F9'
+    rgba: rgba(243,249,249,1)
+    role: 资料类别浅底
+  flat_purple_tint:
+    hex: '#F8F5FC'
+    rgba: rgba(248,245,252,1)
+    role: 工具类别浅底
+  flat_chart_secondary:
+    hex: '#F6B1BB'
+    rgba: rgba(246,177,187,1)
+    role: 同系列次要数据
 accent_colors:
 - brand_coral
 - partner_cyan
@@ -159,16 +229,20 @@ accent_colors:
 - palette_34_199_106_1
 - palette_88_158_247_1
 - palette_120_220_160_1
+- flat_coral
+- flat_blue
+- flat_teal
+- flat_purple
 font_sizes:
-  page_title: 30
+  page_title: 32
   card_title: 22
   body: 15
   caption: 12
   footer: 10
   kpi_number: 48
 radii:
-  card: 10
-  tag: 10
+  card: 8
+  tag: 8
   bar: 16
 spacing:
   margin: 40
@@ -191,10 +265,10 @@ components:
     text_color: brand_coral
     max_per_page: 1
   header_logo:
-    size: 28
-    pos: 44,24
+    size: 26
+    pos: 40,25
   footer:
-    y: 510
+    y: 508
     font_size: 10
 validation:
   canvas:

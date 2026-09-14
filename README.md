@@ -4,6 +4,8 @@ Create and edit native **Lark / Feishu slides** using 51 reusable XML layouts, e
 
 The skill entry point is [SKILL.md](SKILL.md). It handles Feishu presentations, not general posters or `.pptx` export.
 
+The default visual direction is flat, modern and minimal: use proportions, typography, consistent outline icons and soft solid fills to establish hierarchy. Omit outlines when spacing and background color already make the grouping clear. Layouts vary with the content; charts, tables, screenshots and relationship diagrams remain editable native elements where supported. See [design rules](references/theme.md).
+
 ## Install
 
 Requires Python **3.10+**. Install into your agent's skill directory using its normal installation workflow, or clone into a local directory for command-line use:
@@ -130,3 +132,5 @@ When a template changes, rebuild the field index with `python3 scripts/template_
 ## License
 
 Code, templates and scripts: MIT. Brand/logo assets are owned by their respective owners, are included only as examples, and are **not covered by the MIT license**. Replace them with appropriate assets for your use.
+
+The bundled `lucide-*.png` outline icons are rendered from Lucide. Its ISC license and the MIT notice for Feather-derived icons are preserved in [assets/Lucide-LICENSE](assets/Lucide-LICENSE).

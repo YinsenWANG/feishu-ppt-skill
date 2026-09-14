@@ -27,6 +27,7 @@ APPROXIMATION = "Approximate preview: estimated text wrapping; no auto-fit or ex
 GEOMETRY = {"topLeftX", "topLeftY", "width", "height"}
 LINE_ENDPOINTS = ("startX", "startY", "endX", "endY")
 TEXT_ATTRS = {"fontSize", "fontFamily", "color", "bold", "italic", "underline", "strikethrough", "textAlign", "verticalAlign", "lineSpacing", "wrap", "autoFit"}
+PADDING_ATTRS = {"paddingLeft", "paddingRight", "paddingTop", "paddingBottom"}
 COLOR_PATTERN = re.compile(r"rgba?\(\s*\d+\s*,\s*\d+\s*,\s*\d+(?:\s*,\s*[\d.]+)?\s*\)|#[0-9a-fA-F]{3,4}|#[0-9a-fA-F]{6}|#[0-9a-fA-F]{8}")
 # Unknown elements/attributes are reported; identity metadata is intentionally ignored.
 SUPPORTED = {
@@ -35,7 +36,7 @@ SUPPORTED = {
     "line": set(LINE_ENDPOINTS) | {"type", "alpha"},
     "startArrow": {"type", "widthScale", "heightScale"},
     "endArrow": {"type", "widthScale", "heightScale"},
-    "content": TEXT_ATTRS, "p": TEXT_ATTRS, "span": TEXT_ATTRS, "br": set(),
+    "content": TEXT_ATTRS | PADDING_ATTRS, "p": TEXT_ATTRS, "span": TEXT_ATTRS, "br": set(),
     "fill": set(), "fillColor": {"color"}, "border": {"color", "width"},
     "img": GEOMETRY | {"src"}, "table": GEOMETRY, "colgroup": set(),
     "col": {"width"}, "tr": {"height"}, "td": set(), "chart": GEOMETRY,
@@ -105,9 +106,11 @@ def glyph_width(char, style):
 
 
 def chart_number(value, format_code=""):
-    """The bounded numeric format support is native '0' or the plain value."""
+    """Bounded native count/one-decimal formatting, or the plain value."""
     if format_code == "0":
         return format(Decimal(str(value)).to_integral_value(rounding=ROUND_HALF_UP), "f")
+    if format_code == "0.0":
+        return format(Decimal(str(value)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP), ".1f")
     return f"{value:g}"
 
 
@@ -137,13 +140,32 @@ class Renderer:
             for child in elem:
                 yield from visual_tree(child)
 
-        for elem in visual_tree(root):
+        visual_elements = list(visual_tree(root))
+        # Solid fill overrides apply to bars/columns. Do not make series styling
+        # on other chart kinds silently appear supported.
+        bar_overrides = {}
+        for plot in visual_elements:
+            if local_name(plot.tag) == "chartPlot" and plot.get("type") in {"bar", "column"}:
+                for series_list in children(plot, "chartSeriesList"):
+                    bar_overrides[series_list] = set()
+                    for series in children(series_list, "chartSeries"):
+                        bar_overrides[series] = {"index"}
+                        for labels in children(series, "chartLabels"):
+                            self.issue("unsupported_series_chart_labels",
+                                       "Series-level chartLabels overrides are not rendered; preview uses plot-level labels.", labels)
+                        for bars in children(series, "chartBars"):
+                            bar_overrides[bars] = {"color"}
+                            for bar in children(bars, "chartBar"):
+                                bar_overrides[bar] = {"index", "color"}
+
+        for elem in visual_elements:
             tag = local_name(elem.tag)
-            if tag not in SUPPORTED:
+            supported = bar_overrides.get(elem, SUPPORTED.get(tag))
+            if supported is None:
                 self.issue("unsupported_element", f"<{tag}> has no SVG renderer; its appearance is omitted.", elem)
                 continue
             for key, value in elem.attrib.items():
-                if local_name(key) not in SUPPORTED[tag] | {"id", "name"}:
+                if local_name(key) not in supported | {"id", "name"}:
                     self.issue("unsupported_attribute", f"<{tag}> attribute {key}={value!r} is not rendered.", elem)
                 if key == "color" or (tag == "color" and key == "value"):
                     if not COLOR_PATTERN.fullmatch(value.strip()) and value not in {"transparent", "white", "black", "none"}:
@@ -206,6 +228,15 @@ class Renderer:
         content = find(elem, "content")
         if content is None:
             return ""
+        padding = {key: parse_float(content.get(key, "0"), None) for key in PADDING_ATTRS}
+        if any(value is None or not 0 <= value <= 1584 for value in padding.values()):
+            self.issue("invalid_text_padding", "Content padding must be finite pixel values in [0,1584].", content, "error")
+            return self.placeholder(elem, "Invalid text padding")
+        x, y = x+padding["paddingLeft"], y+padding["paddingTop"]
+        w, h = w-padding["paddingLeft"]-padding["paddingRight"], h-padding["paddingTop"]-padding["paddingBottom"]
+        if w <= 0 or h <= 0:
+            self.issue("invalid_text_padding", "Content padding leaves no text area; enlarge the box or reduce padding.", content, "error")
+            return self.placeholder(elem, "Padding exceeds text box")
         base = {"fontSize": "14", "fontFamily": "思源黑体", "color": "#171717", **content.attrib}
         blocks = []
         if children(content, "p"):
@@ -375,7 +406,9 @@ class Renderer:
                     copy = ET.fromstring(ET.tostring(content))
                     copy.attrib.setdefault("fontSize","12")
                     copy.attrib.setdefault("verticalAlign","middle")
-                    shape = ET.Element("shape",{"topLeftX":str(cx+6),"topLeftY":str(y),"width":str(max(1,width-12)),"height":str(height)})
+                    for key in PADDING_ATTRS:
+                        copy.attrib.setdefault(key, "8")
+                    shape = ET.Element("shape",{"topLeftX":str(cx),"topLeftY":str(y),"width":str(width),"height":str(height)})
                     shape.append(copy)
                     parts.append(self.text(shape))
                 cx += width
@@ -386,8 +419,8 @@ class Renderer:
         x,y,w,h = geometry(elem)
         plots = children(find(elem,"chartPlotArea"),"chartPlot")
         kind = plots[0].get("type") if plots else None
-        if len(plots) != 1 or kind not in {"column","line","pie"}:
-            self.issue("unsupported_chart","Only one column, line or pie plot per chart is supported; combined plots are not rendered.",elem)
+        if len(plots) != 1 or kind not in {"column","bar","line","pie"}:
+            self.issue("unsupported_chart","Only one column, bar, line or pie plot per chart is supported; combined plots are not rendered.",elem)
             return self.placeholder(elem,f"Unsupported chart: {kind}")
         categories_fields = children(find(elem,"chartData/dim1"),"chartField")
         fields = children(find(elem,"chartData/dim2"),"chartField")
@@ -410,10 +443,8 @@ class Renderer:
         plot = plots[0]
         bars = find(plot, "chartBars")
         data_labels = find(plot, "chartLabels")
-        # Only global column-bar settings are implemented. Series overrides continue
-        # to receive the existing unsupported chartSeriesList/element diagnostics.
-        if bars is not None and kind != "column":
-            self.issue("unsupported_chart_bars", "Global chartBars are rendered only for column plots.", bars)
+        if bars is not None and kind not in {"column", "bar"}:
+            self.issue("unsupported_chart_bars", "Global chartBars are rendered only for column and bar plots.", bars)
         label_size, label_color, label_format, show_values = 12, "#171717", "", False
         hide_labels = data_labels is not None and all(data_labels.get(key) in {"false", "0"} for key in ("series", "category", "percentage", "value"))
         if hide_labels and kind == "pie":
@@ -421,12 +452,12 @@ class Renderer:
                        "This local preview hides pie labels for four explicit false toggles, but Feishu has been observed restoring default percentages for this input. Those labels can overlap; verify an actual Feishu screenshot before accepting the slide.",
                        data_labels)
         if data_labels is not None:
-            supported_labels = hide_labels or (kind == "column" and data_labels.get("position", "outside") == "outside"
+            supported_labels = hide_labels or (kind in {"column", "bar"} and data_labels.get("position", "outside") == "outside"
                                 and all(data_labels.get(key, "false") in {"false", "0"} for key in ("series", "category", "percentage"))
-                                and data_labels.get("format", "") in {"", "0"}
+                                and data_labels.get("format", "") in {"", "0", "0.0"}
                                 and not (set(data_labels.attrib) - SUPPORTED["chartLabels"] - {"id", "name"}))
             if not supported_labels:
-                self.issue("unsupported_chart_labels", "Only global column labels with position=outside and plain numeric values or format=0 are rendered; this label variant is omitted.", data_labels)
+                self.issue("unsupported_chart_labels", "Only global column/bar labels with position=outside and plain numeric values or format=0/0.0 are rendered; this label variant is omitted.", data_labels)
             elif data_labels.get("value", "true") not in {"true", "1", "false", "0"}:
                 self.issue("invalid_chart_labels", "chartLabels value must be a boolean.", data_labels, "error")
                 return self.placeholder(elem, "Invalid chart labels")
@@ -464,7 +495,15 @@ class Renderer:
         if legend_h > h-50:
             self.issue("chart_legend_overflow", "Legend leaves insufficient plot space; enlarge the chart or shorten labels.", elem, "error")
             return self.placeholder(elem,"Chart legend exceeds box")
-        if kind == "pie":
+        bar_legend_colors = []
+        if kind == "bar":
+            horizontal = self.horizontal_bars(elem, plot, categories, series, colors, w, h, legend_h,
+                                              show_values, label_size, label_color, label_format)
+            if horizontal is None:
+                return self.placeholder(elem, "Invalid horizontal bars")
+            bar_parts, bar_legend_colors = horizontal
+            parts.extend(bar_parts)
+        elif kind == "pie":
             if any(any(key in axis.attrib for key in ("min", "max")) for axis in children(find(elem, "chartPlotArea/chartAxes"), "chartAxis")):
                 self.issue("unsupported_axis_range", "Axis limits are not applied to pie charts.", elem)
             radius = min(w/2-12,(h-legend_h)/2-10)
@@ -574,18 +613,25 @@ class Renderer:
                         self.issue("chart_bar_gap_approximation", "With explicit width and one series, category centers remain uniform; gap has no within-category pair to separate. Native inter-category spacing requires a Feishu screenshot.", bars)
                 if bars.get("color"):
                     bar_color = rgba_to_hex(bars.get("color"))
+            column_colors, column_points = colors, {}
+            if kind == "column":
+                resolved = self.bar_colors(plot, len(series), len(categories), colors, bar_color)
+                if resolved is None:
+                    return self.placeholder(elem, "Invalid column colors")
+                column_colors, column_points = resolved
             self.chart_count += 1
             clip_id = f"preview-chart-clip-{self.chart_count}"
             parts.append(f'<defs><clipPath id="{clip_id}"><rect x="{left:g}" y="{top:g}" width="{pw:g}" height="{ph:g}"/></clipPath></defs>')
             parts.append(f'<g data-chart-marks="true" clip-path="url(#{clip_id})">')
             value_labels = []
             for si,(name,numbers) in enumerate(series):
-                color = bar_color if kind == "column" and bar_color else colors[si%len(colors)]
+                color = column_colors[si] if kind == "column" else colors[si%len(colors)]
                 if kind == "column":
                     for index,value in enumerate(numbers):
                         bx = xs[index]-group_width/2+si*(bw+bar_gap)
                         by = py(min(high, max(low, value)))
-                        parts.append(f'<rect data-chart-mark="bar" x="{bx:g}" y="{min(by,baseline):g}" width="{bw:g}" height="{abs(by-baseline):g}" fill="{color}"><title>{esc(name)} / {esc(categories[index])}: {value:g}</title></rect>')
+                        point_color = column_points.get((si, index), color)
+                        parts.append(f'<rect data-chart-mark="bar" x="{bx:g}" y="{min(by,baseline):g}" width="{bw:g}" height="{abs(by-baseline):g}" fill="{point_color}"><title>{esc(name)} / {esc(categories[index])}: {value:g}</title></rect>')
                         if show_values and low <= value <= high:
                             ly = by-5 if value >= 0 else by+label_size+4
                             value_labels.append(f'<text data-chart-value="{value:g}" x="{bx+bw/2:g}" y="{ly:g}" text-anchor="middle" font-size="{label_size:g}" fill="{label_color}">{chart_number(value,label_format)}</text>')
@@ -599,10 +645,162 @@ class Renderer:
         for ri,(row,row_width) in enumerate(rows):
             lx,ly = max(6,(w-row_width)/2),h-legend_h+ri*(legend_size+9)+legend_size
             for index,label,iw in row:
-                legend_color = bar_color if kind == "column" and bar_color else colors[index%len(colors)]
+                legend_color = (bar_legend_colors[index] if kind == "bar" else
+                                column_colors[index] if kind == "column" else colors[index%len(colors)])
                 parts.append(f'<rect x="{lx:g}" y="{ly-8:g}" width="8" height="8" fill="{legend_color}"/><text x="{lx+12:g}" y="{ly:g}" font-size="{legend_size:g}" fill="#48484E">{esc(label)}</text>')
                 lx += iw
         return "\n".join(parts+["</g>"])
+
+    def bar_colors(self, plot, series_count, category_count, colors, global_color=None):
+        """Resolve global, series and one-based point solid colors without other styles."""
+        series_colors = [rgba_to_hex(global_color) if global_color else colors[i%len(colors)] for i in range(series_count)]
+        point_colors = {}
+        for config in children(find(plot, "chartSeriesList"), "chartSeries"):
+            raw_index = config.get("index", "")
+            if not re.fullmatch(r"\+?[1-9]\d*", raw_index) or int(raw_index) > series_count:
+                self.issue("invalid_chart_series", "chartSeries index must identify an existing series, starting at 1.", config, "error")
+                return None
+            si = int(raw_index)-1
+            settings = find(config, "chartBars")
+            if settings is not None and settings.get("color"):
+                series_colors[si] = rgba_to_hex(settings.get("color"))
+            for point in children(settings, "chartBar"):
+                raw_index = point.get("index", "")
+                if not re.fullmatch(r"\+?[1-9]\d*", raw_index) or int(raw_index) > category_count:
+                    self.issue("invalid_chart_bar", "chartBar index must identify an existing category, starting at 1.", point, "error")
+                    return None
+                if point.get("color"):
+                    point_colors[si, int(raw_index)-1] = rgba_to_hex(point.get("color"))
+
+        return series_colors, point_colors
+
+    def horizontal_bars(self, elem, plot, categories, series, colors, w, h, legend_h,
+                        show_values, label_size, label_color, label_format):
+        """Approximate unstacked horizontal bars; SML x stays category, y numeric.
+
+        Text placement, category spacing and automatic ticks are local estimates,
+        not a reproduction of Feishu's chart engine. Solid fill overrides use the
+        schema's one-based series/bar indices; unrelated series styles stay warned.
+        """
+        if find(plot, "chartExtra/chartStack") is not None:
+            self.issue("unsupported_chart", "Stacked horizontal bars are not rendered by this preview.", plot)
+            return None
+        values = [v for _, numbers in series for v in numbers]
+        axes = children(find(elem, "chartPlotArea/chartAxes"), "chartAxis")
+        xa = next((a for a in axes if a.get("type") == "x"), None)
+        ya = next((a for a in axes if a.get("type") == "y"), None)
+        category_style, numeric_style = find(xa, "chartLabel"), find(ya, "chartLabel")
+        cfs = parse_float(category_style.get("fontSize"), 10) if category_style is not None else 10
+        nfs = parse_float(numeric_style.get("fontSize"), 10) if numeric_style is not None else 10
+        cc = rgba_to_hex(category_style.get("color", "#696970")) if category_style is not None else "#696970"
+        nc = rgba_to_hex(numeric_style.get("color", "#696970")) if numeric_style is not None else "#696970"
+        numeric_format = numeric_style.get("format", "") if numeric_style is not None else ""
+        low, high = min(0, min(values)), max(0, max(values))
+        if low == high:
+            high = low + 1
+        target = (high-low)/5
+        magnitude = 10**math.floor(math.log10(target))
+        tick_step = next(m*magnitude for m in (1, 2, 5, 10) if m*magnitude >= target)
+        low, high = math.floor(low/tick_step)*tick_step, math.ceil(high/tick_step)*tick_step
+        for key in ("min", "max"):
+            raw = ya.get(key) if ya is not None else None
+            if raw is not None:
+                bound = parse_float(raw, None)
+                if bound is None or not re.fullmatch(r"[+-]?\d+", raw.strip()):
+                    self.issue("invalid_axis_range", f"Y axis {key} must be a finite integer.", ya, "error")
+                    return None
+                if key == "min":
+                    low = bound
+                else:
+                    high = bound
+        if low >= high:
+            self.issue("invalid_axis_range", "Y axis min must be less than max.", ya, "error")
+            return None
+        # Recompute after explicit limits so even a very wide configured domain
+        # has a bounded number of ticks, and integer labels do not repeat zeros.
+        target = (high-low)/5
+        if numeric_format == "0":
+            target = max(1, target)
+        magnitude = 10**math.floor(math.log10(target))
+        tick_step = next(m*magnitude for m in (1, 2, 5, 10) if m*magnitude >= target)
+        if any(v < low or v > high for v in values):
+            self.issue("chart_data_clipped", "Data outside the configured Y-axis range is clipped; outside-range value labels are omitted.", elem)
+
+        text_width = lambda text, size: sum(glyph_width(c, {"fontSize": str(size)}) for c in text)
+        value_width = max(text_width(chart_number(v, label_format), label_size) for v in values) if show_values else 0
+        negative_space = value_width+8 if show_values and min(values) < 0 else 0
+        positive_space = value_width+8 if show_values and max(values) >= 0 else 0
+        category_width = max(text_width(c, cfs) for c in categories)
+        left, top = max(42, category_width+12)+negative_space, 12
+        pw, ph = w-left-12-positive_space, h-top-30-legend_h
+        if pw <= 0 or ph <= 0:
+            self.issue("chart_labels_overflow", "Horizontal category/value labels leave insufficient plot space; enlarge the chart or shorten labels.", elem, "error")
+            return None
+        step = ph/len(categories)
+        thickness, gap = step*.72/len(series)*.92, step*.72/len(series)*.08
+        global_bars = find(plot, "chartBars")
+        if global_bars is not None:
+            raw_width, raw_gap = global_bars.get("width"), global_bars.get("gap")
+            width = parse_float(raw_width, None) if raw_width is not None else None
+            ratio = parse_float(raw_gap, None) if raw_gap is not None else 0
+            if ratio is None or not 0 <= ratio <= 1 or (raw_width is not None and
+                    (width is None or not re.fullmatch(r"\+?\d+", raw_width.strip()))):
+                self.issue("invalid_chart_bars", "chartBars width must be a nonnegative integer and gap a finite ratio in [0,1].", global_bars, "error")
+                return None
+            if raw_width is not None or raw_gap is not None:
+                thickness = width if raw_width is not None else step/(len(series)*(1+ratio))
+                gap = thickness*ratio
+                if raw_width is not None and raw_gap is not None and len(series) == 1:
+                    self.issue("chart_bar_gap_approximation", "With explicit width and one series, category centers remain uniform; exact native inter-category spacing requires a Feishu screenshot.", global_bars)
+        group_height = len(series)*thickness+(len(series)-1)*gap
+        if group_height > step+1e-8:
+            self.issue("chart_bars_overflow", "Configured bar widths and gaps exceed their category slot; reduce width or gap.", global_bars, "error")
+            return None
+
+        global_color = global_bars.get("color") if global_bars is not None else None
+        resolved = self.bar_colors(plot, len(series), len(categories), colors, global_color)
+        if resolved is None:
+            return None
+        series_colors, point_colors = resolved
+
+        px = lambda value: left+pw*(value-low)/(high-low)
+        baseline = px(min(high, max(low, 0)))
+        grid = find(ya, "chartGridLine")
+        grid_color = rgba_to_hex(grid.get("color", "#DDDDDD")) if grid is not None else "#DDDDDD"
+        grid_width = parse_float(grid.get("width"), .5) if grid is not None else .5
+        ticks = [low]
+        tick = (math.floor(low/tick_step)+1)*tick_step
+        while tick < high:
+            ticks.append(tick)
+            tick += tick_step
+        ticks.append(high)
+        parts = []
+        for value in ticks:
+            xx = px(value)
+            parts.append(f'<line x1="{xx:g}" y1="{top:g}" x2="{xx:g}" y2="{top+ph:g}" stroke="{grid_color}" stroke-width="{grid_width:g}"/>')
+            label = chart_number(value, numeric_format) if numeric_format == "0" else f"{value:.3g}"
+            parts.append(f'<text data-chart-axis="y" data-axis-value="{value:g}" x="{xx:g}" y="{top+ph+nfs+7:g}" text-anchor="middle" font-size="{nfs:g}" fill="{nc}">{label}</text>')
+        parts.append(f'<line data-chart-zero-baseline="true" x1="{baseline:g}" y1="{top:g}" x2="{baseline:g}" y2="{top+ph:g}" stroke="#999999"/>')
+        centers = [top+step*(i+.5) for i in range(len(categories))]
+        for index, category in enumerate(categories):
+            parts.append(f'<text data-chart-axis="x" x="{left-negative_space-8:g}" y="{centers[index]+cfs*.35:g}" text-anchor="end" font-size="{cfs:g}" fill="{cc}">{esc(category)}</text>')
+        self.chart_count += 1
+        clip_id = f"preview-chart-clip-{self.chart_count}"
+        parts.append(f'<defs><clipPath id="{clip_id}"><rect x="{left:g}" y="{top:g}" width="{pw:g}" height="{ph:g}"/></clipPath></defs>')
+        parts.append(f'<g data-chart-marks="true" clip-path="url(#{clip_id})">')
+        labels = []
+        for si, (name, numbers) in enumerate(series):
+            for index, value in enumerate(numbers):
+                end = px(min(high, max(low, value)))
+                yy = centers[index]-group_height/2+si*(thickness+gap)
+                color = point_colors.get((si, index), series_colors[si])
+                parts.append(f'<rect data-chart-mark="bar" data-chart-orientation="horizontal" x="{min(end,baseline):g}" y="{yy:g}" width="{abs(end-baseline):g}" height="{thickness:g}" fill="{color}"><title>{esc(name)} / {esc(categories[index])}: {value:g}</title></rect>')
+                if show_values and low <= value <= high:
+                    lx, anchor = (end+6, "start") if value >= 0 else (end-6, "end")
+                    labels.append(f'<text data-chart-value="{value:g}" x="{lx:g}" y="{yy+thickness/2+label_size*.35:g}" text-anchor="{anchor}" font-size="{label_size:g}" fill="{label_color}">{chart_number(value,label_format)}</text>')
+        parts.append("</g>")
+        parts.extend(labels)
+        return parts, series_colors
 
     def render(self):
         root = ET.parse(self.xml_path).getroot()
