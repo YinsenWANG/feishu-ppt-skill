@@ -1,4 +1,7 @@
 __pycache__/
-*.pyc
+*.py[cod]
 .DS_Store
 *.log
+.venv/
+work/
+.lark-slides/

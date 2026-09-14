@@ -1,0 +1,24 @@
+name: Offline regression checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/template_fields.py index --check
+      - run: python scripts/validate.py --dir templates --json
+      - run: python scripts/xml2svg.py --dir templates --output-dir work/preview
+      # This offline job does not claim official schema or live rendering verification.

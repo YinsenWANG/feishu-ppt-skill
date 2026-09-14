@@ -1,80 +1,132 @@
-# Feishu PPT Skill — Lark Slides Template Library for AI Agents
+# Feishu PPT Skill
 
-AI-agent skill for building **Lark (Feishu) slides via the `lark-cli`**: a 51-page template library, brand design tokens, XML generation workflow, and automated layout review.
+Create and edit native **Lark / Feishu slides** using 51 reusable XML layouts, explicit content bindings, local previews, and automated checks. Cherry Studio is the bundled default theme; adapt the theme and assets when the user requests another brand.
 
-Built as a reusable SKILL.md so agents can produce polished, on-brand presentations quickly — pick a template, swap content, lint, publish.
+The skill entry point is [SKILL.md](SKILL.md). It handles Feishu presentations, not general posters or `.pptx` export.
 
-## Template preview
+## Install
 
-![51-page template library preview (HD)](docs/template-preview-hd.jpg)
+Requires Python **3.10+**. Install into your agent's skill directory using its normal installation workflow, or clone into a local directory for command-line use:
 
-*Sample pages rendered as crisp vectors: cover, TOC, three-column, statement, step cards (P16), metric grid, comparison table, process flow, feature matrix, ROI. Full-resolution vector previews of every page live in [`docs/preview/`](docs/preview/).*
-
-## What's inside
-
+```bash
+git clone https://github.com/YinsenWANG/feishu-ppt-skill.git
+cd feishu-ppt-skill
+python3 -m venv .venv
+# macOS/Linux; on Windows use .venv\Scripts\Activate.ps1
+. .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 scripts/preflight.py --json
 ```
-.
-├── SKILL.md                 # Design spec + template workflow + CLI commands + troubleshooting
-├── tokens.yaml              # Single source of truth for design tokens (42-color whitelist)
-├── templates/
-│   ├── INDEX.md             # 51-page scene index (per page: use case / structure / replace list)
-│   └── slide01.xml ~ slide51.xml  # 960×540 Lark Slides XML templates
-├── assets/
-│   ├── cherry-logo.png      # Example logo asset (1024×1024 transparent PNG)
-│   └── product-placeholder.png  # Product screenshot placeholder
-├── scripts/
-│   ├── review_layout.py     # Automated layout check (overlap / overflow / out-of-bounds)
-│   └── review_design.py     # Design guardrails G1-G8 (color whitelist / typography / CTA / density)
-└── docs/
-    ├── template-preview-hd.jpg # 10-page HD preview grid (2× scale)
-    └── preview/                # 51 per-page vector SVG previews + sample HD PNG
+
+Use the same Python interpreter for all scripts. Resource paths are resolved from the installed skill, not a particular home directory. The skill name is now `feishu-ppt-skill`; installations using the previous `cherry-studio-design-language` name should update their invocation/reference to the new name. Cherry templates and assets remain available.
+
+Lark CLI is only needed for actual Feishu operations and official screenshots. Commands below were checked against **CLI 1.0.86**; check your installed version's capabilities before use:
+
+```bash
+python3 scripts/preflight.py --check-cli --json
 ```
+
+This only probes `--version` and `--help`. It does not log in, change profiles, or verify live write behavior. CLI operations and their revision semantics are described in [references/cli-workflow.md](references/cli-workflow.md).
+
+## Quick start
+
+1. Find a suitable layout in [templates/INDEX.md](templates/INDEX.md). Generate a local draft with explicit unfinished fields:
+
+   ```bash
+   python3 scripts/template_fields.py prepare --template slide19 --output-dir work/draft --allow-draft
+   ```
+
+2. Fill `work/draft/bindings.draft.json`, then generate into a fresh directory:
+
+   ```bash
+   python3 scripts/template_fields.py prepare --template slide19 --bindings work/draft/bindings.draft.json --output-dir work/deck
+   ```
+
+   For multiple pages or repeated templates, pass `--name page01` / `--name page02`; each gets its own XML, bindings and report, while identical assets are reused. Required fields must be supplied. Intentionally retaining a true value from the sample requires explicit confirmation in the binding. See [template authoring](references/template-authoring.md). Draft output does not mean content is complete.
+
+3. Check and preview:
+
+   ```bash
+   python3 scripts/validate.py --dir work/deck --json
+   python3 scripts/xml2svg.py --dir work/deck --output-dir work/preview --assets-dir work/deck
+   ```
+
+4. Obtain the official SML schema from the installed CLI and run the full static gate:
+
+   ```bash
+   lark-cli skills read lark-slides/references/xml/slides_xml_schema_definition.xml > work/slides-schema.xsd
+   python3 scripts/validate.py --dir work/deck --schema work/slides-schema.xsd --require-schema --json
+   ```
+
+   If this resource is unavailable in your version, inspect `lark-cli skills list lark-slides` for its current location. The report records schema provenance. A run without schema is explicitly incomplete; local checks are not a replacement for schema validation.
+
+5. Review real screenshots and publish only within the user's requested scope. From `work/deck`, for example:
+
+   ```bash
+   lark-cli slides +screenshot --content @./slide19.xml --output-dir ./screenshots --as user
+   lark-cli slides +create --title "Presentation title" --slide @./slide19.xml --as user
+   ```
+
+   Read back the created presentation, verify page order and content, and save that readback as the baseline for future edits. The local SVG renderer is **approximate**; it reports unsupported features and missing assets instead of silently dropping them.
+
+## Editing an existing presentation
+
+Use three actual snapshots: the last verified online `baseline`, the edited `working` copy, and fresh online `remote`. Preserve page and block IDs.
+
+```bash
+python3 scripts/compare_slides.py --baseline baseline.xml --working working.xml --remote remote.xml --output comparison.json
+```
+
+This produces a conservative comparison report, **not merged XML**. Missing IDs or a baseline require manual review. A conflict-free report provides no server concurrency guarantee. In particular, CLI 1.0.86 warns that an old `+update-slide --revision-id` rebuilds from that snapshot and can discard newer edits. Follow the [update workflow](references/cli-workflow.md) before writing.
+
+## Files and responsibilities
+
+| Path | Purpose |
+| --- | --- |
+| `SKILL.md` | Short agent entry point and routing |
+| `references/` | Theme, authoring, validation and CLI workflows |
+| `tokens.yaml` | One theme configuration; allowed colors are derived from definitions |
+| `templates/INDEX.md` | Human-readable scene selection |
+| `templates/fields.json` | Versioned field mappings with source fingerprints |
+| `templates/slide01.xml` … `slide51.xml` | Native 960×540 SML layouts |
+| `scripts/template_fields.py` | Create bindings and prepare working copies |
+| `scripts/validate.py` | Unified schema, layout and theme checks |
+| `scripts/review_layout.py`, `scripts/review_design.py` | Individual checks for diagnosis |
+| `scripts/xml2svg.py` | Approximate text, image, shape, table and basic chart preview |
+| `scripts/compare_slides.py` | Offline three-way change/conflict report |
+| `scripts/preflight.py` | Local dependencies and optional CLI capability checks |
+| `tests/` | Regression and integration tests |
 
 ## Template coverage
 
-| Category | Pages | Range |
-|----------|-------|-------|
-| Cover / transition / closing | 7 | P1-P6, P51 |
-| TOC / navigation | 3 | P7-P9 |
-| Text / argumentation | 8 | P10-P17 |
-| Data / charts | 8 | P18-P25 |
-| Flow / architecture | 7 | P26-P32 |
-| Product / solution | 6 | P33-P38 |
-| Planning / org | 6 | P39-P44 |
-| Ecosystem / community | 6 | P45-P50 |
+| Category | Pages |
+| --- | --- |
+| Cover / transition / closing | P1–P6, P51 |
+| TOC / navigation | P7–P9 |
+| Text / argumentation | P10–P17 |
+| Data / charts | P18–P25 |
+| Flow / architecture | P26–P32 |
+| Product / solution | P33–P38 |
+| Planning / organization | P39–P44 |
+| Ecosystem / community | P45–P50 |
 
-## Quick start (agent view)
+![Approximate template gallery including charts](docs/template-preview-hd.jpg)
 
-1. Read `templates/INDEX.md`, pick a template by content type (scene matching)
-2. Copy `slideXX.xml` + `assets/*.png` into a work dir
-3. Replace sample content per the INDEX "replace" checklist — **clean ALL template placeholder text** (titles, footnotes, conclusion bars); keep brand tokens
-4. Run the three-stage gate:
-   ```bash
-   # Stage 1: official schema lint (per slide, error_count must be 0)
-   python3 <lark-slides>/scripts/xml_lint.py --input slideXX.xml
-   # Stage 2: layout check (overlap / overflow / out-of-bounds)
-   python3 scripts/review_layout.py --dir .
-   # Stage 3: design guardrails (color whitelist / typography / CTA / density)
-   python3 scripts/review_design.py --dir .
-   ```
-5. Screenshot-check with `lark-cli slides +screenshot` before publishing
-6. Publish via `lark-cli slides +create / +add-slide`
+Generated [SVG previews](docs/preview/) aid layout selection. They contain sample content and an approximate-preview label; they are not final presentation assets. Regenerate after template changes with `xml2svg.py`.
 
-## Design tokens
+## Reports and tests
 
-- White canvas `#FFFFFF` + bold black headings `#171717` + white cards with thin border `#D6D6D2`
-- Coral red `#FF5A5F` as the single brand accent (logo #FF5757)
-- **No dark fills**: black is for text/icon strokes only (no dark cards, headers, or CTA bars)
-- **No bottom pill bars**: no full-width coral pills at page bottom (y>430)
-- Exact palette & font sizes: `tokens.yaml` is the **single machine source** (42-color whitelist)
-- 70/30 strategy: 70% follow a matched template layout, 30% adapt content area freely, 100% alignment accuracy (no overlap / overflow / off-canvas)
+Errors fail a check. Warnings require review; `--strict-warnings` makes them fail automation too. JSON mode writes only JSON to stdout. Directory checks select every immediate `*.xml`; keep schema and snapshot files outside your slide directory.
 
-## Dependencies
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/template_fields.py index --check
+python3 scripts/validate.py --dir templates --json
+python3 scripts/xml2svg.py --dir templates --output-dir work/preview
+```
 
-- [larksuite/cli](https://github.com/larksuite/cli) (Lark Slides XML operations)
-- Official `xml_lint.py` (inside the lark-slides skill) for XML validation
+When a template changes, rebuild the field index with `python3 scripts/template_fields.py index`. CI covers offline behavior; schema validation and live screenshot verification remain distinct stages. See [validation details](references/validation.md) for interpreting incomplete stages and measurement warnings.
 
 ## License
 
-- **Code, templates, and scripts**: MIT © 2026
-- **Brand assets** (e.g. `assets/cherry-logo.png`): brand/logo assets are **not** covered by the MIT license — they are the property of their respective owners and included only as examples. Replace them with your own assets for production use.
+Code, templates and scripts: MIT. Brand/logo assets are owned by their respective owners, are included only as examples, and are **not covered by the MIT license**. Replace them with appropriate assets for your use.
