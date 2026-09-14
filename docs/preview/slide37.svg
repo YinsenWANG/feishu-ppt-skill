@@ -22,45 +22,45 @@
 <text x="920" y="519.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">37</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="206.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">产出相对投入</tspan></text>
+<text x="40" y="207.45" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">产出相对投入</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="36" y="307.45" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="78" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">3.2x</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="379.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">投入产出比</tspan></text>
+<text x="40" y="368.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">投入产出比</tspan></text>
 </g>
 <g data-preview-chart="bar" transform="translate(340 181)">
 <rect width="580" height="227" fill="#FFFFFF" stroke="#000000" stroke-width="0"/>
 <line x1="42" y1="12" x2="42" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
 <text data-chart-axis="y" data-axis-value="0" x="42" y="216" text-anchor="middle" font-size="12" fill="#5D6574">0</text>
-<line x1="165.312" y1="12" x2="165.312" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
-<text data-chart-axis="y" data-axis-value="1" x="165.312" y="216" text-anchor="middle" font-size="12" fill="#5D6574">1</text>
-<line x1="288.625" y1="12" x2="288.625" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
-<text data-chart-axis="y" data-axis-value="2" x="288.625" y="216" text-anchor="middle" font-size="12" fill="#5D6574">2</text>
-<line x1="411.938" y1="12" x2="411.938" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
-<text data-chart-axis="y" data-axis-value="3" x="411.938" y="216" text-anchor="middle" font-size="12" fill="#5D6574">3</text>
-<line x1="535.25" y1="12" x2="535.25" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
-<text data-chart-axis="y" data-axis-value="4" x="535.25" y="216" text-anchor="middle" font-size="12" fill="#5D6574">4</text>
+<line x1="164.075" y1="12" x2="164.075" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
+<text data-chart-axis="y" data-axis-value="1" x="164.075" y="216" text-anchor="middle" font-size="12" fill="#5D6574">1</text>
+<line x1="286.15" y1="12" x2="286.15" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
+<text data-chart-axis="y" data-axis-value="2" x="286.15" y="216" text-anchor="middle" font-size="12" fill="#5D6574">2</text>
+<line x1="408.225" y1="12" x2="408.225" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
+<text data-chart-axis="y" data-axis-value="3" x="408.225" y="216" text-anchor="middle" font-size="12" fill="#5D6574">3</text>
+<line x1="530.3" y1="12" x2="530.3" y2="197" stroke="#DDDDDD" stroke-width="0.5"/>
+<text data-chart-axis="y" data-axis-value="4" x="530.3" y="216" text-anchor="middle" font-size="12" fill="#5D6574">4</text>
 <line data-chart-zero-baseline="true" x1="42" y1="12" x2="42" y2="197" stroke="#999999"/>
 <text data-chart-axis="x" x="34" y="62.45" text-anchor="end" font-size="12" fill="#5D6574">投入</text>
 <text data-chart-axis="x" x="34" y="154.95" text-anchor="end" font-size="12" fill="#5D6574">产出</text>
-<defs><clipPath id="preview-chart-clip-1"><rect x="42" y="12" width="493.25" height="185"/></clipPath></defs>
+<defs><clipPath id="preview-chart-clip-1"><rect x="42" y="12" width="488.3" height="185"/></clipPath></defs>
 <g data-chart-marks="true" clip-path="url(#preview-chart-clip-1)">
-<rect data-chart-mark="bar" data-chart-orientation="horizontal" x="42" y="40.25" width="123.312" height="36" fill="#4367C7"><title>示例数值 / 投入: 1</title></rect>
-<rect data-chart-mark="bar" data-chart-orientation="horizontal" x="42" y="132.75" width="394.6" height="36" fill="#E9465D"><title>示例数值 / 产出: 3.2</title></rect>
+<rect data-chart-mark="bar" data-chart-orientation="horizontal" x="42" y="38.25" width="122.075" height="40" fill="#4367C7"><title>示例数值 / 投入: 1</title></rect>
+<rect data-chart-mark="bar" data-chart-orientation="horizontal" x="42" y="130.75" width="390.64" height="40" fill="#E9465D"><title>示例数值 / 产出: 3.2</title></rect>
 </g>
-<text data-chart-value="1" x="171.312" y="63.5" text-anchor="start" font-size="15" fill="#1E222C">1.0</text>
-<text data-chart-value="3.2" x="442.6" y="156" text-anchor="start" font-size="15" fill="#1E222C">3.2</text>
-</g>
-<g data-preview-text="true">
-<text x="40" y="431" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">3.2 ÷ 1.0 = 3.2x</tspan></text>
+<text data-chart-value="1" x="170.075" y="64.55" text-anchor="start" font-size="18" fill="#1E222C">1.0</text>
+<text data-chart-value="3.2" x="438.64" y="157.05" text-anchor="start" font-size="18" fill="#1E222C">3.2</text>
 </g>
 <g data-preview-text="true">
-<text x="352" y="430.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#4367C7" font-weight="normal" font-style="normal" text-decoration="none">人力 · 时间 · 工具</tspan></text>
+<text x="40" y="422.5" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">3.2 ÷ 1.0 = 3.2x</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="660" y="430.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#E9465D" font-weight="normal" font-style="normal" text-decoration="none">效率 · 质量 · 增长</tspan></text>
+<text x="490" y="220.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#4367C7" font-weight="normal" font-style="normal" text-decoration="none">人力 · 时间 · 工具</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="490" y="283.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#E9465D" font-weight="normal" font-style="normal" text-decoration="none">效率 · 质量 · 增长</tspan></text>
 </g>
 <g data-preview-line="true" opacity="1">
 <line x1="40" y1="453" x2="920" y2="453" fill="none" stroke="#D6D6D2" stroke-width="1"/>

@@ -53,7 +53,7 @@
       </content>
     </shape>
     <shape type="text" topLeftX="64" topLeftY="372" width="350" height="44">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>关键动作完成率</p>
       </content>
     </shape>
@@ -74,7 +74,7 @@
       </content>
     </shape>
     <shape type="text" topLeftX="546" topLeftY="372" width="350" height="44">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>关键动作完成率</p>
       </content>
     </shape>

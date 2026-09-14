@@ -30,7 +30,7 @@
 <text x="64" y="321.6" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="64" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">42%</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="64" y="398.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
+<text x="64" y="398.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
 </g>
 <rect x="522" y="184" width="398" height="250" rx="10" fill="#F4F7FD"/>
 <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADMklEQVR4nO3dwWrUQBgH8CKoF/UhfAVvXoTm0hfoC3jI4kKfoY/Twx70olcvkhXx6MWnqaRsQQqlyXyZ3ZnM7wcDhbLdZfJvJrMz+XJ2BgAAAAAAAAAAAAAAAAAn9mH7/dXYcv797tOvtzW3nP1Tpevr22fdZr893wx/u83+dmyHn7fj73L8/a7ytmT/VO3y8s+Lrh92j3ZWP9xEOukuPP1wc+oD3uVqwf6pPjzn/fBlQkdtU99jfO3JD/Ime0vunxbCc3e6Tn2fNQ1bXYb+qdK7/vfzbrP/PKeT3n/88Xru+1xc/Xxz6oPbHaml9E8z4Rlbysxj7NRTH9juSK2JmdmcYev/ZgjbZ+uf1Yfn0FxEb/L0z/rD0w870/h9u9P41GueQ+d8vbj69jL6GXyRWKkSwvOQpYxK1p4iw9b4uvH1S38mKll7Ep4Ve3JtqB92kf9+4Vm5KWtDqUOI8DRg6trQ3BAJTwNmrw1NnAmVONsig6S1oScOsPA0JmV7w2PDmWGrQakbrB6GSHjansbvIiESnsZFA+AbZmIXv2ZbHDVEpurrlT1EwrN+wd2Cs6f/rNDiZyJnnvYsFiLhaVd0ODNskX4mcuYhOUTCQ3KIhIdA+ZXQFlgakHsTPg3JXYIOAAAA4EB5F2ZTYIpkKtUTolI9ISrVk0ylekJUqifMEEaIi2hCTOMJ80Uii7GUAQAAAItx4yKzuXWanMUb1v1QWY5SDW3dj7Umbym9cUuGPiZUQm/cHKYLSa6/qKQMyRVgDWFEywe7iG5ZKDz9sDONb5hnqpJMeBqQa+3JYzFXLPfak/C0fJtLsHC48KzclBvtUp+4IzwNmHqr79wQCU8DZlermPgQFbOtRiRVq3giRMLTmJRqFY8NZ4atBqVWq3gYIuFpexq/i4RIeBoXDUDktR5OtxKLPyd+oRkdFTlaiAoKj/IutYWogPAoMFX2bsGir3mUuKv1TFTAmWekyGaNISokPCNlfo8sOpyVMGzdU6m+tjNRQWeekUr1NYWosPDcM4TVEKJCwzNyEV1++ZXQFtjcTOMLUHsBKF8kFqT2EnSWMgAAAAAAAAAAAAAAAAA4q9Q/LmDiqPkXrocAAAAASUVORK5CYII=" x="546" y="205" width="32" height="32" preserveAspectRatio="xMidYMid meet"/>
@@ -41,7 +41,7 @@
 <text x="546" y="321.6" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="64" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">68%</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="546" y="398.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
+<text x="546" y="398.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">关键动作完成率</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="480" y="308.5" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">→</tspan></text>

@@ -34,17 +34,12 @@
     <line type="straight-connector1" startX="61" startY="242" endX="736" endY="242">
       <border color="rgba(221,225,232,1)" width="2" />
     </line>
-    <shape type="round-rect" topLeftX="40" topLeftY="182" width="178" height="40" presetHandlers="6">
-      <fill>
-        <fillColor color="rgba(244,247,253,1)" />
-      </fill>
-    </shape>
-    <shape type="text" topLeftX="54" topLeftY="187" width="150" height="30">
+    <shape type="text" topLeftX="40" topLeftY="192" width="201" height="30">
       <content fontFamily="思源黑体" fontSize="18" color="rgba(67,103,199,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>09:00</p>
       </content>
     </shape>
-    <shape type="ellipse" topLeftX="54" topLeftY="235" width="14" height="14">
+    <shape type="ellipse" topLeftX="56" topLeftY="237" width="10" height="10">
       <fill>
         <fillColor color="rgba(67,103,199,1)" />
       </fill>
@@ -54,22 +49,17 @@
         <p>项目启动</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="40" topLeftY="326" width="201" height="88">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="40" topLeftY="322" width="201" height="74">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>确认目标、范围与成功标准</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="265" topLeftY="182" width="178" height="40" presetHandlers="6">
-      <fill>
-        <fillColor color="rgba(244,247,253,1)" />
-      </fill>
-    </shape>
-    <shape type="text" topLeftX="279" topLeftY="187" width="150" height="30">
+    <shape type="text" topLeftX="265" topLeftY="192" width="201" height="30">
       <content fontFamily="思源黑体" fontSize="18" color="rgba(67,103,199,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>Day 3</p>
       </content>
     </shape>
-    <shape type="ellipse" topLeftX="279" topLeftY="235" width="14" height="14">
+    <shape type="ellipse" topLeftX="281" topLeftY="237" width="10" height="10">
       <fill>
         <fillColor color="rgba(67,103,199,1)" />
       </fill>
@@ -79,22 +69,17 @@
         <p>方案评审</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="265" topLeftY="326" width="201" height="88">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="265" topLeftY="322" width="201" height="74">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>聚焦关键假设与资源约束</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="490" topLeftY="182" width="178" height="40" presetHandlers="6">
-      <fill>
-        <fillColor color="rgba(244,247,253,1)" />
-      </fill>
-    </shape>
-    <shape type="text" topLeftX="504" topLeftY="187" width="150" height="30">
+    <shape type="text" topLeftX="490" topLeftY="192" width="201" height="30">
       <content fontFamily="思源黑体" fontSize="18" color="rgba(67,103,199,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>Week 2</p>
       </content>
     </shape>
-    <shape type="ellipse" topLeftX="504" topLeftY="235" width="14" height="14">
+    <shape type="ellipse" topLeftX="506" topLeftY="237" width="10" height="10">
       <fill>
         <fillColor color="rgba(67,103,199,1)" />
       </fill>
@@ -104,22 +89,17 @@
         <p>首轮交付</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="490" topLeftY="326" width="201" height="88">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="490" topLeftY="322" width="201" height="74">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>用真实反馈校准执行路径</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="715" topLeftY="182" width="178" height="40" presetHandlers="6">
-      <fill>
-        <fillColor color="rgba(255,240,243,1)" />
-      </fill>
-    </shape>
-    <shape type="text" topLeftX="729" topLeftY="187" width="150" height="30">
+    <shape type="text" topLeftX="715" topLeftY="192" width="201" height="30">
       <content fontFamily="思源黑体" fontSize="18" color="rgba(233,70,93,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>Month 1</p>
       </content>
     </shape>
-    <shape type="ellipse" topLeftX="729" topLeftY="235" width="14" height="14">
+    <shape type="ellipse" topLeftX="731" topLeftY="237" width="10" height="10">
       <fill>
         <fillColor color="rgba(233,70,93,1)" />
       </fill>
@@ -129,8 +109,8 @@
         <p>复盘升级</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="715" topLeftY="326" width="201" height="88">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="715" topLeftY="322" width="201" height="74">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>沉淀模板，进入下一轮迭代</p>
       </content>
     </shape>

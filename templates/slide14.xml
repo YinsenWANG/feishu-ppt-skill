@@ -26,24 +26,24 @@
         <p>14</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="40" topLeftY="156" width="880" height="278" presetHandlers="12">
+    <shape type="round-rect" topLeftX="40" topLeftY="168" width="880" height="254" presetHandlers="12">
       <fill>
         <fillColor color="rgba(255,240,243,1)" />
       </fill>
     </shape>
-    <shape type="text" topLeftX="66" topLeftY="175" width="82" height="105">
-      <content fontFamily="思源黑体" fontSize="86" color="rgba(233,70,93,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="66" topLeftY="240" width="54" height="66">
+      <content fontFamily="思源黑体" fontSize="54" color="rgba(233,70,93,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>“</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="157" topLeftY="213" width="723" height="114">
-      <content fontFamily="思源黑体" fontSize="38" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="132" topLeftY="209" width="736" height="124">
+      <content fontFamily="思源黑体" fontSize="44" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>设计不是让信息更漂亮，</p>
         <p>而是让行动更清晰。</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="160" topLeftY="365" width="716" height="34">
-      <content fontFamily="思源黑体" fontSize="14" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="132" topLeftY="350" width="736" height="36">
+      <content fontFamily="思源黑体" fontSize="16" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>— Cherry Studio · Design Principle</p>
       </content>
     </shape>

@@ -21,49 +21,47 @@
 <g data-preview-line="true" opacity="1">
 <line x1="61" y1="242" x2="736" y2="242" fill="none" stroke="#DDE1E8" stroke-width="2"/>
 </g>
-<rect x="40" y="182" width="178" height="40" rx="6" fill="#F4F7FD"/>
 <g data-preview-text="true">
-<text x="54" y="206.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">09:00</tspan></text>
+<text x="40" y="211.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">09:00</tspan></text>
 </g>
-<ellipse cx="61" cy="242" rx="7" ry="7" fill="#4367C7"/>
+<ellipse cx="61" cy="242" rx="5" ry="5" fill="#4367C7"/>
 <g data-preview-text="true">
 <text x="40" y="299.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">项目启动</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="374.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">确认目标、范围与成功标准</tspan></text>
+<text x="40" y="336.45" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">确认目标、范围与成功标</tspan></text>
+<text x="40" y="356" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">准</tspan></text>
 </g>
-<rect x="265" y="182" width="178" height="40" rx="6" fill="#F4F7FD"/>
 <g data-preview-text="true">
-<text x="279" y="206.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">Day 3</tspan></text>
+<text x="265" y="211.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">Day 3</tspan></text>
 </g>
-<ellipse cx="286" cy="242" rx="7" ry="7" fill="#4367C7"/>
+<ellipse cx="286" cy="242" rx="5" ry="5" fill="#4367C7"/>
 <g data-preview-text="true">
 <text x="265" y="299.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">方案评审</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="265" y="374.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">聚焦关键假设与资源约束</tspan></text>
+<text x="265" y="336.45" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">聚焦关键假设与资源约束</tspan></text>
 </g>
-<rect x="490" y="182" width="178" height="40" rx="6" fill="#F4F7FD"/>
 <g data-preview-text="true">
-<text x="504" y="206.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">Week 2</tspan></text>
+<text x="490" y="211.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">Week 2</tspan></text>
 </g>
-<ellipse cx="511" cy="242" rx="7" ry="7" fill="#4367C7"/>
+<ellipse cx="511" cy="242" rx="5" ry="5" fill="#4367C7"/>
 <g data-preview-text="true">
 <text x="490" y="299.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">首轮交付</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="490" y="374.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">用真实反馈校准执行路径</tspan></text>
+<text x="490" y="336.45" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">用真实反馈校准执行路径</tspan></text>
 </g>
-<rect x="715" y="182" width="178" height="40" rx="6" fill="#FFF0F3"/>
 <g data-preview-text="true">
-<text x="729" y="206.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">Month 1</tspan></text>
+<text x="715" y="211.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">Month 1</tspan></text>
 </g>
-<ellipse cx="736" cy="242" rx="7" ry="7" fill="#E9465D"/>
+<ellipse cx="736" cy="242" rx="5" ry="5" fill="#E9465D"/>
 <g data-preview-text="true">
 <text x="715" y="299.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">复盘升级</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="715" y="374.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">沉淀模板，进入下一轮迭代</tspan></text>
+<text x="715" y="336.45" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">沉淀模板，进入下一轮迭</tspan></text>
+<text x="715" y="356" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">代</tspan></text>
 </g>
 <g data-preview-text="true">
 <text x="40" y="486.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">日期、节点与说明应使用同一时间口径。</tspan></text>

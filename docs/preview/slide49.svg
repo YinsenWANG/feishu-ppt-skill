@@ -22,43 +22,40 @@
 <text x="920" y="519.75" text-anchor="end" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="10" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">49</tspan></text>
 </g>
 <g data-preview-line="true" opacity="1">
-<line x1="194" y1="238" x2="346" y2="238" fill="none" stroke="#4367C7" stroke-width="2"/>
-<polygon data-preview-arrow="end" stroke="#4367C7" stroke-width="2" stroke-linejoin="round" points="346,238 340,241 340,235" fill="#4367C7"/>
+<line x1="292" y1="294" x2="330" y2="294" fill="none" stroke="#4367C7" stroke-width="2"/>
+<polygon data-preview-arrow="end" stroke="#4367C7" stroke-width="2" stroke-linejoin="round" points="330,294 324,297 324,291" fill="#4367C7"/>
 </g>
 <g data-preview-line="true" opacity="1">
-<line x1="480" y1="284" x2="480" y2="393" fill="none" stroke="#1E7E82" stroke-width="2"/>
+<line x1="654" y1="294" x2="690" y2="294" fill="none" stroke="#1E7E82" stroke-width="2"/>
+<polygon data-preview-arrow="end" stroke="#1E7E82" stroke-width="2" stroke-linejoin="round" points="690,294 684,297 684,291" fill="#1E7E82"/>
 </g>
-<g data-preview-line="true" opacity="1">
-<line x1="480" y1="393" x2="660" y2="393" fill="none" stroke="#1E7E82" stroke-width="2"/>
-<polygon data-preview-arrow="end" stroke="#1E7E82" stroke-width="2" stroke-linejoin="round" points="660,393 654,396 654,390" fill="#1E7E82"/>
-</g>
-<rect x="350" y="185" width="292" height="147" rx="8" fill="#F3F9F9"/>
+<rect x="350" y="214" width="292" height="206" rx="8" fill="#F3F9F9"/>
 <g data-preview-text="true">
-<text x="40" y="199.35" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">01</tspan></text>
+<text x="40" y="247.35" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">01</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="255.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="31" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">申请</tspan></text>
+<text x="40" y="302.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="32" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">申请</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="299.175" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">提交合作方向与资源</tspan></text>
+<text x="40" y="357.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">提交合作方向与资源</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="372" y="211.35" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#1E7E82" font-weight="bold" font-style="normal" text-decoration="none">02</tspan></text>
+<text x="372" y="247.35" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#1E7E82" font-weight="bold" font-style="normal" text-decoration="none">02</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="372" y="267.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="31" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">对接</tspan></text>
+<text x="372" y="302.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="32" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">对接</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="372" y="311.175" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">确认目标、节奏与边界</tspan></text>
+<text x="372" y="357.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">确认目标、节奏与边界</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="686" y="347.35" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">03</tspan></text>
+<text x="704" y="247.35" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">03</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="686" y="403.025" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="31" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">共赢</tspan></text>
+<text x="704" y="302.8" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="32" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">共赢</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="686" y="447.175" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="17" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">联合交付并持续复盘</tspan></text>
+<text x="704" y="357.3" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">联合交付并持续复盘</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

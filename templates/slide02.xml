@@ -26,7 +26,7 @@
         <p>02</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="40" topLeftY="148" width="286" height="334" presetHandlers="10">
+    <shape type="round-rect" topLeftX="40" topLeftY="164" width="286" height="248" presetHandlers="10">
       <fill>
         <fillColor color="rgba(244,247,253,1)" />
       </fill>
@@ -37,8 +37,8 @@
         <p>可见的作品</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="62" topLeftY="324" width="238" height="104">
-      <content fontFamily="思源黑体" fontSize="18" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="62" topLeftY="299" width="238" height="72">
+      <content fontFamily="思源黑体" fontSize="18" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>从内容组织到视觉表达，一处完成。</p>
       </content>
     </shape>

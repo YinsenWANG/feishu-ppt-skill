@@ -26,11 +26,6 @@
         <p>01</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="670" topLeftY="130" width="250" height="326" presetHandlers="14">
-      <fill>
-        <fillColor color="rgba(255,237,242,1)" />
-      </fill>
-    </shape>
     <img src="@./cherry-logo.png" width="170" height="170" topLeftX="710" topLeftY="206" />
     <shape type="text" topLeftX="40" topLeftY="164" width="600" height="144">
       <content fontFamily="思源黑体" fontSize="50" color="rgba(30,34,44,1)" bold="true" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">

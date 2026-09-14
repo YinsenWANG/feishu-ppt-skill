@@ -21,52 +21,51 @@
 <g data-preview-line="true" opacity="1">
 <line x1="144" y1="238" x2="816" y2="238" fill="none" stroke="#AEB8C6" stroke-width="2"/>
 </g>
-<ellipse cx="144" cy="238" rx="32" ry="32" fill="#F4F7FD"/>
+<ellipse cx="144" cy="238" rx="32" ry="32" fill="#F6F8FA"/>
 <g data-preview-text="true">
-<text x="144" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#4367C7" font-weight="bold" font-style="normal" text-decoration="none">01</tspan></text>
+<text x="144" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">01</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="48" y="325.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">识别问题</tspan></text>
+<text x="144" y="313.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">识别问题</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="48" y="373.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">统一目标与边界</tspan></text>
+<text x="144" y="359.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">统一目标与边界</tspan></text>
 </g>
-<ellipse cx="368" cy="238" rx="32" ry="32" fill="#F8F5FC"/>
+<ellipse cx="368" cy="238" rx="32" ry="32" fill="#F6F8FA"/>
 <g data-preview-text="true">
-<text x="368" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#764EAB" font-weight="bold" font-style="normal" text-decoration="none">02</tspan></text>
-</g>
-<g data-preview-text="true">
-<text x="272" y="325.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">制定方案</tspan></text>
+<text x="368" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">02</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="272" y="373.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">拆解路径与资源</tspan></text>
-</g>
-<ellipse cx="592" cy="238" rx="32" ry="32" fill="#F3F9F9"/>
-<g data-preview-text="true">
-<text x="592" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E7E82" font-weight="bold" font-style="normal" text-decoration="none">03</tspan></text>
+<text x="368" y="313.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">制定方案</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="496" y="325.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">协同执行</tspan></text>
+<text x="368" y="359.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">拆解路径与资源</tspan></text>
+</g>
+<ellipse cx="592" cy="238" rx="32" ry="32" fill="#F6F8FA"/>
+<g data-preview-text="true">
+<text x="592" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">03</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="496" y="373.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">同步进度与风险</tspan></text>
+<text x="592" y="313.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">协同执行</tspan></text>
 </g>
-<ellipse cx="816" cy="238" rx="32" ry="32" fill="#FFF0F3"/>
+<g data-preview-text="true">
+<text x="592" y="359.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">同步进度与风险</tspan></text>
+</g>
+<ellipse cx="816" cy="238" rx="32" ry="32" fill="#F6F8FA"/>
 <g data-preview-text="true">
 <text x="816" y="243.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">04</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="720" y="325.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">复盘迭代</tspan></text>
+<text x="816" y="313.05" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">复盘迭代</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="720" y="373.4" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">沉淀方法与经验</tspan></text>
-</g>
-<rect x="40" y="424" width="880" height="54" rx="8" fill="#FFF0F3"/>
-<g data-preview-text="true">
-<text x="60" y="455.125" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">统一原则</tspan></text>
+<text x="816" y="359.95" text-anchor="middle" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">沉淀方法与经验</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="214" y="455.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">每一步都有明确输入、负责人和可验证输出。</tspan></text>
+<text x="40" y="454.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#E9465D" font-weight="bold" font-style="normal" text-decoration="none">统一原则</tspan></text>
+</g>
+<g data-preview-text="true">
+<text x="190" y="455.225" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="19" fill="#1E222C" font-weight="normal" font-style="normal" text-decoration="none">每一步都有明确输入、负责人和可验证输出。</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>

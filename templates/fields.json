@@ -6,7 +6,7 @@
     {
       "id": "slide01",
       "file": "slide01.xml",
-      "source_sha256": "8da2544d4194e4845c4c9ec6f6b79cba8df1cdd86c3b8d4d788dda30934efd79",
+      "source_sha256": "a7670885e39bbb4146c3eec04999df1315a7728fcca60cf44bfa49727067acc6",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 10,
       "fields": [
@@ -176,7 +176,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 6
+              "index": 5
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -206,7 +206,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 6
+              "index": 5
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -236,7 +236,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 7
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -266,7 +266,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -291,7 +291,7 @@
     {
       "id": "slide02",
       "file": "slide02.xml",
-      "source_sha256": "4e3d9d5c778273a7ff1e31465187cc105850191c745067cc3312d00f9e0e74b0",
+      "source_sha256": "1acc5a126c39bc3af0d6a0648adde4e94020b9068b85c4688a187dff7a88a059",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 9,
       "fields": [
@@ -831,7 +831,7 @@
     {
       "id": "slide04",
       "file": "slide04.xml",
-      "source_sha256": "2110c7d6a549b894a963d085709a2c53a72d6ff488bc87c7083d9b508e70584c",
+      "source_sha256": "59a714756b1510024f3bcd17a5228df107ae5388f621a532e1a2ecd7fea22b52",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 18,
       "fields": [
@@ -1042,12 +1042,12 @@
               "index": 1
             }
           ],
-          "example": "01 · 定位",
+          "example": "定位",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1077,7 +1077,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 15,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1107,7 +1107,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1150,12 +1150,12 @@
               "index": 1
             }
           ],
-          "example": "02 · 交付",
+          "example": "交付",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1185,7 +1185,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 15,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1215,7 +1215,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1258,12 +1258,12 @@
               "index": 1
             }
           ],
-          "example": "03 · 节奏",
+          "example": "节奏",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1293,7 +1293,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 15,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1323,7 +1323,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -1539,7 +1539,7 @@
     {
       "id": "slide06",
       "file": "slide06.xml",
-      "source_sha256": "c6f769e267b0089cf2918bef0ebc34b33243ba66e3c0bdb24837f9c3f6598c65",
+      "source_sha256": "03a7082e7f48b8a189e060ab92aafa40cc4bdd322b81c378946b68e48e0438ad",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 14,
       "fields": [
@@ -1865,7 +1865,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -1881,7 +1881,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -1895,7 +1895,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -1911,7 +1911,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 16,
+            "estimated_cjk_chars_per_line": 22,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -1920,7 +1920,7 @@
     {
       "id": "slide07",
       "file": "slide07.xml",
-      "source_sha256": "1349305754ed69dd93c0883f854249e1253bfc67772a91dadf0342d9083b5051",
+      "source_sha256": "0adfb63bd8e474fb25eaaa8a317182e2d2b9ab8570c02f8de8dcd016a3078dac",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 22,
       "fields": [
@@ -2058,7 +2058,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 58,
+            "estimated_cjk_chars_per_line": 51,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -2132,7 +2132,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2162,7 +2162,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 9
+              "index": 8
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2192,7 +2192,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2208,7 +2208,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 26,
+            "estimated_cjk_chars_per_line": 22,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -2222,7 +2222,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2252,7 +2252,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2282,7 +2282,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 12
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2298,7 +2298,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 26,
+            "estimated_cjk_chars_per_line": 22,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -2312,7 +2312,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 14
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2342,7 +2342,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2372,7 +2372,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
+              "index": 15
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2388,7 +2388,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 16,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -2402,7 +2402,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 16
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2432,7 +2432,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 18
+              "index": 17
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2462,7 +2462,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 18
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2478,7 +2478,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 16,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -2492,7 +2492,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 21
+              "index": 19
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2522,7 +2522,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 22
+              "index": 20
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2552,7 +2552,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 23
+              "index": 21
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -2568,7 +2568,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 16,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -3615,9 +3615,9 @@
     {
       "id": "slide10",
       "file": "slide10.xml",
-      "source_sha256": "2aed88f1b63887f44c14047e2252c271642f63dadd3362232fbdfb03dfa3a7f9",
+      "source_sha256": "07bfdca3b8421e131cd7e8a8cecab20670c2352b02b53d9b9921cdd2f2aed25a",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
-      "field_count": 17,
+      "field_count": 16,
       "fields": [
         {
           "id": "image_0001",
@@ -3856,47 +3856,17 @@
               "index": 1
             }
           ],
-          "example": "希望听众",
+          "example": "希望听众记住什么",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 15,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
           "id": "text_0008",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 2
-            }
-          ],
-          "example": "记住什么",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0009",
           "kind": "text",
           "path": [
             {
@@ -3921,12 +3891,12 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 31,
+            "estimated_cjk_chars_per_line": 29,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0010",
+          "id": "text_0009",
           "kind": "text",
           "path": [
             {
@@ -3956,7 +3926,7 @@
           }
         },
         {
-          "id": "text_0011",
+          "id": "text_0010",
           "kind": "text",
           "path": [
             {
@@ -3986,7 +3956,7 @@
           }
         },
         {
-          "id": "text_0012",
+          "id": "text_0011",
           "kind": "text",
           "path": [
             {
@@ -4011,12 +3981,12 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 31,
+            "estimated_cjk_chars_per_line": 29,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0013",
+          "id": "text_0012",
           "kind": "text",
           "path": [
             {
@@ -4046,7 +4016,7 @@
           }
         },
         {
-          "id": "text_0014",
+          "id": "text_0013",
           "kind": "text",
           "path": [
             {
@@ -4076,7 +4046,7 @@
           }
         },
         {
-          "id": "text_0015",
+          "id": "text_0014",
           "kind": "text",
           "path": [
             {
@@ -4101,7 +4071,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 35,
+            "estimated_cjk_chars_per_line": 30,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -4110,7 +4080,7 @@
     {
       "id": "slide11",
       "file": "slide11.xml",
-      "source_sha256": "24c55a70d4aa1cd6dd9019e78ef4bb21fe8a906fea72a0b9ad30aba450133bd9",
+      "source_sha256": "d2af1ddca9ff6b550c31006aab4e03e96b4244a0ac42971cb2d1258a00a82bb1",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 23,
       "fields": [
@@ -4356,7 +4326,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4386,7 +4356,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4416,7 +4386,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4446,7 +4416,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4506,7 +4476,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 20,
+            "estimated_cjk_chars_per_line": 34,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4596,7 +4566,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 45,
+            "estimated_cjk_chars_per_line": 32,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4626,7 +4596,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 20,
+            "estimated_cjk_chars_per_line": 34,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4716,7 +4686,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 45,
+            "estimated_cjk_chars_per_line": 32,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -4776,7 +4746,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 41,
+            "estimated_cjk_chars_per_line": 38,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -4785,7 +4755,7 @@
     {
       "id": "slide12",
       "file": "slide12.xml",
-      "source_sha256": "62a9c24210d9ad35e273e98d59ab2693e5f2d231a52279b78ce024443d0fa3b2",
+      "source_sha256": "477f6d33c3599ae00bf429f94efc66878e38e7bfb0099e0733e56216cb81d08d",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 23,
       "fields": [
@@ -5031,7 +5001,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 5,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5169,7 +5139,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 30,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5199,7 +5169,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 27,
+            "estimated_cjk_chars_per_line": 26,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5277,7 +5247,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 30,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5307,7 +5277,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 27,
+            "estimated_cjk_chars_per_line": 26,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5385,7 +5355,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 30,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5415,7 +5385,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 27,
+            "estimated_cjk_chars_per_line": 26,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -5424,7 +5394,7 @@
     {
       "id": "slide13",
       "file": "slide13.xml",
-      "source_sha256": "feeadfb720eb126e64fcfc650c7a7dc51a1e9099b7e8cb83e01f3cd39a8ba9ea",
+      "source_sha256": "dfa2955cc7d20eee08bf40102a2c85ec9c3bf472b37516002ebd53a27d60e4ab",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 18,
       "fields": [
@@ -5562,7 +5532,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 62,
+            "estimated_cjk_chars_per_line": 51,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5652,7 +5622,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 21,
+            "estimated_cjk_chars_per_line": 17,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5792,11 +5762,11 @@
             }
           ],
           "example": "方案",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5886,7 +5856,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 21,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -5916,7 +5886,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 26,
+            "estimated_cjk_chars_per_line": 22,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -5925,7 +5895,7 @@
     {
       "id": "slide14",
       "file": "slide14.xml",
-      "source_sha256": "5239e274b9f0bcde83a9ae27370a007e50a7fb6923898317c30391b53fd31bd6",
+      "source_sha256": "1bf1da1e097dee0f69e3329fa8711cabd3902180ff36d41198d02c96578845cb",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 9,
       "fields": [
@@ -6123,7 +6093,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 16,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -6153,7 +6123,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 16,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -6183,7 +6153,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 51,
+            "estimated_cjk_chars_per_line": 46,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -7278,9 +7248,9 @@
     {
       "id": "slide17",
       "file": "slide17.xml",
-      "source_sha256": "d7da078a6982ce78347bcd70304d12bfabca79d6a91331803be6ddde92241977",
+      "source_sha256": "83626d45143a2d1fed9b7cc9bae73acfb6efec24704e322b3dc6732be00c927e",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
-      "field_count": 19,
+      "field_count": 16,
       "fields": [
         {
           "id": "image_0001",
@@ -7481,6 +7451,24 @@
           }
         },
         {
+          "id": "image_0002",
+          "kind": "image",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}img",
+              "index": 2
+            }
+          ],
+          "example": "@./lucide-FileSearch-e86e75.png",
+          "role": "image",
+          "required": true,
+          "attribute": "src"
+        },
+        {
           "id": "text_0007",
           "kind": "text",
           "path": [
@@ -7501,32 +7489,14 @@
               "index": 1
             }
           ],
-          "example": "A",
+          "example": "洞察力",
           "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 1,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
-        },
-        {
-          "id": "image_0002",
-          "kind": "image",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}img",
-              "index": 2
-            }
-          ],
-          "example": "@./lucide-FileSearch-e86e75.png",
-          "role": "image",
-          "required": true,
-          "attribute": "src"
         },
         {
           "id": "text_0008",
@@ -7549,14 +7519,32 @@
               "index": 1
             }
           ],
-          "example": "洞察力",
+          "example": "从信息中识别真正的问题",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
+        },
+        {
+          "id": "image_0003",
+          "kind": "image",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}img",
+              "index": 3
+            }
+          ],
+          "example": "@./lucide-Network-88ec17.png",
+          "role": "image",
+          "required": true,
+          "attribute": "src"
         },
         {
           "id": "text_0009",
@@ -7568,7 +7556,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -7579,12 +7567,12 @@
               "index": 1
             }
           ],
-          "example": "从信息中识别真正的问题",
-          "role": "body",
+          "example": "结构力",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 14,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -7609,120 +7597,12 @@
               "index": 1
             }
           ],
-          "example": "B",
-          "role": "title",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 1,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "image_0003",
-          "kind": "image",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}img",
-              "index": 3
-            }
-          ],
-          "example": "@./lucide-Network-88ec17.png",
-          "role": "image",
-          "required": true,
-          "attribute": "src"
-        },
-        {
-          "id": "text_0011",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
-          "example": "结构力",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0012",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 14
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
           "example": "把复杂内容组织成路径",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 14,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0013",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
-          "example": "C",
-          "role": "title",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 1,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -7745,7 +7625,7 @@
           "attribute": "src"
         },
         {
-          "id": "text_0014",
+          "id": "text_0011",
           "kind": "text",
           "path": [
             {
@@ -7754,7 +7634,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -7766,16 +7646,16 @@
             }
           ],
           "example": "行动力",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0015",
+          "id": "text_0012",
           "kind": "text",
           "path": [
             {
@@ -7784,7 +7664,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 18
+              "index": 15
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -7800,7 +7680,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 14,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -7809,9 +7689,9 @@
     {
       "id": "slide18",
       "file": "slide18.xml",
-      "source_sha256": "19928a3fc58910bf28730366e8832a9a28e46ebc85858445e26ea8e3e70960de",
+      "source_sha256": "b0356dc9b897dbdca53e414e901f9ec86361e762924ea6f1be0bcf728a691522",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
-      "field_count": 10,
+      "field_count": 9,
       "fields": [
         {
           "id": "image_0001",
@@ -8012,24 +7892,6 @@
           }
         },
         {
-          "id": "image_0002",
-          "kind": "image",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}img",
-              "index": 2
-            }
-          ],
-          "example": "@./lucide-NotebookPen-e86e75.png",
-          "role": "image",
-          "required": true,
-          "attribute": "src"
-        },
-        {
           "id": "text_0007",
           "kind": "text",
           "path": [
@@ -8051,11 +7913,11 @@
             }
           ],
           "example": "每一次表达，都在让想法更接近行动。",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 18,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8094,7 +7956,7 @@
     {
       "id": "slide19",
       "file": "slide19.xml",
-      "source_sha256": "7d8cefa84260e944a9f38fad93a8dedcb9728058d706054372032bcb20522b72",
+      "source_sha256": "0dcf3051c4babcf7a4d55f0175179912ddfe5a3e5c505c83aff022d95ecc6255",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 24,
       "fields": [
@@ -8340,7 +8202,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8400,7 +8262,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 18,
+            "estimated_cjk_chars_per_line": 15,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8448,7 +8310,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 5,
+            "estimated_cjk_chars_per_line": 4,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8478,7 +8340,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8556,7 +8418,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 5,
+            "estimated_cjk_chars_per_line": 4,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8586,7 +8448,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8664,7 +8526,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 5,
+            "estimated_cjk_chars_per_line": 4,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8694,7 +8556,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -8763,7 +8625,7 @@
     {
       "id": "slide20",
       "file": "slide20.xml",
-      "source_sha256": "220e28e7c8677327fbc8b57958e723d960a7833a7c29241144694e14283ba685",
+      "source_sha256": "b086693ef1537449bc277641724d7caa38d95d5ce28729f393e309068d483e6c",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 17,
       "fields": [
@@ -9069,7 +8931,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 23,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -9177,7 +9039,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 23,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -10350,7 +10212,7 @@
     {
       "id": "slide23",
       "file": "slide23.xml",
-      "source_sha256": "6478c77fe4111137f38187a705347386370c8f77d5130239f80fb4cedf849f73",
+      "source_sha256": "ce0b7df26c6f81f0e9a6867f41d0b50820e71d01cb3d742a55ca51700a4c385a",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 15,
       "fields": [
@@ -10698,7 +10560,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 5,
+            "estimated_cjk_chars_per_line": 4,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -10728,7 +10590,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 15,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -10742,7 +10604,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -10758,7 +10620,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 22,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -10772,7 +10634,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -11334,7 +11196,7 @@
     {
       "id": "slide25",
       "file": "slide25.xml",
-      "source_sha256": "59b0ef768216c1435b84402c3f259fa8cbab1831ea5198dea6d50004c82526da",
+      "source_sha256": "56c80309409a5c76a5af657d790f30bdbc187ebbd7c5ce13183c8e272bd1eac0",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 28,
       "fields": [
@@ -11472,7 +11334,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 62,
+            "estimated_cjk_chars_per_line": 51,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -12246,7 +12108,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -12262,7 +12124,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 56,
+            "estimated_cjk_chars_per_line": 51,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -12271,7 +12133,7 @@
     {
       "id": "slide26",
       "file": "slide26.xml",
-      "source_sha256": "e797dc354a43b050b2b4e5230913165045a04e7c0925066500f1ee4e4fd04904",
+      "source_sha256": "931e490eb0db1ce9bcc8c892c839d4e629a263152ef9b0c6e68b763455b8fd4f",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 20,
       "fields": [
@@ -12529,7 +12391,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -12619,7 +12481,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -12709,7 +12571,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -12799,12 +12661,42 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
           "id": "text_0018",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 22
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "统一原则",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0019",
           "kind": "text",
           "path": [
             {
@@ -12824,42 +12716,12 @@
               "index": 1
             }
           ],
-          "example": "统一原则",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0019",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 24
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
           "example": "每一步都有明确输入、负责人和可验证输出。",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 37,
+            "estimated_cjk_chars_per_line": 38,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -12868,7 +12730,7 @@
     {
       "id": "slide27",
       "file": "slide27.xml",
-      "source_sha256": "d90a975191f09168e37f072a5d7863e8e9a67b11c86f8c14d7ad425183c61801",
+      "source_sha256": "3d67adcc11a9c94fad431fb3e3801b02606eef7563f06c3b819e1f8fc541c0b2",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 19,
       "fields": [
@@ -13050,7 +12912,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 7
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13066,7 +12928,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13080,7 +12942,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 9
+              "index": 8
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13110,7 +12972,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13126,7 +12988,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13140,7 +13002,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13156,7 +13018,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13170,7 +13032,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 14
+              "index": 12
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13200,7 +13062,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13216,7 +13078,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13230,7 +13092,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13246,7 +13108,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13260,7 +13122,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 16
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13290,7 +13152,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 20
+              "index": 17
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13306,7 +13168,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13320,7 +13182,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 22
+              "index": 18
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13336,7 +13198,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13350,7 +13212,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 24
+              "index": 20
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13380,7 +13242,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 25
+              "index": 21
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13396,7 +13258,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -13410,7 +13272,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 26
+              "index": 22
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -13780,7 +13642,7 @@
     {
       "id": "slide29",
       "file": "slide29.xml",
-      "source_sha256": "736e18cd56cb88653b9819e387c7b1756f34a67b9ba3e8afa34e197032155aa2",
+      "source_sha256": "726991dc911e6e6a728bc82da3bce6c408e36a40b08c72030ddc4d2736ecdaeb",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 15,
       "fields": [
@@ -14074,7 +13936,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14104,7 +13966,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14182,7 +14044,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 30,
+            "estimated_cjk_chars_per_line": 28,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -14191,7 +14053,7 @@
     {
       "id": "slide30",
       "file": "slide30.xml",
-      "source_sha256": "a54ddcb5acf69c7bbd42c92748d0bc7e2803b020c5a80c3fb21ef9e68595d9a9",
+      "source_sha256": "aedb7f19575bd4f19fd6982e52e27e9b3976e04588cda8ae5b82bab209095223",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 22,
       "fields": [
@@ -14329,7 +14191,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 62,
+            "estimated_cjk_chars_per_line": 51,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14467,7 +14329,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14545,7 +14407,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14623,7 +14485,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14701,7 +14563,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14761,7 +14623,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -14791,7 +14653,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -14800,7 +14662,7 @@
     {
       "id": "slide31",
       "file": "slide31.xml",
-      "source_sha256": "d506b1dea5a1176be0a9e01ac7b48ee3212e8d5b3508c8ff3f1cba3a7e35ff3d",
+      "source_sha256": "2d9534810fb3e69d598ad4d2917b0cd42cba7c30e963492db8946eb7b18a318a",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 19,
       "fields": [
@@ -15016,7 +14878,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 6,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -15106,7 +14968,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -15154,7 +15016,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -15232,7 +15094,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -15322,7 +15184,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 14,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -16249,7 +16111,7 @@
     {
       "id": "slide34",
       "file": "slide34.xml",
-      "source_sha256": "14c4e0e1633e156a42777bf02b8a21710c80741baeadeca83e8fdf32948c2cb8",
+      "source_sha256": "964ca788f4c74b5b858717aeaaf3e85611182fff185a3a93ae3a2408f8c0a6be",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 25,
       "fields": [
@@ -16525,7 +16387,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -16603,7 +16465,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -16681,7 +16543,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -16759,7 +16621,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -16837,7 +16699,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -16915,7 +16777,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -18210,7 +18072,7 @@
     {
       "id": "slide37",
       "file": "slide37.xml",
-      "source_sha256": "5430e4843a4f6c9eada83be62759eabc5df2ec895f7ac27e46d4231833c37abd",
+      "source_sha256": "fa80b3291f551611ae059c82b8f4ac49a9aad9944f7b9821204cc370485d3fed",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 18,
       "fields": [
@@ -18438,7 +18300,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 16,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -18498,7 +18360,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 17,
+            "estimated_cjk_chars_per_line": 14,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -18678,7 +18540,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 23,
+            "estimated_cjk_chars_per_line": 25,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -18708,7 +18570,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 21,
+            "estimated_cjk_chars_per_line": 25,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -18747,7 +18609,7 @@
     {
       "id": "slide38",
       "file": "slide38.xml",
-      "source_sha256": "e1e95aebbc072b7d0d9e4aaad244b0129a6b82a40238ae698c646f3357fc15a0",
+      "source_sha256": "d0bd6324ca2083bd5dff76e4dc2996696d5f981b595017c6b1e6e0421d77c5de",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 12,
       "fields": [
@@ -18975,7 +18837,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 31,
+            "estimated_cjk_chars_per_line": 28,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19005,7 +18867,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 31,
+            "estimated_cjk_chars_per_line": 28,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19035,7 +18897,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 31,
+            "estimated_cjk_chars_per_line": 28,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19065,7 +18927,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 30,
+            "estimated_cjk_chars_per_line": 35,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19095,7 +18957,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 22,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -19104,7 +18966,7 @@
     {
       "id": "slide39",
       "file": "slide39.xml",
-      "source_sha256": "ee4cbcb3f43154489b488db8a83dd50816b8b57b9208c2fa26f095da23838a2a",
+      "source_sha256": "3bce5761e698ac533bb0e82733616783b289ca28589c7a81131e35c6ad106ae8",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 25,
       "fields": [
@@ -19332,7 +19194,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19380,7 +19242,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 3,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19410,7 +19272,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19440,7 +19302,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19470,7 +19332,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19500,7 +19362,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19548,7 +19410,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 3,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19578,7 +19440,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19608,7 +19470,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19638,7 +19500,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19668,7 +19530,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19716,7 +19578,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 3,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19746,7 +19608,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19776,7 +19638,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -19806,7 +19668,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 11,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -20394,7 +20256,7 @@
     {
       "id": "slide41",
       "file": "slide41.xml",
-      "source_sha256": "aedfa01e6fbb9a1ba492e83ab1cb93a0c4e525296d57c143820e8a3fc9e75c7b",
+      "source_sha256": "41e32bcb2f361f13dfac61acd5bad2cc5d0e913f998466684f864af3bf7c064b",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 24,
       "fields": [
@@ -20594,7 +20456,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20606,7 +20468,7 @@
             }
           ],
           "example": "林澈",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
@@ -20624,7 +20486,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 9
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20640,7 +20502,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 18,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -20672,7 +20534,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 8
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20684,7 +20546,7 @@
             }
           ],
           "example": "周可",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
@@ -20702,7 +20564,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20718,7 +20580,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 18,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -20750,7 +20612,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20762,7 +20624,7 @@
             }
           ],
           "example": "陈遇",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
@@ -20780,7 +20642,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20796,7 +20658,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 18,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -20828,7 +20690,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 14
+              "index": 12
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20840,7 +20702,7 @@
             }
           ],
           "example": "苏禾",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
@@ -20858,7 +20720,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20874,7 +20736,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 18,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -20906,7 +20768,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20918,7 +20780,7 @@
             }
           ],
           "example": "许安",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
@@ -20936,7 +20798,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 15
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20952,7 +20814,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 18,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -20984,7 +20846,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 18
+              "index": 16
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -20996,7 +20858,7 @@
             }
           ],
           "example": "叶宁",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
@@ -21014,7 +20876,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 17
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -21030,7 +20892,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 19,
+            "estimated_cjk_chars_per_line": 18,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -21039,9 +20901,9 @@
     {
       "id": "slide42",
       "file": "slide42.xml",
-      "source_sha256": "24b913eebfe50d78900255b96319f14d48cf928017a893a7262e9ea14bb8de77",
+      "source_sha256": "150d6fb462bc16901d4dfa6bbde0f888cab5438d054cd45461ff2e8993b45149",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
-      "field_count": 33,
+      "field_count": 31,
       "fields": [
         {
           "id": "image_0001",
@@ -21182,24 +21044,6 @@
           }
         },
         {
-          "id": "image_0002",
-          "kind": "image",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}img",
-              "index": 2
-            }
-          ],
-          "example": "@./lucide-Network-88ec17.png",
-          "role": "image",
-          "required": true,
-          "attribute": "src"
-        },
-        {
           "id": "text_0005",
           "kind": "text",
           "path": [
@@ -21220,47 +21064,17 @@
               "index": 1
             }
           ],
-          "example": "责任到人，",
+          "example": "责任到人，协作不留空白",
           "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 27,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
           "id": "text_0006",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 5
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 2
-            }
-          ],
-          "example": "协作不留空白",
-          "role": "title",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0007",
           "kind": "text",
           "path": [
             {
@@ -21295,7 +21109,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0008",
+          "id": "text_0007",
           "kind": "text",
           "path": [
             {
@@ -21330,7 +21144,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0009",
+          "id": "text_0008",
           "kind": "text",
           "path": [
             {
@@ -21365,7 +21179,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0010",
+          "id": "text_0009",
           "kind": "text",
           "path": [
             {
@@ -21400,7 +21214,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0011",
+          "id": "text_0010",
           "kind": "text",
           "path": [
             {
@@ -21435,7 +21249,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0012",
+          "id": "text_0011",
           "kind": "text",
           "path": [
             {
@@ -21470,7 +21284,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0013",
+          "id": "text_0012",
           "kind": "text",
           "path": [
             {
@@ -21505,7 +21319,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0014",
+          "id": "text_0013",
           "kind": "text",
           "path": [
             {
@@ -21540,7 +21354,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0015",
+          "id": "text_0014",
           "kind": "text",
           "path": [
             {
@@ -21575,7 +21389,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0016",
+          "id": "text_0015",
           "kind": "text",
           "path": [
             {
@@ -21610,7 +21424,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0017",
+          "id": "text_0016",
           "kind": "text",
           "path": [
             {
@@ -21645,7 +21459,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0018",
+          "id": "text_0017",
           "kind": "text",
           "path": [
             {
@@ -21680,7 +21494,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0019",
+          "id": "text_0018",
           "kind": "text",
           "path": [
             {
@@ -21715,7 +21529,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0020",
+          "id": "text_0019",
           "kind": "text",
           "path": [
             {
@@ -21750,7 +21564,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0021",
+          "id": "text_0020",
           "kind": "text",
           "path": [
             {
@@ -21785,7 +21599,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0022",
+          "id": "text_0021",
           "kind": "text",
           "path": [
             {
@@ -21820,7 +21634,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0023",
+          "id": "text_0022",
           "kind": "text",
           "path": [
             {
@@ -21855,7 +21669,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0024",
+          "id": "text_0023",
           "kind": "text",
           "path": [
             {
@@ -21890,7 +21704,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0025",
+          "id": "text_0024",
           "kind": "text",
           "path": [
             {
@@ -21925,7 +21739,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0026",
+          "id": "text_0025",
           "kind": "text",
           "path": [
             {
@@ -21960,7 +21774,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0027",
+          "id": "text_0026",
           "kind": "text",
           "path": [
             {
@@ -21995,7 +21809,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0028",
+          "id": "text_0027",
           "kind": "text",
           "path": [
             {
@@ -22030,7 +21844,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0029",
+          "id": "text_0028",
           "kind": "text",
           "path": [
             {
@@ -22065,7 +21879,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0030",
+          "id": "text_0029",
           "kind": "text",
           "path": [
             {
@@ -22100,7 +21914,7 @@
           "capacity_hint": null
         },
         {
-          "id": "text_0031",
+          "id": "text_0030",
           "kind": "text",
           "path": [
             {
@@ -22139,7 +21953,7 @@
     {
       "id": "slide43",
       "file": "slide43.xml",
-      "source_sha256": "d0f3c7f745045a33c42f484da4fc16d2f2c63319c001bb1088922dfafbd17741",
+      "source_sha256": "1aa5a48bd0f4e468dd1be5b1ea5797e95f36b8d5f2ecffa71c3ef1a75682a612",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 23,
       "fields": [
@@ -22321,7 +22135,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 7
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22337,7 +22151,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22369,7 +22183,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22385,12 +22199,42 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
           "id": "text_0008",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 8
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "范围与优先级确认",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 10,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0009",
           "kind": "text",
           "path": [
             {
@@ -22410,42 +22254,12 @@
               "index": 1
             }
           ],
-          "example": "范围与优先级确认",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0009",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
           "example": "04.02",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22477,7 +22291,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22493,7 +22307,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22507,7 +22321,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22523,7 +22337,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22537,7 +22351,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 12
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22553,7 +22367,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22585,7 +22399,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22601,7 +22415,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22615,7 +22429,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22631,7 +22445,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22645,7 +22459,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 16
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22661,7 +22475,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22693,7 +22507,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 20
+              "index": 17
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22709,7 +22523,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 8,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22723,7 +22537,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 21
+              "index": 18
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -22739,7 +22553,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 11,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -22753,7 +22567,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 22
+              "index": 19
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -23345,7 +23159,7 @@
     {
       "id": "slide45",
       "file": "slide45.xml",
-      "source_sha256": "866d74e24626f83f766e51930dc00e6b991090394e22c586f88b20b23ac851e3",
+      "source_sha256": "677460b101ec226f4c7f7c4c0b0cc0d574ab1d90d326e244de64db0da1482fd6",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 22,
       "fields": [
@@ -23543,7 +23357,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23569,11 +23383,11 @@
             }
           ],
           "example": "荣誉不是终点，",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23599,11 +23413,11 @@
             }
           ],
           "example": "而是继续把体验",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23629,11 +23443,11 @@
             }
           ],
           "example": "做好的提醒。",
-          "role": "body",
+          "role": "title",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 9,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23681,7 +23495,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23711,7 +23525,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 18,
+            "estimated_cjk_chars_per_line": 24,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23736,12 +23550,12 @@
               "index": 1
             }
           ],
-          "example": "01  /  产品",
+          "example": "产品",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 3,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23789,7 +23603,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23819,7 +23633,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 18,
+            "estimated_cjk_chars_per_line": 24,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23844,12 +23658,12 @@
               "index": 1
             }
           ],
-          "example": "02  /  开源",
+          "example": "开源",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 3,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23897,7 +23711,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23927,7 +23741,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 18,
+            "estimated_cjk_chars_per_line": 24,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -23952,12 +23766,12 @@
               "index": 1
             }
           ],
-          "example": "03  /  社区",
+          "example": "社区",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 3,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -23966,7 +23780,7 @@
     {
       "id": "slide46",
       "file": "slide46.xml",
-      "source_sha256": "f84d2164c60b5d3254434309b87bcb23c2a597cb102ca94b67c4b0b102293a82",
+      "source_sha256": "abfb683f5ad7e9807f98be7cdda754c42a4a7f61eff2ddcecaf038166f756c27",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 30,
       "fields": [
@@ -24290,7 +24104,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24320,7 +24134,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24350,7 +24164,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24380,7 +24194,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24410,7 +24224,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24614,7 +24428,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 6,
+            "estimated_cjk_chars_per_line": 5,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24644,7 +24458,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 3,
+            "estimated_cjk_chars_per_line": 4,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -24794,7 +24608,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 80,
+            "estimated_cjk_chars_per_line": 73,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -25346,7 +25160,7 @@
     {
       "id": "slide48",
       "file": "slide48.xml",
-      "source_sha256": "c1fed3fba642ca3726444f46f96391b9286cfa8c300c2c37598e66425c171553",
+      "source_sha256": "e23cf30b22a90718d03da505f5835872aafbe3590f12029f9629a2e16f383b94",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 24,
       "fields": [
@@ -25528,7 +25342,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 7
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25558,7 +25372,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 8
+              "index": 7
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25574,7 +25388,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -25588,7 +25402,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 9
+              "index": 8
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25618,7 +25432,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 10
+              "index": 9
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25648,7 +25462,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 11
+              "index": 10
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25664,7 +25478,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -25678,7 +25492,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 12
+              "index": 11
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25708,7 +25522,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 13
+              "index": 12
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25738,7 +25552,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 14
+              "index": 13
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25754,7 +25568,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -25768,7 +25582,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 15
+              "index": 14
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25798,7 +25612,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 16
+              "index": 15
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25828,7 +25642,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 17
+              "index": 16
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25844,7 +25658,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -25858,7 +25672,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 18
+              "index": 17
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25888,7 +25702,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 19
+              "index": 18
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25918,7 +25732,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 20
+              "index": 19
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25934,7 +25748,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -25948,7 +25762,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 21
+              "index": 20
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -25978,7 +25792,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 22
+              "index": 21
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -26008,7 +25822,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 23
+              "index": 22
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -26024,7 +25838,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 9,
+            "estimated_cjk_chars_per_line": 8,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -26038,7 +25852,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 24
+              "index": 23
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -26063,7 +25877,7 @@
     {
       "id": "slide49",
       "file": "slide49.xml",
-      "source_sha256": "62c7781dd3700aee380cf47058343102f6710943a6d9a2f71c84ea3c9b286bc4",
+      "source_sha256": "f3c8c21af286ae9ab6b77e0e7fd1d214779b05f66887b3b15dc78068d6c32cae",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 16,
       "fields": [
@@ -26531,7 +26345,7 @@
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 13,
+            "estimated_cjk_chars_per_line": 12,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         }
@@ -27107,7 +26921,7 @@
     {
       "id": "slide51",
       "file": "slide51.xml",
-      "source_sha256": "581528c17cc1d071de2d04494ce4da011c04ca4b7c212911a4b5ea0a71724e49",
+      "source_sha256": "01c3ba8033fec8a792e8762d81f85cbb0d0c8ce053ae0a4eb94c121b3ca2022b",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
       "field_count": 8,
       "fields": [
@@ -27187,7 +27001,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 3
+              "index": 2
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -27217,7 +27031,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 4
+              "index": 3
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -27233,7 +27047,7 @@
           "required": false,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 10,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -27247,7 +27061,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 5
+              "index": 4
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -27277,7 +27091,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 6
+              "index": 5
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
@@ -27307,7 +27121,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 7
+              "index": 6
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",

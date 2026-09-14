@@ -236,7 +236,7 @@ accent_colors:
 font_sizes:
   page_title: 32
   card_title: 22
-  body: 15
+  body: 18
   caption: 12
   footer: 10
   kpi_number: 48
@@ -254,14 +254,12 @@ components:
     height: 34
     radius: 12
     fill: bg_light_red
-    border: brand_coral
     text_color: brand_coral
-    font_size: 13
+    font_size: 16
     max_per_page: 1
     max_width: 420
   primary_cta:
     fill: bg_white
-    border: brand_coral
     text_color: brand_coral
     max_per_page: 1
   header_logo:

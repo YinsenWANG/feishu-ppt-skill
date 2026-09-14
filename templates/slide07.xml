@@ -22,7 +22,7 @@
       </content>
     </shape>
     <shape type="text" topLeftX="40" topLeftY="133" width="880" height="25">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>五个章节，一条清晰的叙事路径。</p>
       </content>
     </shape>
@@ -36,11 +36,6 @@
         <p>07</p>
       </content>
     </shape>
-    <shape type="round-rect" topLeftX="40" topLeftY="184" width="430" height="134" presetHandlers="10">
-      <fill>
-        <fillColor color="rgba(255,240,243,1)" />
-      </fill>
-    </shape>
     <shape type="text" topLeftX="60" topLeftY="202" width="46" height="40">
       <content fontFamily="思源黑体" fontSize="30" color="rgba(233,70,93,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>01</p>
@@ -51,8 +46,8 @@
         <p>洞察</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="60" topLeftY="260" width="390" height="42">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="60" topLeftY="250" width="390" height="48">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>看见机会与关键问题</p>
       </content>
     </shape>
@@ -60,7 +55,7 @@
       <border color="rgba(221,225,232,1)" width="1" />
     </line>
     <shape type="text" topLeftX="510" topLeftY="202" width="46" height="40">
-      <content fontFamily="思源黑体" fontSize="30" color="rgba(67,103,199,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(233,70,93,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>02</p>
       </content>
     </shape>
@@ -69,8 +64,8 @@
         <p>策略</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="510" topLeftY="260" width="390" height="42">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="510" topLeftY="250" width="390" height="48">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>确定目标与取舍</p>
       </content>
     </shape>
@@ -78,7 +73,7 @@
       <border color="rgba(221,225,232,1)" width="1" />
     </line>
     <shape type="text" topLeftX="60" topLeftY="358" width="46" height="40">
-      <content fontFamily="思源黑体" fontSize="30" color="rgba(67,103,199,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(233,70,93,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>03</p>
       </content>
     </shape>
@@ -87,8 +82,8 @@
         <p>方案</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="60" topLeftY="416" width="240" height="42">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="60" topLeftY="406" width="240" height="48">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>把方向变成设计</p>
       </content>
     </shape>
@@ -96,7 +91,7 @@
       <border color="rgba(221,225,232,1)" width="1" />
     </line>
     <shape type="text" topLeftX="360" topLeftY="358" width="46" height="40">
-      <content fontFamily="思源黑体" fontSize="30" color="rgba(67,103,199,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+      <content fontFamily="思源黑体" fontSize="30" color="rgba(233,70,93,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>04</p>
       </content>
     </shape>
@@ -105,15 +100,10 @@
         <p>验证</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="360" topLeftY="416" width="240" height="42">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="360" topLeftY="406" width="240" height="48">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>用数据校准判断</p>
       </content>
-    </shape>
-    <shape type="round-rect" topLeftX="640" topLeftY="340" width="280" height="134" presetHandlers="10">
-      <fill>
-        <fillColor color="rgba(255,240,243,1)" />
-      </fill>
     </shape>
     <shape type="text" topLeftX="660" topLeftY="358" width="46" height="40">
       <content fontFamily="思源黑体" fontSize="30" color="rgba(233,70,93,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
@@ -125,10 +115,16 @@
         <p>行动</p>
       </content>
     </shape>
-    <shape type="text" topLeftX="660" topLeftY="416" width="240" height="42">
-      <content fontFamily="思源黑体" fontSize="15" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="middle" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
+    <shape type="text" topLeftX="660" topLeftY="406" width="240" height="48">
+      <content fontFamily="思源黑体" fontSize="17" color="rgba(93,101,116,1)" bold="false" textAlign="left" verticalAlign="top" lineSpacing="multiple:1.15" wrap="true" autoFit="normal-auto-fit">
         <p>明确下一步与责任</p>
       </content>
     </shape>
+    <line type="straight-connector1" startX="40" startY="318" endX="470" endY="318">
+      <border color="rgba(221,225,232,1)" width="1" />
+    </line>
+    <line type="straight-connector1" startX="640" startY="474" endX="920" endY="474">
+      <border color="rgba(221,225,232,1)" width="1" />
+    </line>
   </data>
 </slide>

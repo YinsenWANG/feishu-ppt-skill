@@ -26,7 +26,7 @@
 <text x="40" y="252.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">对话协作</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="286.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">多模型统一入口</tspan></text>
+<text x="40" y="288.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">多模型统一入口</tspan></text>
 </g>
 <g data-preview-line="true" opacity="1">
 <line x1="40" y1="323" x2="312" y2="323" fill="none" stroke="#DDE1E8" stroke-width="1"/>
@@ -36,7 +36,7 @@
 <text x="344" y="252.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">智能体</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="344" y="286.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">任务自动编排</tspan></text>
+<text x="344" y="288.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">任务自动编排</tspan></text>
 </g>
 <g data-preview-line="true" opacity="1">
 <line x1="344" y1="323" x2="616" y2="323" fill="none" stroke="#DDE1E8" stroke-width="1"/>
@@ -46,7 +46,7 @@
 <text x="648" y="252.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">内容创作</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="648" y="286.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">从灵感到成稿</tspan></text>
+<text x="648" y="288.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">从灵感到成稿</tspan></text>
 </g>
 <g data-preview-line="true" opacity="1">
 <line x1="648" y1="323" x2="920" y2="323" fill="none" stroke="#DDE1E8" stroke-width="1"/>
@@ -56,21 +56,21 @@
 <text x="40" y="415.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">知识管理</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="40" y="449.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">资料随取随用</tspan></text>
+<text x="40" y="451.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">资料随取随用</tspan></text>
 </g>
 <image href="data:image/png;base64,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" x="344" y="344" width="32" height="32" preserveAspectRatio="xMidYMid meet"/>
 <g data-preview-text="true">
 <text x="344" y="415.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">文件解析</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="344" y="449.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">长文快速提炼</tspan></text>
+<text x="344" y="451.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">长文快速提炼</tspan></text>
 </g>
 <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFOklEQVR4nO2dPY4USRCFywcswMEEd1khYXEAJCTInF4Dd7gDVOR00UJzCWbwkZaVIgHtLfi5RAtxApqxGmNWybSzwEA3MdkZUfE+KTyGjnzxVFl/EdV1AAAAAAAAAABAFfbv8/np3ZdXa8b+fT6P8o2EfvLPtRR5RiG/SzEfpZiPtxRHJ7/Js5JDax3Ahgx3+HIK/Iwif9miaY5/GCEvKebDh/f+voRCGmBvh69TyPPmxon/Dwr8cTrhm631AT+h3+EbKfCitVnSqUcjXvQh/4kiKt22KOYPzU0Sf3UkynNsZwop5zytzZHWNVHMh631At9ebYW8bG2MtPZWlpe4OlNECvlJc1PETYNnrXUDKyjy+/aGyBsehfgtCqgECvlzc0PEjeNTa93A16PPvxfWLVofebf2o4w+8u66+ZTcUcTGUHxxZf2CvbjiLR9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB9grGCkLB/QsLFw+OvVHyU2+ZsU8oP1DYTGQhWgtRmIWA3RPLYUFPkNyq6EMiqltSHSphF4aK0bMDxganr35VUUUBFlbJyZ7Svw09Z6gW8ogys1jvdN35knz6eT1xdRQIWUEboY8wtEYNA4OJPtLMV8oOLEOnzN4QDbltmrMx7KPZet3mwMvFj95mNcbTn53FN/j2+ta5Dyb0/7fx7dfn6u9TpBA/AQFIiAgYAIGAiIgIGACBgIiICBgAgYCIiAgYAIGAiIgIGACBgIiICBRv6ws/qH4s7oYeq0chSNWtdJ1+sWkWertpyj5u/u2ImjE8145vLrz8Mdvly+806Rvygohu0IeVkaCspLdJ0HtL5yaj0o8MfphG92Y6bf4RuqX3q3HoEXpbGgG+u2RTF/aC7yyINCno9yOyvnPK3F9RIU82E3Jsy1HluPkJejujpLIT9pLqq74Fk3Fijy+/aCOovAb7uxYHQAlPX41I2BmiPoasfvjLib1n7kEnnX1Qg9PKQ8W9zp6W7BlXGnp7sFV8adnu4WXBl3erpbcGXc6eluwZVxp6e7BVfGnZ7uFlwZd3q6W3Bl3OnpbsGVcaenuwVXxp2e7hZcmVHquY3hlZ76ofbHrmfDfq5R9kP1XvRU1c81gn6owZOeWvu5rPZD7XnSU30/l7F+qN6Tnlb6uaz0Qw3e9LTUz2WhHyp50tNcP5fyfqjem542+7n09kMlb3qa7OdS3A9F3vQ02s+lth+KPOlZs5/rd/qtrPdDkTc9tT2005aP9fypdj7uFuwsf4KBYCAJMBAMJAIGgoFEwEAwkAgYCAYSAQPBQCJgIBhIBAwEA4mAgWAgETAQDCQCBoKBRMBAMJAIGAgGEgEDwUAiYCAYSAQMBAOJgIFgIBEwEAwkAgaCgUTAQDCQCBgIBhIBA8FA2g2k60NxKeQHVRvhKkMe9XTVirsFyJueq6GPx5aCIr/plELe9CyjPVovYOMIPHRKSd70tDgQqezvnVJ6j3qWMWfNF7JmUOCnnXLIm55l0KLGcbTfLzbPp5PXFzvlPPSoZxn56mYs7RboPerpajD2FtjzqGc5/KaYD1ScCJ7kcGBh2zoNt3qeXE3wUO4RbPXmWODF6jcfa77a2hT3ev7s80RnFY9uPz/XOWEfegIAAAAAAAAA6H7EfzxwA8GzsLBqAAAAAElFTkSuQmCC" x="648" y="344" width="32" height="32" preserveAspectRatio="xMidYMid meet"/>
 <g data-preview-text="true">
 <text x="648" y="415.05" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#1E222C" font-weight="bold" font-style="normal" text-decoration="none">团队共享</tspan></text>
 </g>
 <g data-preview-text="true">
-<text x="648" y="449.625" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">配置一键复用</tspan></text>
+<text x="648" y="451.95" text-anchor="start" xml:space="preserve"><tspan font-family="思源黑体, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#5D6574" font-weight="normal" font-style="normal" text-decoration="none">配置一键复用</tspan></text>
 </g>
 <text x="952" y="537" text-anchor="end" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="8" fill="#696970">近似预览 · 以飞书截图为准</text>
 <metadata>{&quot;approximate&quot;: true, &quot;issues&quot;: []}</metadata>
