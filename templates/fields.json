@@ -21722,9 +21722,9 @@
     {
       "id": "slide46",
       "file": "slide46.xml",
-      "source_sha256": "a1b9faebd95d74098dafed0f4e6baabbb20ed6141cf74ec412f6d19d0d2b268c",
+      "source_sha256": "2c5cb47f1e1844f821883edfe4530f3a5363ed482b0fd670976eb546dd1f9f34",
       "root_tag": "{https://www.larkoffice.com/sml/2.0}slide",
-      "field_count": 18,
+      "field_count": 25,
       "fields": [
         {
           "id": "image_0001",
@@ -21770,7 +21770,7 @@
           "required": false,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 13,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -21795,12 +21795,12 @@
               "index": 1
             }
           ],
-          "example": "生态 · Logo 墙",
+          "example": "生态 · 分类目录",
           "role": "header_annotation",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 20,
+            "estimated_cjk_chars_per_line": 19,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
@@ -21825,7 +21825,7 @@
               "index": 1
             }
           ],
-          "example": "与优秀伙伴，共建开放生态",
+          "example": "按用途梳理接入能力",
           "role": "title",
           "required": true,
           "rich_text": false,
@@ -21836,6 +21836,36 @@
         },
         {
           "id": "text_0004",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 4
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "用清晰的类别组织名称，呈现每组的作用。",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 67,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0005",
           "kind": "text",
           "path": [
             {
@@ -21855,17 +21885,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 01",
+          "example": "云端服务",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0005",
+          "id": "text_0006",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 6
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "服务 A",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0007",
           "kind": "text",
           "path": [
             {
@@ -21885,17 +21945,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 02",
+          "example": "服务 B",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0006",
+          "id": "text_0008",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 8
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "服务 C",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0009",
           "kind": "text",
           "path": [
             {
@@ -21915,17 +22005,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 03",
+          "example": "本地运行",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0007",
+          "id": "text_0010",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 10
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "本地工具 A",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0011",
           "kind": "text",
           "path": [
             {
@@ -21945,17 +22065,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 04",
+          "example": "本地工具 B",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0008",
+          "id": "text_0012",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 12
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "工具协议",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 10,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0013",
           "kind": "text",
           "path": [
             {
@@ -21975,17 +22125,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 05",
+          "example": "协议 A",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0009",
+          "id": "text_0014",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 14
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "存储连接",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 10,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0015",
           "kind": "text",
           "path": [
             {
@@ -22005,17 +22185,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 06",
+          "example": "存储 A",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0010",
+          "id": "text_0016",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 16
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "存储 B",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0017",
           "kind": "text",
           "path": [
             {
@@ -22035,17 +22245,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 07",
+          "example": "知识工具",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 10,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0011",
+          "id": "text_0018",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 18
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "笔记 A",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0019",
           "kind": "text",
           "path": [
             {
@@ -22065,17 +22305,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 08",
+          "example": "笔记 B",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0012",
+          "id": "text_0020",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 20
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "笔记 C",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 7,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0021",
           "kind": "text",
           "path": [
             {
@@ -22095,17 +22365,47 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 09",
+          "example": "笔记 D",
           "role": "body",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
+            "estimated_cjk_chars_per_line": 7,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0013",
+          "id": "text_0022",
+          "kind": "text",
+          "path": [
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}data",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
+              "index": 22
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}content",
+              "index": 1
+            },
+            {
+              "tag": "{https://www.larkoffice.com/sml/2.0}p",
+              "index": 1
+            }
+          ],
+          "example": "类别与名称均为示例，请替换为有来源的内容。",
+          "role": "body",
+          "required": true,
+          "rich_text": false,
+          "capacity_hint": {
+            "estimated_cjk_chars_per_line": 73,
+            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
+          }
+        },
+        {
+          "id": "text_0023",
           "kind": "text",
           "path": [
             {
@@ -22125,107 +22425,17 @@
               "index": 1
             }
           ],
-          "example": "PARTNER 10",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0014",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 25
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
-          "example": "PARTNER 11",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0015",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 27
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
-          "example": "PARTNER 12",
-          "role": "body",
-          "required": true,
-          "rich_text": false,
-          "capacity_hint": {
-            "estimated_cjk_chars_per_line": 12,
-            "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
-          }
-        },
-        {
-          "id": "text_0016",
-          "kind": "text",
-          "path": [
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}data",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 28
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}content",
-              "index": 1
-            },
-            {
-              "tag": "{https://www.larkoffice.com/sml/2.0}p",
-              "index": 1
-            }
-          ],
           "example": "Cherry Studio · Internal Template",
           "role": "template_annotation",
           "required": true,
           "rich_text": false,
           "capacity_hint": {
-            "estimated_cjk_chars_per_line": 26,
+            "estimated_cjk_chars_per_line": 40,
             "advisory": "Approximation only; edit, split or select another layout, then run layout checks and review a screenshot."
           }
         },
         {
-          "id": "text_0017",
+          "id": "text_0024",
           "kind": "text",
           "path": [
             {
@@ -22234,7 +22444,7 @@
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}shape",
-              "index": 29
+              "index": 24
             },
             {
               "tag": "{https://www.larkoffice.com/sml/2.0}content",
